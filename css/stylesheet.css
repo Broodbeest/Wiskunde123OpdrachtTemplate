@@ -1,0 +1,973 @@
+
+body {
+	background-color: #FFF;
+	font-family: Verdana, Helvetica, sans-serif;
+	color:#111;
+	font-size:1.2em;
+	padding-top: 60px; 
+
+	/*line-height: 2; */
+}
+
+/* Styling voorpagina */
+
+	a:link, a:visited{
+		color: rgba(0,0,0,0.5);
+		text-decoration: none;
+	}
+	a:hover, a:active{
+		color: rgba(0,0,0,0.8);
+	}
+	
+	.voorpaginatitel { 
+		font-size: 20em;
+		color: rgba(0,0,0,0.1);
+
+	}
+	
+	a.zonderruimte {
+		margin-left: -6px;
+
+	}
+	
+	#jaar1 {
+		border: 10px solid #F84753;
+		color: #F84753;
+		z-index:3;
+		font-size: 2.3em;
+		text-align: center;
+		vertical-align:middle
+	}
+	
+	#jaar2 {
+		border: 10px solid #F6E934;
+		color: #F6E934;
+		z-index:2;
+		font-size: 2.3em;
+		text-align: center;
+		vertical-align:middle
+	}
+	
+	#jaar3 {
+		border: 10px solid #4750F9;
+		color: #4750F9;
+		z-index:1;
+		font-size: 2.3em;
+		text-align: center;
+		vertical-align:middle
+	}
+	
+	#jaar1:hover{
+		background: #F84753;
+		color: white;
+	}
+	#jaar2:hover{
+		background: #F6E934;
+		color: white;
+	}
+	#jaar3:hover {
+		background: #4750F9;
+		color: white;
+	}
+
+/* einde styling voorpagina */
+
+	canvas {
+		    background-color: none;
+		    width: 100%;
+		    height: auto;
+		}
+
+
+/* leerjaar styling */
+.jaartitel	{
+		text-align: center; 
+		color: rgba(0,0,0,0.1); 
+		padding-top: 5px;
+		margin-top:  5px;
+		font-size: 14em;
+		}
+
+.jaartitel	a {
+	color: rgba(0,0,0,0.1);
+	
+}
+
+.jaartitel	a:hover {
+	color: rgba(0,0,0,0.5);
+	
+}
+
+a:hover { /*taakvakken normaal */
+	color: none;
+}
+
+
+
+h3.thema_nummer {
+		color: #777;
+		}
+
+blockquote {
+	border: none;
+}
+
+
+#small-img {		/* Maak de plaatjes met de id="small-img" 200px breed */
+	width: 200px;
+}
+
+.grafiek {
+	margin-right: 10px;
+}
+ 
+ @media (max-width: 768px) {
+   .jaartitel	{
+	   font-size: 4em;
+	  }
+  h3.thema_nummer {
+		font-size: 1.4em; 
+	  }
+	.tekstblok h3  {
+		font-size: 1.8em;
+	}
+}
+
+ @media (min-width: 768px) {
+   .jaartitel	{
+		font-size: 8em;
+	  }
+    h3.thema_nummer {
+		font-size: 1.6em; 
+	  }
+	  	.tekstblok h3  {
+		font-size: 1.8em;
+	}
+}
+
+@media (min-width: 992px) {
+   .jaartitel	{
+		font-size: 11em;
+		}
+	h3.thema_nummer {
+		font-size: 1.8em; 
+		}
+	.tekstblok h3  {
+		font-size: 2em;
+	}
+
+}
+
+@media (min-width: 1200px) {
+   .jaartitel	{
+		font-size: 14em;
+	  }
+    h3.thema_nummer {
+		font-size: 2.5em; 
+	  }
+}
+
+
+/*Styling van de taakvakken op de overzicht pagina's van jaar 1, 2 en 3 */
+	.taak {
+		padding: 10px 5px 10px 10px;
+		height: 80px;
+		border: 5px solid;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		overflow: scroll;
+	}
+	
+	.overflowhidden {
+		overflow: hidden;
+	}
+	
+	.taak a {
+		color: #777;
+	}
+	.taak a:hover {
+		color: #555;
+	}
+
+	.analyse {
+		border-color:  #ffe5cc;
+	}
+	.analyse:hover{
+		background: #ffe5cc;
+	}
+	
+	.meet {
+		border-color:  #ccffe5;
+	}
+	.meet:hover {
+		background: #ccffe5;
+	}
+	
+	.stat {
+		border-color:  #ffcce6;
+	}
+	.stat:hover {
+		background: #ffcce6;
+	}
+	
+	.vaar {
+		border-color: #cce6ff;
+	}
+	.vaar:hover{
+		background: #cce6ff;
+	}	
+	
+	.onaf {
+		border-color: red;
+	}
+	.onaf:hover{
+		background: red;
+	}	
+	
+	
+	.extra {
+		border-color: rgba(0,0,0,0.1);
+		height: 50px;
+		border: 5px solid rgba(0,0,0,0.1);
+	}
+	.extra:hover {
+		background: rgba(0,0,0,0.1);
+	}
+
+
+
+/* styling van de div waarin de taak zelf staat: alle theorie, opdrachten, etcetera */
+	.taakinhoud {
+		height: 800px; 
+		overflow: scroll;
+	}
+
+
+/* 	
+	::-webkit-scrollbar { Dit maakt de scroll bar (hoort bij de overflow: scroll) onzichtbaar 
+	    display: scroll; 
+	}
+
+*/
+
+/* Overwrite the default to keep the scrollbar always visible */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+	sub, sup { 
+		font-size: 75%; 
+		line-height: 0; 
+		position: relative; 
+		vertical-align: baseline; 
+	} 
+	
+	sup { 
+		top: -0.5em; 
+	} 
+	
+	sub { 
+		bottom: -0.25em; 
+	} 
+
+/* einde styling van de div waarin de taak zelf staat: alle theorie, opdrachten, etcetera */
+
+
+/* styling button- en tekstvakuitwerkingen */
+
+#antwoordknopje { /* het antwoord knopje*/
+	padding:4px 4px 3px 6px;
+	display:inline-block;
+	margin: 5px 0px 5px 10px;
+	border-radius:0.4em;
+	background-color: #F6F6F6;
+}
+
+.antwoord { /* het tekstvak van de uitwerkingen */
+	border-radius:0.4em;
+	display:none;
+	overflow: auto;
+	background-color: #F6F6F6;
+	padding: 10px 10px 0px 0px;
+}
+/* einde styling button- en tekstvakuitwerkingen */
+
+/* styling geeltje: infotekst */
+	.geeltje {
+		background-color: #FFFF99;
+		border-radius: 5px;
+		margin: 5px 5px 5px 10px; 
+		padding: 5px;
+		}
+
+#numbers {
+	list-style-type: decimal;
+}
+
+#startgetal {
+	font-weight: bold;
+	color: red;
+}
+
+#hellingsgetal {
+	font-weight: bold;
+	color: green;
+}
+
+/* styling tekstblokken, opdracht en theorie */
+	.tekstblok {
+		background-color: white;
+		padding: 0px 0px 0px 10px;
+		margin: 10px;
+		display: inline-block;
+		width: 95%; 
+	}
+	
+	.tekstblok.theorie {
+		border-radius: 0px 10px;
+		padding-bottom: 20px;		
+	}
+		
+	.tekstblok p {
+		margin: 5px 10px 0px 5px;
+	}
+	
+	.tekstblok li {
+		margin-left: -10px;
+	
+	}	
+	
+		.tekstblok table {
+			margin-left: -1px;
+			margin-right: 5px;
+		}
+	
+	
+	.tekstblok h3 {
+		margin-left: 5px;
+	}	
+	
+	.tekstblok.opdracht {
+		background-color: none;
+	}
+	
+	.tekstblok.opdracht ol{
+		list-style-type: lower-latin;
+	}
+
+	img { /*zodat er wat ruimte rechts is van de afbeeldingen */
+		padding-right: 10px;
+		width: 100%;
+	}
+
+	.img-small {
+		padding-right: 10px;
+		width: 50%;
+	}
+	
+	.img-medium {
+		padding-right: 10px;
+		width: 75%;
+	}
+	
+	.balans {
+		color: orange;
+	}
+	
+	.code {
+		color: black;
+	}
+
+	.bordje {
+		background-color: #111; 
+		color: #fff;
+		text-align: center;
+}
+
+/* einde styling tekstblokken, opdracht en theorie */
+
+/* Styling mathjax, met !important overrule je de voorgeschreven styling*/
+	.MathJax {
+		font-size: 1em !important;
+		vertical-align: baseline !important;
+		line-height: 1.5em !important;
+	} 
+/* einde Styling mathjax */
+
+
+
+
+/* hieronder is nog niet gecontroleerd op nut */
+
+
+
+
+
+
+/**
+ * styling statistiek
+ */
+
+.container.statistiek {
+	border-color: #ffcce6;
+}
+
+.tekstblok.theorie.statistiek {
+	background-color: #ffcce6;
+}
+
+.tekstblok.theorie.statistiek h3 {
+	color: purple;	
+}
+
+
+/**
+ * styling analyse
+ */
+
+.container.analyse {
+	border-color: #ffe5cc;
+}
+
+.tekstblok.theorie.analyse {
+	background-color: #ffe5cc;
+}
+
+.tekstblok.theorie.analyse h3 {
+	color: orange;	
+}
+
+
+/**
+ * styling meetkunde
+ */
+
+.container.meetkunde {
+	border-color: #ccffe5;   /** kleurcode: R 204; G 255; B 229 */
+}
+ 
+.tekstblok.theorie.meetkunde {
+	background-color: #ccffe5;
+}
+
+.tekstblok.theorie.meetkunde h3 {
+	color: green;	
+}
+
+
+/**
+ * styling vaardigheden 
+ */
+ 
+ 
+
+
+ 
+ 
+
+ 
+.tekstblok.theorie.vaardigheden {
+	background-color: #cce6ff;
+}
+
+.tekstblok.theorie.vaardigheden h3 {
+	color: blue;	
+}
+
+
+.well {
+  min-height: 20px;
+  width: 95%;
+  padding: 19px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+
+}
+
+
+
+
+
+
+	
+	.meta {
+		padding-left: 0;
+		margin: 0 0 8px;	
+	}	
+	
+	.meta a {
+		font-style: italic;
+		font-size: 1em;
+		color: #00a7ff;
+	}
+	
+	.meta li:after {
+		content: '|';
+		padding: 0 2px;	
+	}
+		
+	.meta li:last-child:after {
+		content: none;
+	}	
+		
+	.meta li {
+		display: inline;
+	}
+
+	.omschrijving li {
+		padding-left: 0;
+		margin: 0 0 8px;
+		display: inline;
+	}
+
+	.omschrijving img {
+		padding: none;
+		margin: none;
+		float: left;
+		width: 200px;
+		border: none;
+	}
+		
+
+
+
+/**
+* einde styling handleiding docent
+*/
+
+/*styling antwoord en hint ding*/
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 90%;
+	margin: 50px 0;
+	} 
+
+
+
+
+.stappenplan table {
+	background-color: none;
+	width: inherit;
+}
+
+.stappenplan td {
+	vertical-align: top;
+	text-align: left;
+	max-width:400px;
+	max-height:200px; 
+	min-height:50px;
+	padding: 5px 15px 5px 0px;
+	border: none;
+}
+
+.stappenplan td:first-child {
+	min-width:57px;
+}
+
+#buitenspel td {
+	vertical-align: top;
+	text-align: left;
+
+	padding: 5px 15px 5px 5px;
+	border: none;
+}
+
+/* Tussenstap in de balansmethode highlighten...
+.tussenstap_vergelijking td {
+	background-color: red;
+}*/
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+
+.centerfloat {
+	width: 40px;
+	text-align: center;
+}
+
+.verhouding {
+	text-align:center;
+	border-collapse:collapse;
+	border-style:hidden;
+}
+
+.verhouding td:first-child {
+	min-width: 60px;
+	font-style: italic;
+	text-align: left;
+	border-left: none;
+	white-space: nowrap; /* zorgt er voor dat de cel groter wordt als de tekst langer is */
+	}
+
+.verhouding td:last-child {
+	border-right: none;
+}
+
+.verhouding th {
+	border:none;
+	font-size:xx-small; 
+	font-weight: 100;
+}
+
+.verhouding img {
+	height: 10px !important;
+}
+
+.verhouding td {
+	border-width: 1px;
+	border-style: inset;
+	border-top: none;
+	border-color: black;
+	min-width: 50px;
+	padding: 0px 8px 0px 8px;
+}
+
+.verhouding thead {
+	border: hidden;
+}
+
+.verhouding tfoot {
+	border: hidden;
+}
+
+.pythagoras {
+	text-align: center;
+	background-color: white;
+}
+
+.pythagoras tr:first-child td:nth-child(1) {
+	border-bottom: solid black 1px;
+}
+
+.pythagoras tr:first-child td:nth-child(2) {
+	border-bottom: solid black 1px;
+}
+
+.pythagoras tr:last-child td:nth-child(1) {
+	border-top: solid 1px;
+}
+
+.pythagoras tr:nth-child(4) td:nth-child(2) {
+		border-top: solid 1px;
+}
+
+.pythagoras td:first-child {
+	border-right: solid 1px;
+	min-width: 75px;
+}
+
+.pythagoras td {
+	text-align: center;
+}
+
+.pythagoras th {
+	text-align: center;
+	border:none;
+	font-size:xx-small; 
+	font-weight: 100;
+}
+
+.pythagoras img {
+	padding: 0px 0px 0px 0px;
+}
+
+
+.borderbottom tr {
+	border-bottom: solid;
+	border-color: black;
+}
+
+.verhouding img {
+	padding: 0 0 0 0;
+}
+
+figcaption {
+	text-align: center;
+	color: black;
+}
+
+.bovenaanzicht td {
+	background-color: rgba(169,169,35,0.83);
+	border-color: black;
+	border: 1px outset black;
+	vertical-align: top;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+}
+
+/* Tekst in twee kolommen verdelen!!! Werkt ook voor <ol>, zolang je die maar in een <div class="kolommen2"> zet. */
+.kolommen2 {
+	column-count:2;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+}
+
+.kolommen2 ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.kolommen2 ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.celgecentreerd {
+	text-align: center;
+	max-width: 180px;
+}
+
+
+.breuken {
+	line-height: 3.5em;
+}
+
+.breuken td {
+	min-width: 130px;
+}
+
+.tabel_analyse table {
+	border-collapse: collapse;
+	border: hidden;
+}
+
+.tabel_analyse td {
+	color: green;
+	border: 2px solid black;
+	text-align: center;
+	width: 200px;
+}
+
+.opdracht-kolom td {
+	min-width: 250px;
+	
+}
+
+.opdracht-kolom-breuken td {
+	min-width: 250px;
+	line-height: 3.2em;
+	
+}
+
+
+.vouwen {
+	text-align: left;
+	
+	vertical-align: top;
+}
+
+
+
+/* het bordje van de bordjemethode*/
+.formula {
+	padding:4px 4px 3px 3px;
+	border:1.5px solid #aaa;
+	display:inline-block;
+	margin:0 0 0.1em;
+	border-radius:0.4em;
+	/*background-color: black;
+	color: white;*/
+}
+
+/* mogelijke opmaak math en ascii elementen  gebruik " !important; " om styling te overschrijven*/
+
+
+
+	
+
+
+
+/* modal box: openspring venster */
+
+	.modalDialog {
+		position: fixed;
+		font-family: inherit;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.1);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+
+	.modalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+
+	.modalDialog > div {
+		width: 600px;
+		position: relative;
+		margin: 10% auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: rgba(0,0,0,0.1);
+		background: -moz-linear-gradient(#fff, #999);
+		background: -webkit-linear-gradient(#fff, #999);
+		background: -o-linear-gradient(#fff, #999);
+	}
+
+	.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+	.close:hover { background: #00d9ff; }
+	
+
+
+
+/* styling geeltje: infotekst */
+.tekstballon_theorie {
+	background-color: #FFFF99;
+	border-radius: 5px; 
+	margin: 10px 30px 10px 10px;
+	padding: 5px;
+	/*width: 200px;*/
+	height: inherit;
+	float: right;
+	box-shadow: 6px 10px 15px white;
+	text-decoration-style:
+}
+
+.tekstballon_theorie p {
+	margin-left: 10px;
+	font-size: 1.2em;
+	font-family:sans-serif;
+}
+
+.tekstballon_inline {
+	background-color: #FFFF99;
+	border-radius: 5px; 
+	margin: 0px 0px 0px 30px;
+	padding: 5px;
+	/*width: 200px;*/
+	height: inherit;
+	box-shadow: 6px 10px 15px #DCDCDC;
+}
+
+
+/* einde styling geeltje: infotekst */
+
+
+/* styling hieronder is om de list-items in een tabel gelijk uit te lijnen met gewone list-items*/
+
+
+table ol li {
+	background-color: none;
+	margin-left: -13px;
+}
+
+table td .black {
+	background-color: black;
+}
+
+
+
+
+
+/* hieronder overbodige code: kan worden weggegooid */
+
+/*
+.tab {
+	margin-left: 310px;
+	width: 280px;
+}
+.tab_voorbeeld {
+	margin-left: 10px;
+	width: 280px;
+	float: left;
+	text-decoration: none;
+}
+
+*/
+
+/* .antwoord h3,	p {
+	margin-left: 10px;
+} */
+
+#hintknopje { /* het hint knopje*/
+	padding:4px 4px 3px 6px;
+	border:1.5px solid #aaa;
+	display:inline-block;
+	margin:0px 0px 0px 10px;
+	border-radius:0.4em;
+}
+
+/*
+.hider {
+	display: inline-block;
+}
+*/
+
+/* conflicteerd met de bootstrap styling 
+nav ul li {
+	display: inline;
+	font-size: 1em;
+	padding-right: 10px;
+	list-style-type: none;
+	margin-right: 34px;
+	margin-left: -40px;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+nav ul li a:hover {
+	background-color: #E1F0FF;
+	text-decoration: underline;
+}
+
+nav ol li {
+	list-style-type: circle;
+	margin-left: inherit;
+	display: list-item;
+}
+*/
