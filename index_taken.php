@@ -1,7 +1,12 @@
+<?php
+if ($_SESSION['logged_in'] != )
+?>
+
 <!doctype html>
 <html>
 		
-				<?php 
+				<?php
+
 					if(isset($_GET['p']) && !empty($_GET['p']))							
 						{	
 						include('include/header.php');	
