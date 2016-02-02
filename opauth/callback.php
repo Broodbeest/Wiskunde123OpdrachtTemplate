@@ -85,9 +85,9 @@ else{
 		 */
 
         if ($response['auth']['raw']['hd'] != 'vathorstcollege.nl') {
-            //return false;
+            return false;
         } else {
-    //           return true;
+            return true;
 }
 	}
 }
