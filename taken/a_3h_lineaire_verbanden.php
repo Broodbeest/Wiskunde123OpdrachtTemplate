@@ -15,6 +15,55 @@ $doorverwijzingen = array(
 
 <!--formeler met toename verticaal / toename horizontaal-->
 
+
+<application xmlns:cals="http://www.someplace.org/cals" id="v3-me24-a1" _nr="">
+                  
+                  <iframe xmlns:qti="http://www.imsglobal.org/xsd/imsqti_v2p1" style="float:right" width="400" height="500" src="http://mathunited2012.appspot.com/geogebra?file=%2Fgetresource%3Fblob-key%3DAMIfv94gm0Y3i8KRORJ6IJyrhzEhLr5kKVvWdGBS_ukTh0k6Q6QE6Mx-lAjAvm75YT4U_Yf5I8wbXyp00htOJyULVEhwEn9KzAaOGScH4r6SqVkc5uudwPgRMf7h_l4gl7uGF4y8HhK6DgvdFZB0F2LRqi1w0ARG65ipdzHeOHqIBvzxhhaQwuU%0A"></iframe>
+                  
+                  <p>
+                     Ook rechte lijnen hebben een helling. Bij een hellingsgetal (richtingscoëfficiënt)
+                     kun je een <span xmlns:qti="http://www.imsglobal.org/xsd/imsqti_v2p1" style="background-color:yellow;color:black;">hellingshoek van een rechte lijn</span> berekenen. Zo'n hellingshoek heeft alleen betekenis als op beide assen de schaalverdeling
+                     hetzelfde is.
+                     
+                  </p>
+                  
+                  <p>
+                     In de applet kun je zien dat de tangens van de richtingshoek 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" style=""><nobr><span class="math" id="MathJax-Span-1" role="math" style="width: 0.717em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.598em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.741em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: STIXGeneral-Italic;">α</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.718em; vertical-align: -0.068em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-1"><math>
+                        <mi>α</mi>
+                     </math></script> gelijk is aan het hellingsgetal van de lijn.
+                     
+                  </p>
+                  
+                  <p>
+                     Hellingsgetallen kunnen ook negatief zijn. Hoe zit het dan met hellingshoeken?<br>
+                     De afspraak is dat bij positieve hellingsgetallen positieve hellingshoeken horen.
+                     Je draait dan de lijn om het snijpunt met de 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-2-Frame" style=""><nobr><span class="math" id="MathJax-Span-4" role="math" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.92em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-5"><span class="mi" id="MathJax-Span-6" style="font-family: STIXGeneral-Italic;">y</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.932em; vertical-align: -0.282em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-2"><math>
+                        <mi>y</mi>
+                     </math></script>-as van de positieve 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" style=""><nobr><span class="math" id="MathJax-Span-7" role="math" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.741em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-8"><span class="mi" id="MathJax-Span-9" style="font-family: STIXGeneral-Italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.718em; vertical-align: -0.068em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-3"><math>
+                        <mi>x</mi>
+                     </math></script>-richting naar de positieve 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-4-Frame" style=""><nobr><span class="math" id="MathJax-Span-10" role="math" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.92em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-11"><span class="mi" id="MathJax-Span-12" style="font-family: STIXGeneral-Italic;">y</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.932em; vertical-align: -0.282em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-4"><math>
+                        <mi>y</mi>
+                     </math></script>-richting, in de positieve richting. Bij negatieve hellingsgetallen horen negatieve
+                     hellingshoeken, want nu draai je de lijn van de positieve 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-5-Frame" style=""><nobr><span class="math" id="MathJax-Span-13" role="math" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.741em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-14"><span class="mi" id="MathJax-Span-15" style="font-family: STIXGeneral-Italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.718em; vertical-align: -0.068em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-5"><math>
+                        <mi>x</mi>
+                     </math></script>-richting naar de negatieve 
+                     <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-6-Frame" style=""><nobr><span class="math" id="MathJax-Span-16" role="math" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.967em, 1000.003em, 2.92em, -999.997em); top: -2.557em; left: 0.003em;"><span class="mrow" id="MathJax-Span-17"><span class="mi" id="MathJax-Span-18" style="font-family: STIXGeneral-Italic;">y</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.932em; vertical-align: -0.282em;"></span></span></nobr></span><script type="math/mml" id="MathJax-Element-6"><math>
+                        <mi>y</mi>
+                     </math></script>-richting, in de negatieve richting.
+                     
+                  </p>
+                  
+                  
+               </application>
+
+
+
+
 <div class="tekstblok theorie analyse" id="inleiding">
 	<h3>Lineaire verbanden</h3>
 	<div class="row">
@@ -100,6 +149,7 @@ $doorverwijzingen = array(
 <div class="tekstblok opdracht" id="opdracht_1">
 	<h3>Opdracht 1 Festival</h3>
 	<p>	
+		Het is gelukt!!
 		Ray gaat naar een Festival. Hij moet entree betalen én muntjes om consumpties te kunnen halen. De entree is `7,50` euro. De muntjes kosten `2` euro. Ieder drankje kost één muntje.
 	</p> 
 	<ol>

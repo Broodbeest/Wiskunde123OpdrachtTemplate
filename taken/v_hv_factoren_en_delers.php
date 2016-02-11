@@ -181,7 +181,7 @@
 				<li>3333312 is deelbaar door 2, want even, <br>
 				én deelbaar door 3 want 3 + 3 + 3 + 3 + 3 + 1 + 2 = 18.</li>
 				<li>266664961, is niet deelbaar door 2 want oneven, <br>
-				maar niet deelbaar door 3 want 2 + 6 + 6 + 6 + 6 + 4 + 9 + 6 + 1 = 46.</li>
+				én niet deelbaar door 3 want 2 + 6 + 6 + 6 + 6 + 4 + 9 + 6 + 1 = 46.</li>
 			</ol>
 		</div>
 	</div>			

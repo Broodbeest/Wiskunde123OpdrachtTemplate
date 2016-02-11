@@ -2026,10 +2026,10 @@ $doorverwijzingen = array(
 		<ol>
 			<li>
 				`5/6 x + 2/3 = 1/2 x - 1/6`<br>
-				Vermenigvuldig alles met 12 (het KGV van 2, 3 en 6)<br>
-				`10 x + 8 = 6 x - 2`<br>
-				`4 x  = - 10`<br>
-				`x  = - 10/4 = -2 1/2`
+				Vermenigvuldig alles met 6 (het KGV van 2, 3 en 6)<br>
+				`5x + 4 = 3x - 1`<br>
+				`2x  = - 5`<br>
+				`x  = - 5/2 = -2 1/2`
 			</li>
 			<li>
 				`2/3 x + 3/8 = -2x + 1 1/8`<br>

@@ -1,3 +1,8 @@
+<?php 
+	//defineer titel
+	$taaknaam ="Inleiding meetkunde";
+?>
+
 <?php
 	//Definieer sidebar
 	$doorverwijzingen = array(
@@ -25,11 +30,9 @@
       '#proeftoets' => 'Proeftoets');                                                      
 ?>
 
-<title>Leerjaar 1 | Inleiding meetkunde</title>
+<title>Leerjaar 1 | <?php echo $taaknaam; ?></title>
 
 <div class="taakinhoud">
-
-<h1>Inleding meetkunde</h1>
 
 <div class="tekstblok theorie meetkunde" id="Inleiding">
 	<h3>Inleiding</h3>
@@ -159,7 +162,7 @@
 <div class="tekstblok opdracht">
 	<h3>Opdracht 4 Straal en diameter @</h3>
 	<p>
-		Ga naar de <a href="http://ws.fisme.science.uu.nl/dwo/leerling/" target="_blank">DWO</a>, log in en open de module 'Thema 1'. Maak daar de activiteit 'Bloem'.
+		Deze opdracht is vervallen. Schrijf in je schrift: "Deze opdracht mogen we overslaan van onze topdocent"
 	</p>
 </div>
 		
@@ -201,7 +204,7 @@
 </div>
 
 <div class="tekstblok opdracht">
-	<h3>Opdracht 6 Middelpunt kiezen (havo/vwo) </h3>
+	<h3>Opdracht 6 Middelpunt kiezen (uitdaging) </h3>
 	<p>
 		Op het werkblad zie je drie groepjes met vier punten, telkens is er één punt aangegeven als middelpunt M. Leg uit waarom het aangewezen punt <em>M</em> wel of niet het middelpunt van een cirkel kan zijn door de andere drie punten.
 	</p>
@@ -589,7 +592,7 @@
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<h3>Uitwerkingen bij opdracht 6</h3>
+			<h3>Uitwerkingen </h3>
 			<p>
 				De lijnstukken in figuur 3 en 4 staan loodrecht op elkaar.
 			</p>
@@ -926,7 +929,7 @@
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<h3>Uitwerkingen bij opdracht 13</h3>
+			<h3>Uitwerkingen </h3>
 			<img src="../afbeeldingen/meetkunde_leerjaar_1/uitwerkingen_loodlijn_neerlaten.png" alt="uitwerkingen_loodlijn_neerlaten" width="500" height="" />
 			<p>
 				Let er op dat je mooie, rechte lijnen hebt getekend en dat letters en symbolen op de juiste plek staan.
@@ -967,7 +970,7 @@
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<h3>Uitwerkingen bij opdracht 14</h3>
+			<h3>Uitwerkingen </h3>
 			<img src="../afbeeldingen/meetkunde_leerjaar_1/uitwerkingen_loodlijnen_tekenen.png" alt="uitwerkingen_loodlijnen_tekenen" width="500" height="" />
 			<p>
 				Let er op dat je mooie, rechte lijnen hebt getekend en dat letters en symbolen op de juiste plek staan.
@@ -994,7 +997,7 @@
 						Meet de afstand tussen <em>B</em> en <em>PQ</em>.
 					</li>
 					<li>
-						<b>(havo/vwo) </b>Teken een punt <em>C</em> op precies 3 cm van <em>a</em>. 
+						<b>(uitdaging) </b>Teken een punt <em>C</em> op precies 3 cm van <em>a</em>. 
 					</li>
 				</ol>
 		</div>
@@ -1342,7 +1345,7 @@
 </div>
 
 <div class="tekstblok theorie meetkunde" id="theorieL">
-	<h3>Theorie L Wat is construeren? (havo/vwo)</h3>
+	<h3>Theorie L Wat is construeren? (uitdaging)</h3>
 	<p>
 		Bij wiskunde maken we onderscheid tussen tekenen en <b>construeren</b>.
 	</p>
@@ -1375,6 +1378,11 @@
 		Als gegeven is een lijn <em>l</em> met daarop een punt <em>P</em>, kun je een loodlijn <em>k</em> op <em>l</em> maken die door <em>P</em> gaat. Dat heet een <b>loodlijn oprichten</b>.
 	</p>
 	<p>
+		Opdracht basis: teken de loodlijn door punt <em>P</em> op lijn <em>l</em> met behulp van de loodlijn op je geodriehoek.
+	</p>
+	<p>
+		Opdracht uitdaging: richt de loodlijn op met behulp van construeren.
+		<br>
 		Hieronder staat een stappenplan, vink steeds aan wat je gedaan hebt. Maak de constructie eerst op een oefenvel.<br>
 		<iframe scrolling="no" src="https://www.geogebratube.org/material/iframe/id/133919/width/594/height/302/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/preferhtml5" width="594px" height="302px" style="border:0px;"> </iframe>
 		<!-- ol id="numbers">
@@ -1407,7 +1415,7 @@
 </div>
 
 <div class="tekstblok opdracht">
-	<h3>Opdracht 33 Loodlijn neerlaten</h3>
+	<h3>Opdracht 33 Loodlijn neerlaten (uitdaging)</h3>
 	<p>Als er een lijn en een punt dat niet op die lijn ligt gegeven zijn, kun je een loodlijn maken die door dat punt gaat. Dat heet een <b>loodlijn neerlaten</b>. Hieronder vind je de stappen die je kunt nemen om de middellijn te construeren. Neem die stappen op een oefenvel.</p>
 		<ol id="numbers">
 			<li>trek een willekeurige lijn <em>n</em>; </li>
@@ -1425,7 +1433,7 @@
 	<div class="hider">
 					<div class="showhide">&rarr;</div>
 					<div class="antwoord">
-					<h3>Uitwerkingen bij opdracht 23</h3>
+					<h3>Uitwerkingen </h3>
 					<img src="../afbeeldingen/meetkunde_leerjaar_1/opdracht_23_uitwerkingen.png" alt="opdracht_23_uitwerkingen" width="400" />
 					</div>
 	</div>
@@ -1436,6 +1444,12 @@
 	<h3>Opdracht 34 De middelloodlijn</h3>
 	<p>
 		In deze opdracht ga je een lijn trekken precies in het midden van twee punten. Maak deze opdracht op je werkblad.
+	</p>
+	<p>
+		Opdracht basis: maak gebruik van je geodriehoek en theorie J <em>De middelloodlijn</em>. Begin met twee punten op precies 6 cm van elkaar. Noem het ene punt <em>P</em> en het andere punt <em>Q</em>. Trek de middelloodlijn tussen deze twee punten.
+	</p>
+	<p>
+		Opdracht uitdaging: construeer de middelloodlijn met behulp van onderstaand stappenplan.
 	</p>
 	<ol id="numbers">
 		<li>
@@ -1464,7 +1478,7 @@
 	<div class="hider">
 					<div class="showhide">&rarr;</div>
 					<div class="antwoord">
-					<h3>Uitwerkingen bij opdracht 24</h3>
+					<h3>Uitwerkingen </h3>
 					<img src="../afbeeldingen/meetkunde_leerjaar_1/opdracht_24_uitwerkingen.png" alt="opdracht_24_uitwerkingen" width="400" height="" />
 					<p>
 						De afstand van <em>P</em> tot lijn <em>m</em> is gelijk aan de afstand van <em>Q</em> tot lijn <em>m</em>.
@@ -2457,10 +2471,10 @@
 					Teken een lijn loodrecht op <em>PT</em> door <em>M</em>.
 				</li>
 				<li>
-					Teken een lijn van linksonder naar rechtsboven, zodat die lijn een hoek van 36&deg; maakt met lijn <em>BR</em>.
+					Teken een lijn van linksonder naar rechtsboven, door punt B, zodat die lijn een hoek van 36&deg; maakt met lijn <em>BR</em>.
 				</li>
 				<li>
-					Teken een lijn van linksboven naar rechtsonder, zodat die lijn een hoek van 36&deg; maakt met lijn <em>AR</em>.
+					Teken een lijn van linksboven naar rechtsonder, door punt A, zodat die lijn een hoek van 36&deg; maakt met lijn <em>AR</em>.
 				</li>
 				<li>
 					Controleer dat de drie lijnen die jij tekende in één punt snijden.<br>
@@ -2484,7 +2498,7 @@
 			<h3>Uitwerking</h3>
 			<p>
 				<img src="afbeeldingen/meetkunde_leerjaar_1/tekenen_toepassen_antw.png" class="img-responsive" width="300px">
-				Zie de figuur hiernaast.
+				Zie de figuur hierboven.
 			</p>
 			<p>
 				Als je hem inkleurt ziet dat er bijvoorbeeld zo uit:<br>
@@ -2906,6 +2920,12 @@
 			</p>
 		</div>
 	</div>
+</div>
+<div class="tekstblok opdracht" id="proeftoets">
+	<h3>Proeftoets</h3>
+	<p>
+		Ga naar de map <a href="https://drive.google.com/a/vathorstcollege.nl/folderview?id=0B-EzZiYS_HciOW5CTldLNFNUNXc&usp=sharing">Proeftoetsen leerjaar 1 Wiskunde123</a> en open daar de juiste proeftoets.
+	</p>
 </div>
 
 </div>

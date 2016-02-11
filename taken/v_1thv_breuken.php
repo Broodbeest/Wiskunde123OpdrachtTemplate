@@ -35,8 +35,6 @@
 
 <div class="taakinhoud">
 
-	
-<!-- Inleiding -->
 <div class="tekstblok theorie vaardigheden" id="inleiding">
 	<h3 class="titel vaardigheden">Inleiding</h3>
 	<p>
@@ -44,7 +42,7 @@
 	<p>
 	 	De eerste basisvaardigheden die je in deze taak gaat leren zijn:
 	</p>
-	<table>
+	<table class="breuken">
 		 	<tr>
 		 		<td width="30">
 		 			1.
@@ -96,7 +94,6 @@
 	</p>
 </div>
 
-<!-- opdracht 1 -->	
 <div class="tekstblok opdracht" id="1">
 	<h3>Opdracht 1 Applet</h3>
 	<p>
@@ -114,7 +111,6 @@
 	
 </div>	
 
-<!-- theorie A -->
 <div class="tekstblok theorie vaardigheden" id="theorieA">
 	<h3>Theorie A Helen uit de breuk halen</h3>
 	<p>
@@ -135,7 +131,6 @@
 	</p>
 </div>
 			
-<!-- Opdracht 2-->
 <div class="tekstblok opdracht" id="2">
 	<h3>Opdracht 2 Breuken op de getallenlijn</h3>
 	<p>
@@ -143,7 +138,6 @@
 	</p>
 </div>
 
-<!-- Opdracht 3-->
 <div class="tekstblok opdracht" id="3">
 	<h3>Opdracht 3 Applet</h3>			
 	<p>
@@ -151,7 +145,6 @@
 	</p>
 </div>
 				
-<!-- Opdracht 4-->
 <div class="tekstblok opdracht" id="4">
 	<h3>Opdracht 4 Helen eruit</h3>
 	<p>
@@ -219,7 +212,6 @@
 	</div>
 </div>	
 
-<!-- theorie B -->
 <div class="tekstblok theorie vaardigheden" id="theorieB">
 	<h3>Theorie B Helen in de breuk stoppen</h3>
 	<p>
@@ -235,7 +227,6 @@
 	</p>
 </div>
 
-<!-- Opdracht 5-->
 <div class="tekstblok opdracht" id="5">
 	<h3>Opdracht 5 Van gemengde naar onechte breuk</h3>
 	<p>
@@ -243,7 +234,6 @@
 	</p>
 </div>
 
-<!-- Opdracht 6-->
 <div class="tekstblok opdracht" id="6">
 	<h3>Opdracht 6 Applet</h3>				
 	<p>
@@ -251,7 +241,6 @@
 	</p>
 </div>
 
-<!-- Opdracht 7-->
 <div class="tekstblok opdracht" id="7">
 	<h3>Opdracht 7 Onechte breuken maken</h3>
 	<p>
@@ -309,7 +298,6 @@
 		</div>
 </div>
 			
-<!-- Theorie C -->
 <div class="tekstblok theorie vaardigheden" id="theorieC">
 	<h3>Theorie C Gelijknamig maken</h3>
 	<p>
@@ -338,7 +326,6 @@
 	</p>
 </div>
 		
-<!-- Opdracht 8-->
 <div class="tekstblok opdracht" id="8">
 	<h3>Opdracht 8 Gelijknamig maken</h3>
 		<p>
@@ -382,7 +369,6 @@
 	
 </div>	
 	
-<!-- Opdracht 9-->
 <div class="tekstblok opdracht" id="9">
 		<h3>Opdracht 9 Kleiner of groter dan</h3>
 		<p>
@@ -448,7 +434,6 @@
 			</div>
 	</div>	
 			
-<!-- theorie D -->
 <div class="tekstblok theorie vaardigheden" id="theorieD">
 	<h3>Theorie D Vereenvoudigen</h3>
 	<p>
@@ -480,7 +465,6 @@
 	</p>
 </div>
 				
-<!-- Opdracht 10 -->
 <div class="tekstblok opdracht" id="10">
 	<h3>Opdracht 10 Vereenvoudigen</h3>
 	<p>
@@ -488,7 +472,6 @@
 	</p>
 </div>	
 	
-<!-- Opdracht 11-->
 <div class="tekstblok opdracht" id="11">
 	<h3>Opdracht 11 Applet</h3>
 		<p>
@@ -496,7 +479,6 @@
 		</p>
 </div>	
 	
-<!-- Opdracht 12-->
 <div class="tekstblok opdracht" id="12">
 	<h3>Opdracht 12 Vereenvoudigen</h3>
 	<p>
@@ -686,13 +668,13 @@
 			<li>
 				<math display="inline">
 					<mfrac>
-						<mrow><mi>12</mi></mrow>
+						<mrow><mi>22</mi></mrow>
 						<mrow><mi>66</mi></mrow>	
 					</mfrac>
 					<mo>=</mo>
 					<mfrac>
 						<mrow><mi>2</mi></mrow>
-						<mrow><mi>11</mi></mrow>	
+						<mrow><mi>6</mi></mrow>	
 					</mfrac>
 				</math>									
 			</li>
@@ -1929,8 +1911,8 @@ Ga naar <a href="http://www.rekenenmetbreuken.nl/wp-content/khan-exercises/exerc
 									`1 10/15 + 4 3/15 = 5 13/15`
 						</li>
 						<li>`5 3/5 + 3 5/6 =`<br>
-									`4 18/30 + 3 25/30 =`<br>
-									`7 43/30 = 8 13/30`
+									`5 18/30 + 3 25/30 =`<br>
+									`8 43/30 = 9 13/30`
 						</li>
 						<li>`4 2/3 + 4 1/2 =`<br>
 									`4 4/6 + 4 3/6 =`<br>
@@ -2082,8 +2064,7 @@ Ga naar <a href="http://www.rekenenmetbreuken.nl/wp-content/khan-exercises/exerc
 
 </div>
 
-<!-- Opdracht 22 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="22">
 	<h3>Opdracht 22 Door elkaar</h3>		
 	<p>
 		Neem onderstaande sommen over en reken uit met tussenstappen. Negatieve oplossingen zijn mogelijk.
@@ -2575,8 +2556,7 @@ Ga naar <a href="http://www.rekenenmetbreuken.nl/wp-content/khan-exercises/exerc
 		</p>
 </div>
 
-<!-- Opdracht 26 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="26">
 	<h3>Opdracht 26 Wegstrepen</h3>
 	<p>
 		Ga naar <a href="http://www.rekenenmetbreuken.nl/wp-content/khan-exercises/exercises/BreukenVermenigvuldigenMetWegstrepen1.html" target="_blank">Breuken vermenigvuldigen met wegstrepen deel 1</a> en zorg dat je minstens zes oefeningen goed hebt of maak neem de opgaven hieronder of en reken ze uit. Vereenvoudig waar nodig.
@@ -3089,7 +3069,7 @@ Ga naar <a href="http://www.rekenenmetbreuken.nl/wp-content/khan-exercises/exerc
 			<div class="antwoord">
 				<ol class="breuken">
 					<li>
-						`1 1/7 * 1 5/7 = 8/7 * 12/7 = 96/7 = 13 5/7`
+						`1 1/7 * 1 5/7 = 8/7 * 12/7 = 96/49 = 1 47/49`
 					</li>
 					<li>
 						`3 2/4 * 5/6 = 14/4 * 5/6 = 70/24 = 2 11/12`<br>

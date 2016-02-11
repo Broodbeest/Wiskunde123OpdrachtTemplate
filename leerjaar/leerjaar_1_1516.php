@@ -72,9 +72,9 @@
 						</a>
 				</div>
 				<div class="col-md-8">
-						<a href="index_taken.php?p=a_1thv_formules">
+						<a href="index_taken.php?p=a_1thv_lineaire_formules">
 							<div class="taak analyse overflowhidden">
-								Formules
+								Lineaire formules
 							</div>
 						</a>
 				</div>
@@ -121,22 +121,15 @@
 			<div class="col-md-10">
 				<div class="row">
 					<div class="col-md-6">
-						<a href="index_taken.php?p=a_1thv_formules_vergelijken">					
-							<div class="taak onaf overflowhidden">
-								Formules vergelijken<br>Tabellen, grafieken vergelijken, dan Pijlenkettingen heen en terug (en bordjes)
+						<a href="index_taken.php?p=a_1thv_pijlenkettingen">					
+							<div class="taak analyse overflowhidden">
+								Pijlenkettingen
 							</div>
 						</a>
 					</div>
-					<div class="col-md-2">
-						<a href="index_taken.php?p=v_1thv_rekenen">
-							<div class="taak onaf overflowhidden">
-								Rekenen
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<a href="index_taken.php?p=m_1thv_hoeken">
-							<div class="taak onaf overflowhidden">
+							<div class="taak meet overflowhidden">
 								Hoeken
 							</div>
 						</a>
@@ -156,9 +149,9 @@
 			<div class="col-md-10">
 			<div class="row">
 				<div class="col-md-6">
-					<a href="index_taken.php?p=v_1thv_letterrekenen">
-						<div class="taak vaar overflowhidden">
-							Letterrekenen
+					<a href="index_taken.php?p=a_1thv_vergelijkingen_en_letterrekenen">
+						<div class="taak analyse overflowhidden">
+							Vergelijkingen en letterrekenen
 						</div>
 					</a>
 				</div>

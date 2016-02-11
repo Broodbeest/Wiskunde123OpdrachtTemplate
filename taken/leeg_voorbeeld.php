@@ -56,6 +56,226 @@
 		<h3>Theorie A Titel 1</h3>
 	</div>
 		
+	
+	<!-- opdracht met lijst -->
+<div class="tekstblok opdracht" id="#">
+	<h3>Opdracht # titel</h3>
+	<p>
+		
+	</p>
+	
+	<ol>
+		<li>
+			
+		</li>
+		<li>
+			
+		</li>
+		<li>
+			
+		</li>
+	</ol>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- opdracht met kolom tekst kolom plaatje-->
+<div class="tekstblok opdracht" id="#">
+	<h3>Opdracht # titel</h3>
+	<div class="row">
+		<div class="col-xs-7">
+		
+		</div>
+		<div class="col-xs-5">
+		
+		</div>
+	</div>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- opdracht met drie opdracht kolommen voor 12 sommen-->
+<div class="tekstblok opdracht" id="#">
+	<h3>Opdracht # titel</h3>
+	<div class="row">
+		<div class="col-xs-4">
+			<ol>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+			</ol>				
+		</div>
+		<div class="col-xs-4">
+			<ol start="5">
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+			</ol>		
+		</div>
+		<div class="col-xs-4">
+			<ol start="9">
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+			</ol>		
+		</div>
+	</div>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- lege opdracht -->
+<div class="tekstblok opdracht" id="#">
+	<p>
+	
+	</p>
+	
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			
+		</div>
+	</div>
+
+
+</div>
+
+<!-- lege opdracht -->
+<div class="tekstblok opdracht" id="#">
+	<p>
+	
+	</p>
+	<div class="row">
+		<div class="col-xs-5">
+			<ol>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+			</ol>				
+		</div>
+		<div class="col-xs-5">
+			<ol start="5">
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+				<li>
+				
+				</li>
+			</ol>		
+		</div>
+	</div>
+
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			
+		</div>
+	</div>
+</div>
+
+<div class="table-responsive verhouding">
+						<table class="verhouding" >
+							<tbody>
+								<tr class="borderbottom">
+									<td><em>aantal kilometers</em></td>
+									<td colspan="2">0</td>
+									<td colspan="2">1</td>
+									<td colspan="2">2</td>
+									<td colspan="2">3</td>
+									<td colspan="2">4</td>
+									<td colspan="2">5</td>	
+								</tr>
+								<tr>
+									<td><em>Ritprijs</em></td>
+									<td colspan="2"><span id="startgetal">7</span></td>
+									<td colspan="2">9</td>
+									<td colspan="2">11</td>
+									<td colspan="2">13</td>
+									<td colspan="2">15</td>
+									<td colspan="2">17</td>
+								</tr>			
+							</tbody>
+							<tfoot>
+								<tr>
+									<th colspan="2"></th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">+ 2</span></th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">+ 2</span></th
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">+ 2</span></th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">+ 2</span></th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">+ 2</span></th>
+									<th></th>
+								</tr>
+							</tfoot>	
+						</table>
+					</div> 
+
+	
+		
+		
+		
+		
+		
 </div><!-- /de taak zelf -->
 
 <div><!-- verwijzingen naar doelen, voorkennis, werkwijze en benodigdheden -->

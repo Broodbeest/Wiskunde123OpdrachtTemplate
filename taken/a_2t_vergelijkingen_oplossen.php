@@ -833,7 +833,7 @@ $doorverwijzingen = array(
 			<ol>
 				<p>basis</p>
 				<li>`2*(x+4)=12`</li>
-				<li>`3*(x-2)=26`</li>
+				<li>`3*(x-2)=36`</li>
 				<li>`-2*(x + 10)= - 42`</li>
 			</ol>
 		</div>
@@ -863,7 +863,7 @@ $doorverwijzingen = array(
 						</li>
 						<li>
 							`3*(x-2)=26`<br>
-							`3*`<span class="formula"> ? </span>`=26`<br>
+							`3*`<span class="formula"> ? </span>`=36`<br>
 							`x-2=12`<br>
 							<span class="formula"> ? </span>` - 2 = 12`<br>
 							`x = 14`
@@ -1136,7 +1136,7 @@ $doorverwijzingen = array(
 								<TD><em>t in uren</em></TD><TD>0</TD><TD>10</TD><TD>20</TD>
 							</TR>
 							<TR>
-								<TD><em>Bedrag in €</em></TD><TD>20</TD><TD>40</TD><TD>70</TD>
+								<TD><em>Bedrag in €</em></TD><TD>10</TD><TD>40</TD><TD>70</TD>
 							</TR>
 							</TABLE><br>
 						</li>
@@ -1580,13 +1580,13 @@ $doorverwijzingen = array(
 				<table class="verhouding" >
 					<tbody>
 						<tr class="borderbottom">
-							<td><em>aantal weken</em></td>
+							<td><em>brandtijd in uren</em></td>
 							<td colspan="2">0</td>
 							<td colspan="2">12</td>
 							<td colspan="2">24</td>
 						</tr>
 						<tr>
-							<td><em>Bedrag in €</em></td>
+							<td><em>Lengte in cm</em></td>
 							<td colspan="2"><span id="startgetal">...</span></td>
 							<td colspan="2">...</td>
 							<td colspan="2">...</td>
@@ -1602,13 +1602,13 @@ $doorverwijzingen = array(
 				<table class="verhouding" >
 					<tbody>
 						<tr class="borderbottom">
-							<td><em>aantal weken</em></td>
+							<td><em>brandtijd in uren</em></td>
 							<td colspan="2">0</td>
 							<td colspan="2">12</td>
 							<td colspan="2">24</td>
 						</tr>
 						<tr>
-							<td><em>Bedrag in €</em></td>
+							<td><em>Lengte in cm</em></td>
 							<td colspan="2"><span id="startgetal">...</span></td>
 							<td colspan="2">...</td>
 							<td colspan="2">...</td>

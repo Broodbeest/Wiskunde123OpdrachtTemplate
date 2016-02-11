@@ -21,21 +21,21 @@
 					<div class="col-md-6">
 						<a href="index_taken.php?p=a_2t_lineaire_verbanden">
 							<div class="taak analyse overflowhidden">
-								Lineaire verbanden vmbo-t
+								Lineaire verbanden (basis)
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a href="index_taken.php?p=v_2t_rekenen">
 							<div class="taak vaar overflowhidden">
-								Rekenen vmbo-t
+								Rekenen (basis)
 							</div>
 						</a>
 					</div>
 
 				</div>
 			</div>
-		</div><!-- /row 7 vmbo-t -->
+		</div><!-- /row 7 (basis) -->
 	<div class="row" class="2hv">
 			<div class="col-md-2">
 				<p></p><!-- leeg vak onder thema nummer -->
@@ -45,14 +45,14 @@
 					<div class="col-md-6">
 						<a href="index_taken.php?p=a_2hv_lineaire_verbanden">
 							<div class="taak analyse overflowhidden">
-								Lineaire verbanden havo/vwo
+								Lineaire verbanden (uitdaging)
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a href="index_taken.php?p=v_2hv_herleiden">
 							<div class="taak vaar overflowhidden">
-								Herleiden havo/vwo
+								Herleiden (uitdaging)
 							</div>
 						</a>
 					</div>
@@ -71,21 +71,21 @@
 					<div class="col-md-6">
 						<a href="index_taken.php?p=m_2t_vlakke_figuren">
 							<div class="taak meet overflowhidden">
-								Vlakke figuren vmbo-t
+								Vlakke figuren (basis)
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a href="index_taken.php?p=a_2t_vergelijkingen_oplossen">
 							<div class="taak analyse overflowhidden">
-								Vergelijkingen oplossen vmbo-t
+								Vergelijkingen oplossen (basis)
 							</div>
 						</a>
 					</div>
 					
 				</div>
 			</div>
-	</div><!-- /row 8 vmbo-t -->
+	</div><!-- /row 8 (basis) -->
 	<div class="row" class="2hv">
 			<div class="col-md-2">
 			<p></p><!-- leeg vak onder thema nummer -->
@@ -95,14 +95,14 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=m_2hv_vlakke_figuren">
 						<div class="taak meet overflowhidden">
-							Vlakke figuren havo/vwo
+							Vlakke figuren (uitdaging)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=a_2hv_vergelijkingen_oplossen">
 						<div class="taak analyse overflowhidden">
-							Vergelijkingen oplossen havo/vwo
+							Vergelijkingen oplossen (uitdaging)
 						</div>
 					</a>
 				</div>
@@ -121,20 +121,20 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=v_2thv_machten_en_wortels">
 						<div class="taak vaar overflowhidden">
-							Machten en wortels vmbo-t
+							Machten en wortels (basis)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=m_2t_pythagoras">
-						<div class="taak onaf overflowhidden">
-							Pythagoras vmbo-t
+						<div class="taak meet overflowhidden">
+							Pythagoras (basis)
 						</div>
 					</a>
 				</div>
 			</div>
 		</div>
-	</div><!-- /row 9 vmbo-t -->
+	</div><!-- /row 9 (basis) -->
 	<div class="row">
 		<div class="col-md-2">
 			<p></p><!-- leeg vak onder thema nummer -->
@@ -144,14 +144,14 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=v_2thv_machten_en_wortels">
 						<div class="taak vaar overflowhidden">
-							Machten en wortels havo/vwo
+							Machten en wortels (uitdaging)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=m_2hv_pythagoras">
-						<div class="taak onaf overflowhidden">
-							Pythagoras havo/vwo
+						<div class="taak meet overflowhidden">
+							Pythagoras (uitdaging)
 						</div>
 					</a>
 				</div>
@@ -167,23 +167,34 @@
 		</div>
 		<div class="col-md-10">
 			<div class="row">
+			
 				<div class="col-md-6">
-					<a href="index_taken.php?p=a_2t_kwadratische_verbanden">
-						<div class="taak onaf overflowhidden">
-							Kwadratische verbanden vmbo-t
+					<a href="index_taken.php?p=a_2thv_kwadratische_verbanden">
+						<div class="taak analyse overflowhidden">
+							Kwadratische verbanden (basis)
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6">
-					<a href="index_taken.php?p=m_2t_ruimtefiguren">
-						<div class="taak onaf overflowhidden">
-							Ruimtefiguren vmbo-t
+				
+				<div class="col-md-2">
+					<a href="#">
+						<div class="taak overflowhidden">
+							Ruimte voor Parijs
 						</div>
 					</a>
 				</div>
+			
+				<div class="col-md-4">
+					<a href="index_taken.php?p=m_2thv_ruimtefiguren">
+						<div class="taak overflowhidden">
+							Ruimtefiguren (basis)
+						</div>
+					</a>
+				</div>
+				
 			</div>
 		</div>
-	</div><!-- /row 10 vmbo-t -->
+	</div><!-- /row 10 (basis) -->
 	<div class="row">
 		<div class="col-md-2">
 			<p></p><!-- leeg vak onder thema nummer -->
@@ -191,23 +202,33 @@
 		<div class="col-md-10">
 			<div class="row">
 				<div class="col-md-4">
-					<a href="index_taken.php?p=a_2hv_kwadratische_verbanden">
-						<div class="taak onaf overflowhidden">
-							Kwadratische verbanden havo/vwo
+					<a href="index_taken.php?p=a_2thv_kwadratische_verbanden">
+						<div class="taak analyse overflowhidden">
+							Kwadratische verbanden (uitdaging)
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4">
-					<a href="index_taken.php?p=m_2hv_ruimtefiguren">
-						<div class="taak onaf overflowhidden">
-							Ruimtefiguren havo/vwo
+				
+				<div class="col-md-2">
+					<a href="index_taken.php?p=v_2thv_procenten">
+						<div class="taak vaar overflowhidden">
+							Procenten (uitdaging)
 						</div>
 					</a>
 				</div>
+				
+				<div class="col-md-2">
+					<a href="#">
+						<div class="taak overflowhidden">
+							Ruimte voor Parijs
+						</div>
+					</a>
+				</div>
+				
 				<div class="col-md-4">
-					<a href="index_taken.php?p=v_2hv_ontbinden">
-						<div class="taak onaf overflowhidden">
-							Ontbinden havo/vwo
+					<a href="index_taken.php?p=m_2thv_ruimtefiguren">
+						<div class="taak overflowhidden">
+							Ruimtefiguren (uitdaging)
 						</div>
 					</a>
 				</div>
@@ -226,44 +247,47 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=v_2thv_procenten">
 						<div class="taak vaar overflowhidden">
-							Procenten vmbo-t
+							Procenten (basis)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=a_2t_allerlei_verbanden">
-						<div class="taak onaf overflowhidden">
-							Allerlei verbanden vmbo-t
+						<div class="taak overflowhidden">
+							Allerlei verbanden (basis)
 						</div>
 					</a>
 				</div>
 			</div>
 		</div>
-	</div><!-- /row 11 vmbo-t -->
+	</div><!-- /row 11 (basis) -->
 	<div class="row">
 		<div class="col-md-2">
 			<p></p><!-- leeg vak onder thema nummer -->
 		</div>
 		<div class="col-md-10">
 			<div class="row">
-				<div class="col-md-2">
-					<a href="index_taken.php?p=v_2thv_procenten">
+
+
+				<div class="col-md-4">
+					<a href="index_taken.php?p=v_2hv_ontbinden">
 						<div class="taak vaar overflowhidden">
-							Procenten havo/vwo
+							Ontbinden (uitdaging)
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4">
+					<a href="index_taken.php?p=m_2hv_pythagoras_ruimte">
+						<div class="taak onaf overflowhidden">
+							Pythagoras in de ruimte (uitdaging)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4">
-					<a href="index_taken.php?p=m_2hv_pythagoras_ruimte">
-						<div class="taak onaf overflowhidden">
-							Pythagoras in de ruimte havo/vwo
-						</div>
-					</a>
-				</div>
-				<div class="col-md-6">
 					<a href="index_taken.php?p=a_2hv_kwadratische_vergelijkingen">
-						<div class="taak onaf overflowhidden">
-							Kwadratische vergelijkingen havo/vwo
+						<div class="taak overflowhidden">
+							Kwadratische vergelijkingen (uitdaging)
 						</div>
 					</a>
 				</div>
@@ -282,20 +306,20 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=v_2thv_procentuele_groei">
 						<div class="taak vaar overflowhidden">
-							Procentuele groei vmbo-t
+							Procentuele groei (basis)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=m_2t_vergroten_verkleinen">
 						<div class="taak onaf overflowhidden">
-							Vergroten en verkleinen vmbo-t
+							Vergroten en verkleinen (basis)
 						</div>
 					</a>
 				</div>
 			</div>
 		</div>
-	</div><!-- /row 12 vmbo-t -->
+	</div><!-- /row 12 (basis) -->
 	<div class="row">
 		<div class="col-md-2">
 			<p></p><!-- leeg vak onder thema nummer -->
@@ -305,14 +329,14 @@
 				<div class="col-md-6">
 					<a href="index_taken.php?p=v_2thv_procentuele_groei">
 						<div class="taak vaar overflowhidden">
-							Procentuele groei havo/vwo
+							Procentuele groei (uitdaging)
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="index_taken.php?p=m_2hv_vergroten_verkleinen">
 						<div class="taak onaf overflowhidden">
-							Vergroten en verkleinen havo/vwo
+							Vergroten en verkleinen (uitdaging)
 						</div>
 					</a>
 				</div>

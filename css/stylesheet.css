@@ -745,6 +745,10 @@ figcaption {
 	line-height: 3.5em;
 }
 
+.machten {
+	line-height: 2em;
+}
+
 .breuken td {
 	min-width: 130px;
 }
@@ -795,8 +799,13 @@ figcaption {
 /* mogelijke opmaak math en ascii elementen  gebruik " !important; " om styling te overschrijven*/
 
 
+math {
+	height: 2em !important;
+}
 
-	
+ol {
+	line-height: 1.5em;
+}	
 
 
 
@@ -934,6 +943,15 @@ table td .black {
 	display:inline-block;
 	margin:0px 0px 0px 10px;
 	border-radius:0.4em;
+}
+
+
+
+#getallenschema {
+	border: 1px solid red;
+	width: 50px;
+	height: 30px;
+	text-align: center;
 }
 
 /*

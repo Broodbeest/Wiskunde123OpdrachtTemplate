@@ -13,7 +13,21 @@
 			<link rel="stylesheet" href="css/stylesheet.css">
 
 			<!-- Mathjax -->
-			<script src="http://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full"></script>
+			<script type="text/x-mathjax-config">
+			  MathJax.Hub.Config({
+			    extensions: ["tex2jax.js"],
+			    jax: ["input/TeX", "output/HTML-CSS"],
+			    tex2jax: {
+			      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+			      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+			      processEscapes: true
+			    },
+			    "HTML-CSS": { availableFonts: ["TeX"] }
+			  });
+			</script>
+			<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full"></script>
+			
+
 			
 			<!-- algemene jquery blblitheek op google -->
 			<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -50,8 +64,9 @@
 							<a href="index_leerjaar.php?p=leerjaar_2_1516" style="color:#F6E934;" class="zonderruimte">2</a>
 							<a href="index_leerjaar.php?p=leerjaar_3_1516" style="color:#4750F9;" class="zonderruimte">3</a>
 							cursus '15-'16 
-							
-
+					</div>
+					<div class="navbar-brand">
+							<?php echo $taaknaam; ?>
 							
 						</div>
 				</div>

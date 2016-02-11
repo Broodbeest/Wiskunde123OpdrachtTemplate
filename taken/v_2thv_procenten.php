@@ -1,73 +1,57 @@
-<title>Leerjaar 2 | Procenten</title>
+<?php 
+	//defineer titel
+	$taaknaam ="Procenten";
+?>
 
-<!-- <div class="container vaardigheden"> -->
+<?php
+	//Definieer sidebar
+	$doorverwijzingen = array(
+      '#inleiding' => 'Inleiding',
+	  '#theorieA' => 'De verhoudingstabel',
+      '#theorieB' => 'Hou van de `1`',
+      '#theorieC' => 'Per 100',
+      '#theorieD' => 'Procent',
+      '#theorieE' => 'Percentage berekenen',
+      '#theorieF' => 'Van breuk naar percentage',      
+      '#theorieG' => 'Vergelijken met behulp van percentages',
+      '#theorieH' => 'Van percentage naar getal',
+      '#theorieI' => 'Van deel naar geheel',
+      '#proeftoets' => 'Proeftoets');                                                      
+?>
 
-<!--het hoofdblok-->
+<title>Leerjaar 2 | <?php echo $taaknaam; ?></title>
+
 <div class="taakinhoud">
+		
+<div class="row">
+		<div class="col-xs-7">
+		
+		</div>
+		<div class="col-xs-5">
+		
+		</div>
+	</div>
 	
-	
-<!--	
-	<h3>Inhoud</h3>
-		<p>
-		Procenten:
-		<ol>
-			<li>
-				wat zijn percentages;
-			</li>
-			<li>
-				van procent naar decimaal getal;
-			</li>
-			<li>
-				deel : geheel  x 100 %, hoeveel % is 4 van 10?
-			</li>
-			<li>
-				23,5% van 120 bereken. met factor 0,235 x 120
-			</li>
-			
-		</ol>
-	</p>
-	
-		<p>Doe het via de 1!</p>
-		<ol>
-			<li>
-			Verhoudingstabellen herhalen
-			</li>
-			<li>
-			Zoveel <b>per</b> zoveel
-			</li>
-			<li>
-			Zoveel per honderd (is dus procenten)
-			</li>
-			<li>
-			Zoveel procent van... (gebruik de 1!!!)
-			</li>
-			<li>
-			Vergrotingsfactor (de 1 overslaan)
-			</li>
-			<li>
-			Toepassen
-			</li>
-		</ol>
+<div class="tekstblok theorie vaardigheden" id="inleiding">
+	<h3>Inleiding</h3>
+	<div class="row">
+		<div class="col-xs-8">
+			<p>
+				Procent is een heel veel voorkomend woord. Het komt van het Latijnse woord <em>procentum</em> dat per honderd betekent.<br>
+				Vooral liefhebbers van de uitverkoop moeten vaak aan de slag met procenten. Dat korting niet altijd even positief uitvalt, blijkt uit de afbeelding hiernaast.<br>
+				Zie je wat er mis gaat?
 			</p>
-			
-		
-		-->
-		
-<!-- theorie inleiding -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Procenten</h3>
-		<img src="afbeeldingen/vaardigheden_leerjaar_2/negatieve_korting.gif" alt="negatieve_korting" width="200" class="rightfloat" />
+		</div>
+		<div class="col-xs-3">
+			<img class="img-responsive" src="afbeeldingen/vaardigheden_leerjaar_2/negatieve_korting.gif" alt="negatieve_korting"  />
+		</div>
+	</div>		
 	<p>
-		Procent is een heel veel voorkomend woord. Het komt van het Latijnse woord <em>procentum</em> dat per honderd betekent.<br>
-		Vooral liefhebbers van de uitverkoop moeten vaak aan de slag met procenten. Dat korting niet altijd even positief uitvalt, blijkt uit de afbeelding hiernaast.
-	</p>
-	<p>
-		In deze taak ga je leren rekenen met procenten. Je hebt je kennis over verhoudingen, decimale getallen en verhoudingstabellen nodig.
-		</p>
+		In deze taak ga je leren rekenen met procenten. Je hebt je kennis over breuken, decimale getallen, afronden, verhoudingen en verhoudingstabellen nodig. Bekijk eventueel de taken <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=v_1thv_breuken">Breuken</a> en <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=v_1thv_verhoudingen">Verhoudingen</a>.
+	</p>	
 </div>
 
-<!-- opdracht 1 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="1">
 	<h3>Opdracht 1 Opfrissen</h3>
 	<p>
 		Neem over, vul in en reken uit, rond af op twee decimalen de komma. <br>
@@ -86,7 +70,7 @@
 		</li>
 	</ol>
 	
-		<div class="hider">
+	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<ol class="breuken">
@@ -106,52 +90,56 @@
 	
 </div>
 
-<!-- theorie A -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie A de verhoudingstabel</h3>
-	<aside class="tekstballon_theorie" style="width:180px !important; ">
-	<table class="verhouding">
-		<thead>
-			<tr>
-				<th></th>
-				<th colspan="2">&divide; 5<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class="borderbottom">
-				<td colspan="2">15</td>
-				<td colspan="2">3</td>
-			</tr>
-			<tr>
-				<td colspan="2">35</td>
-				<td colspan="2">7</td>
-			</tr>		
-		</tbody>
-		<tfoot>
-			<tr>
-				<th></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>&divide; 5</th>
-				<th></th>
-			</tr>
-		</tfoot>	
-	</table>
-	</aside>
-		<p>
-		In een verhoudingstabel mag je het onderste en het bovenste deel met hetzelfde getal vermenigvuldigen of door hetzelfde getal delen. Zo blijft verhouding gelijk.
-	</p>
-	<p>
-		De verhouding `15 : 35` is gelijk aan `3 : 7`. <br>
-		Lees "3 staat tot 7". Net als bij breuken vereenvoudig je een verhouding zo ver mogelijk.
-	</p>
-	<p>
-		Zie taak <a href="http://wiskunde.vathorstcollege.nl/index2.php?p=vaar_verhoudingen">Verhoudingen</a> voor meer voorbeelden en uitleg.
+<div class="tekstblok theorie vaardigheden" id="theorieA">
+	<h3>Theorie A De verhoudingstabel</h3>
+	<div class="row">
+		<div class="col-xs-8">
+			<p>
+				In een <b>verhoudingstabel</b> mag je het onderste en het bovenste deel met hetzelfde getal vermenigvuldigen of door hetzelfde getal delen. Zo blijft de <b>verhouding gelijk</b>.
+			</p>
+			<p>
+				De verhouding `15 : 35` is gelijk aan `3 : 7`. <br>
+				Lees "3 staat tot 7". Net als bij breuken vereenvoudig je een verhouding zo ver mogelijk.
+			</p>
+					
+		</div>
+		<div class="col-xs-4">
+			<div class="table-responsive verhouding">
+				<table class="verhouding">
+					<thead>
+						<tr>
+							<th colspan="1"></th>
+							<th colspan="2">&divide; 5<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+							<th colspan="1"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="borderbottom">
+							<td colspan="2">15</td>
+							<td colspan="2">35</td>	
+						</tr>
+						<tr>
+							<td colspan="2">3</td>
+							<td colspan="2">7</td>
+						</tr>			
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="1"></th>
+							<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 5</th>
+							<th colspan="1"></th>
+						</tr>
+					</tfoot>	
+				</table>
+			</div>
+		</div>
+	</div>
+	<p class="geeltje">
+		Zie taak <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=v_1thv_verhoudingen">Verhoudingen</a> voor meer voorbeelden en uitleg.
 	</p>
 </div>
 
-<!-- opdracht 2 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id"2">
 	<h3>Opdracht 2 Verhoudingstabel</h3>
 	<p>
 		Per 29 koffiekannen heb je 145 schepjes koffie nodig. Bereken hoeveel schepjes koffie je voor 15 kannen zou gebruiken.
@@ -163,8 +151,8 @@
 			<thead>
 				<tr>
 					<th colspan="2"></th>
-					<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-					<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+					<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+					<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 					<th></th>
 				</tr>
 			</thead>
@@ -185,8 +173,8 @@
 			<tfoot>
 				<tr>
 					<th colspan="2"></th>
-					<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-					<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+					<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+					<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 					<th></th>
 				</tr>
 			</tfoot>	
@@ -209,8 +197,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 29<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th colspan="2">× 15<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">÷ 29<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 15<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -232,8 +220,8 @@
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 29</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 15</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 29</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 15</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -247,16 +235,15 @@
 	</div>
 </div>
 
-<!-- theorie B -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieB">
 	<h3>Theorie B Hou van de `1`</h3>
 		<aside class="tekstballon_theorie" style="width: 250px !important" >
 			<table class="verhouding">
 		<thead>
 			<tr>
 				<th></th>
-				<th colspan="2">÷ 17<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× 382<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ 17<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× 382<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -277,8 +264,8 @@
 		<tfoot>
 			<tr>
 				<th></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 17</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 382</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 17</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 382</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -295,123 +282,146 @@
 		</p>
 </div>
 
-<!-- opdracht 3 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="3">
 	<h3>Opdracht 3 Allerlei verhoudingstabellen</h3>
 	<p>
 		Reken in de verhoudingstabellen steeds via de `1`. Rond je antwoorden af zoals hoort bij de situatie.
 	</p>
-	<ol>
-		<li>
-			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" width="50" class="rightfloat">
-			Als je per 26 brieven 174 euro aan postzegels nodig hebt, hoeveel euro aan postzegels heb je dan voor 18 brieven nodig? 
-			<table class="verhouding" style="background-color:white">
-				<thead>
-					<tr>
-						<th colspan="2"></th>
-						<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-						<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><em>bedrag in €</em></td>
-						<td colspan="2">...</td>
-						<td colspan="2"></td>
-						<td colspan="2">?</td>
-					</tr>	
-					<tr class="borderbottom">
-						<td><em>aantal brieven</em></td>
-						<td colspan="2">26</td>
-						<td colspan="2">1</td>
-						<td colspan="2">18</td>	
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<th colspan="2"></th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
-						<th></th>
-					</tr>
-				</tfoot>	
-			</table>
-		</li>
-		<li>
-			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" width="50" class="rightfloat">
-			In 9 huishouden staan 5 fietsen voor de deur. Hoeveel fietsen heb je in totaal bij 72 huishoudens?
-		<table class="verhouding" style="background-color:white">
-			<thead>
-				<tr>
-					<th colspan="2"></th>
-					<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-					<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-					<th></th>
-				</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><em>fietsen</em></td>
-						<td colspan="2">...</td>
-						<td colspan="2"></td>
-						<td colspan="2">?</td>
-					</tr>	
-					<tr class="borderbottom">
-						<td><em>huishoudens</em></td>
-						<td colspan="2">...</td>
-						<td colspan="2">1</td>
-						<td colspan="2">...</td>	
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<th colspan="2"></th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
-						<th></th>
-					</tr>
-				</tfoot>	
-			</table>
-		</li>
-		<li>
-			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" width="50" class="rightfloat">
-		Iedere 2 minuten komen er 6 auto's langs. Hoeveel minuten gaan voorbij als er 54 auto's zijn langsgekomen?
-			<table class="verhouding" style="background-color:white">
-				<thead>
-					<tr>
-						<th colspan="2"></th>
-						<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-						<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><em>...</em></td>
-						<td colspan="2">...</td>
-						<td colspan="2"></td>
-						<td colspan="2">?</td>
-					</tr>	
-					<tr class="borderbottom">
-						<td><em>...</em></td>
-						<td colspan="2">...</td>
-						<td colspan="2">1</td>
-						<td colspan="2">...</td>	
-					</tr>					
-				</tbody>
-				<tfoot>
-					<tr>
-						<th colspan="2"></th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
-						<th></th>
-					</tr>
-				</tfoot>	
-			</table>
-		</li>
-	</ol>
+	<div class="row">
+		<div class="col-xs-9">
+			<ol>
+				<li>
+					Als je per 26 brieven 174 euro aan postzegels nodig hebt, hoeveel euro aan postzegels heb je dan voor 18 brieven nodig? 
+					<table class="verhouding" style="background-color:white">
+						<thead>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><em>bedrag in €</em></td>
+								<td colspan="2">...</td>
+								<td colspan="2"></td>
+								<td colspan="2">?</td>
+							</tr>	
+							<tr class="borderbottom">
+								<td><em>aantal brieven</em></td>
+								<td colspan="2">26</td>
+								<td colspan="2">1</td>
+								<td colspan="2">18</td>	
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+								<th></th>
+							</tr>
+						</tfoot>	
+					</table>
+				</li>
+			</ol>
+		</div>
+		<div class="col-xs-3">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" class="img-responsive img-small">
+		</div>
+	</div>
 	
+	<div class="row">
+		<div class="col-xs-9">
+			<ol start="2">
+				<li>
+					In 9 huishouden staan 5 fietsen voor de deur. Hoeveel fietsen heb je in totaal bij 72 huishoudens?
+					<table class="verhouding" style="background-color:white">
+						<thead>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><em>fietsen</em></td>
+								<td colspan="2">...</td>
+								<td colspan="2"></td>
+								<td colspan="2">?</td>
+							</tr>	
+							<tr class="borderbottom">
+								<td><em>huishoudens</em></td>
+								<td colspan="2">...</td>
+								<td colspan="2">1</td>
+								<td colspan="2">...</td>	
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+								<th></th>
+							</tr>
+						</tfoot>	
+					</table>
+				</li>
+			</ol>
+		</div>
+		<div class="col-xs-3">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" class="img-responsive img-small">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-9">
+			<ol start="3">
+				<li>
+					Iedere 2 minuten komen er 6 auto's langs. Hoeveel minuten gaan voorbij als er 54 auto's zijn langsgekomen?
+					<table class="verhouding" style="background-color:white">
+						<thead>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><em>...</em></td>
+								<td colspan="2">...</td>
+								<td colspan="2"></td>
+								<td colspan="2">?</td>
+							</tr>	
+							<tr class="borderbottom">
+								<td><em>...</em></td>
+								<td colspan="2">...</td>
+								<td colspan="2">1</td>
+								<td colspan="2">...</td>	
+							</tr>					
+						</tbody>
+						<tfoot>
+							<tr>
+								<th colspan="2"></th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+								<th></th>
+							</tr>
+						</tfoot>	
+					</table>
+				</li>
+			</ol>
+		</div>
+		<div class="col-xs-3">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/love1.png" alt="love1" class="img-responsive img-small">
+		</div>
+	</div>
+						
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
@@ -421,8 +431,8 @@
 							<thead>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2">÷ 26<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">× 18<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">÷ 26<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">× 18<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 									<th></th>
 								</tr>
 							</thead>
@@ -443,8 +453,8 @@
 							<tfoot>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 26</th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 18</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 26</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 18</th>
 									<th></th>
 								</tr>
 							</tfoot>	
@@ -456,8 +466,8 @@
 							<thead>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2">÷ 9<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">× 72<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">÷ 9<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">× 72<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 									<th></th>
 								</tr>
 								</thead>
@@ -478,8 +488,8 @@
 								<tfoot>
 									<tr>
 										<th colspan="2"></th>
-										<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 9</th>
-										<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 72</th>
+										<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 9</th>
+										<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 72</th>
 										<th></th>
 									</tr>
 								</tfoot>	
@@ -491,8 +501,8 @@
 							<thead>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2">÷ 2<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">× 54<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">÷ 2<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">× 54<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 									<th></th>
 								</tr>
 							</thead>
@@ -500,84 +510,88 @@
 								<tr>
 									<td><em>auto's</em></td>
 									<td colspan="2">6</td>
-									<td colspan="2"></td>
-									<td colspan="2">162</td>
+									<td colspan="2">1</td>
+									<td colspan="2">54</td>
 								</tr>	
 								<tr class="borderbottom">
 									<td><em>minuten</em></td>
 									<td colspan="2">2</td>
-									<td colspan="2">1</td>
-									<td colspan="2">54</td>	
+									<td colspan="2"></td>
+									<td colspan="2">18</td>	
 								</tr>					
 							</tbody>
 							<tfoot>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 2</th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 54</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 2</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 54</th>
 									<th></th>
 								</tr>
 							</tfoot>	
 						</table>
-						Er gaan 162 minuten voorbij.
+						Er gaan 18 minuten voorbij.
 					</li>
 				</ol>
 		</div>
 	</div>
 </div>
 
-<!-- opdracht 4 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="4">
 	<h3>Opdracht 4 Koken</h3>
 	<p>
 		Jip gaat voor 7 personen pasta koken. Ze gebruikt hiervoor het recept hieronder.
 	</p>
 	<div class="tekstblok theorie" style="background-color: orange; " > 
-	<h2>
-     Pasta met gerookte zalm en spinazie
-   </h2>
-   <p>
-	   Ingrediënten voor 4 personen:
-	   <img src="afbeeldingen/vaardigheden_leerjaar_2/pasta.jpg" alt="pasta" width="230" class="rightfloat" />
-	   <ul>
-	    <li>
-	      1/2 (500g) pak tagliatelle pasta
-	     </li>
-	     <li>
-	     	50 gr boter
-	     </li>
-	     <li>
-	     	250 ml melk
-	    </li>
-	    <li>
-	      1 eetl witte bloem
-	    </li>
-	    <li>
-	      80 gr versgeraspte Parmezaanse kaas
-	     </li>
-	     <li>
-			 	225g gerookte zalm, gehakt
-	    </li>
-	    <li>
-	      30g verse spinazie, gehakt
-	    </li>
-	    <li>
-	      2 eetl kappertjes
-	    </li>
-	    <li>
-	     	4 eetl zongedroogde tomaten, gehakt
-	     </li>
-	      <li>
-	      	50g gehakte verse oregano
-	      </li>
-		  </ul>
-		  Bron: <a href="http://allrecipes.nl/recept/828/pasta-met-gerookte-zalm-en-spinazie.aspx?o_is=Hub_TopRecipe_2">allrecipes.nl</a>.
-   </p>
+		<h2>
+	     Pasta met gerookte zalm en spinazie
+	   </h2>
+	   	<div class="row">
+			<div class="col-xs-4">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/pasta.jpg" alt="pasta"  />
+		</div>
+			<div class="col-xs-8">
+			<p>
+			   Ingrediënten voor 4 personen:
+			   	   <ul>
+			    <li>
+			      1/2 (500g) pak tagliatelle pasta
+			     </li>
+			     <li>
+			     	50 gr boter
+			     </li>
+			     <li>
+			     	250 ml melk
+			    </li>
+			    <li>
+			      1 eetl witte bloem
+			    </li>
+			    <li>
+			      80 gr versgeraspte Parmezaanse kaas
+			     </li>
+			     <li>
+					 	225g gerookte zalm, gehakt
+			    </li>
+			    <li>
+			      30g verse spinazie, gehakt
+			    </li>
+			    <li>
+			      2 eetl kappertjes
+			    </li>
+			    <li>
+			     	4 eetl zongedroogde tomaten, gehakt
+			     </li>
+			      <li>
+			      	50g gehakte verse oregano
+			      </li>
+				  </ul>
+				  Bron: <a href="http://allrecipes.nl/recept/828/pasta-met-gerookte-zalm-en-spinazie.aspx?o_is=Hub_TopRecipe_2">allrecipes.nl</a>.
+		   </p>
+		</div>
+		</div>
    </div>
-   	
-		<p>
-			Bereken hoeveel ze van elk ingrediënt nodig heeft. Maak zo nodig gebruik van verhoudingstabellen en schrijf je berekeningen netjes op.
-		</p>
+	<p>
+		Bereken hoeveel ze van elk ingrediënt nodig heeft. Maak zo nodig gebruik van verhoudingstabellen en schrijf je berekeningen netjes op.
+	</p>
 		
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
@@ -621,8 +635,7 @@
 	</div>	
 </div>
 
-<!-- opdracht 5 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="5">
 	<h3>Opdracht 5 Per zoveel</h3>
 	<p>
 		Beantwoord de vragen met behulp van een berekening.
@@ -663,56 +676,60 @@
 	</div>	
 </div>
 	
-<!-- opdracht 6 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="6">
 	<h3>Opdracht 6 Overal procenten</h3>
-	<p>
-		Overal kom je procenten tegen: in winkels, bij de bank, in kranten, et cetera.<br>
-		Schrijf op wat bedoeld wordt met:
-	</p>
-	<img src="afbeeldingen/vaardigheden_leerjaar_2/100%25.jpeg" alt="100%25" width="120" class="rightfloat" />
-	<ol>
-		<li>
-			Deze stof is 100% wol.
-		</li>
-		<li>
-			We hebben 50% kans om te winnen.
-		</li>
-		<li>
-			Dat is 99% zeker.
-		</li>
-		<li>
-			Ik krijg 3% spaarrente.
-		</li>
-	</ol>
+	<div class="row">
+		<div class="col-xs-7">
+			<p>
+				Overal kom je procenten tegen: in winkels, bij de bank, in kranten, et cetera.<br>
+				Schrijf op wat bedoeld wordt met:
+			</p>
+
+			<ol>
+				<li>
+					Deze stof is 100% wol.
+				</li>
+				<li>
+					We hebben 50% kans om te winnen.
+				</li>
+				<li>
+					Dat is 99% zeker.
+				</li>
+				<li>
+					Ik krijg 3% spaarrente.
+				</li>
+			</ol>
+		</div>
+		<div class="col-xs-5">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/100%25.jpeg" alt="100%25"  class="img-responsive img-small" />
+		</div>
+	</div>
+	
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-
 			<ol>
-					<li>
-						Dat de stof helemaal van wol gemaakt is.
-					</li>
-					<li>
-						Dat de kans om te winnen even groot is als de kans om te verliezen.
-					</li>
-					<li>
-						Dat iets zo goed als zeker is.
-					</li>
-					<li>
-						Dat elke 100 euro een rente van 3 euro oplevert.
-					</li>
-				</ol>
-			
-				<p>
-					Jouw antwoorden of de verwoording ervan kunnen afwijken van bovenstaande antwoorden.
-				</p>
+				<li>
+					Dat de stof helemaal van wol gemaakt is.
+				</li>
+				<li>
+					Dat de kans om te winnen even groot is als de kans om te verliezen.
+				</li>
+				<li>
+					Dat iets zo goed als zeker is.
+				</li>
+				<li>
+					Dat elke 100 euro een rente van 3 euro oplevert.
+				</li>
+			</ol>
+			<p>
+				Jouw antwoorden of de verwoording ervan kunnen afwijken van bovenstaande antwoorden.
+			</p>
 		</div>
 	</div>
 </div>
 
-<!-- opdracht 7 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="7">
 	<h3>Opdracht 7 Vergelijken</h3>
 	<p>
 		Voor Edukans wordt geld ingezameld. Jan heeft 87 euro en geeft 5 euro aan dit goede doel. Maja heeft 114 euro en geeft 6 euro.<br>
@@ -733,22 +750,26 @@
 	</div>
 </div>
 
-<!-- theorie C -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieC">
 	<h3>Theorie C Per 100</h3>
-	<img src="afbeeldingen/vaardigheden_leerjaar_2/bank-building-icon.jpg" alt="bank-building-icon" width="150" class="rightfloat" />
-	<p>
-		Ineke zegt: 'Ik heb € 1300,- spaargeld. Daarvan krijg ik dit jaar € 65,- rente.'<br>
-		 'Oh', zegt Arwin, 'ik heb € 1600,- op de bank. En ik krijg dit jaar € 80,- rente. Ik ben beter af dan jij.'<br>
-		Heeft Arwin gelijk?
-	</p>
-	<p>
-		Arwin krijgt weliswaar een groter bedrag aan rente. Maar is hij ook beter af? Om goed te kunnen <b>vergelijken</b> rekenen we uit hoeveel rente ieder krijgt <b>per honderd</b> euro.
-	</p>		
+	<div class="row">
+		<div class="col-xs-7">
+			<p>
+				Ineke zegt: 'Ik heb € 1300,- spaargeld. Daarvan krijg ik dit jaar € 65,- rente.'<br>
+				 'Oh', zegt Arwin, 'ik heb € 1600,- op de bank. En ik krijg dit jaar € 80,- rente. Ik ben beter af dan jij.'<br>
+				Heeft Arwin gelijk?
+			</p>
+			<p>
+				Arwin krijgt weliswaar een groter bedrag aan rente. Maar is hij ook beter af? Om goed te kunnen <b>vergelijken</b> rekenen we uit hoeveel rente ieder krijgt <b>per honderd</b> euro.
+			</p>	
+		</div>
+		<div class="col-xs-5">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/bank-building-icon.jpg" alt="bank-building-icon" />
+		</div>
+	</div>
 </div>
 
-<!-- opdracht 8 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="8">
 	<h3>Opdracht 8 Per honderd</h3>
 	<ol>
 		<li>
@@ -782,7 +803,7 @@
 			<tr>
 				<th colspan="2"></th>
 
-				<th colspan="4"><img src="afbeeldingen/vaar_procenten/pijlondernaarrechts.png" height="30px" width="120px" class="centerfloat"><br>÷ ...</th>
+				<th colspan="4"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="30px" width="120px" class="centerfloat"><br>÷ ...</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -817,7 +838,7 @@
 			<tr>
 				<th colspan="2"></th>
 
-				<th colspan="4"><img src="afbeeldingen/vaar_procenten/pijlondernaarrechts.png" height="30px" width="120px" class="centerfloat"><br>÷ ...</th>
+				<th colspan="4"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="30px" width="120px" class="centerfloat"><br>÷ ...</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -872,7 +893,7 @@
 									<tfoot>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="4"><img src="afbeeldingen/vaar_procenten/pijlondernaarrechts.png" height="30px" width="120px" class="centerfloat"><br>÷ 13</th>
+									<th colspan="4"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="30px" width="120px" class="centerfloat"><br>÷ 13</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -906,7 +927,7 @@
 									<tfoot>
 										<tr>
 											<th colspan="2"></th>
-											<th colspan="4"><img src="afbeeldingen/vaar_procenten/pijlondernaarrechts.png" height="30px" width="120px" class="centerfloat"><br>÷ 16</th>
+											<th colspan="4"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="30px" width="120px" class="centerfloat"><br>÷ 16</th>
 											<th></th>
 										</tr>
 									</tfoot>	
@@ -932,27 +953,30 @@
 	</div>
 </div>
 
-<!-- theorie D -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieD">
 	<h3>Theorie D Procent</h3>
-	<img src="afbeeldingen/vaardigheden_leerjaar_2/procent-teken.png" alt="procent-teken" width="150" class="rightfloat" />
-	<p>
-		Als de rente 4 euro per 100 euro is, dan zeggen we: 'de rente is 4 <b>procent</b>,' of 'het rente<b>percentage</b> is 4.'
-	</p>
-	<p>
-		Procent betekent letterlijk <em>per honderd</em>.<br>
-		Als notatie gebruiken het %-teken.
-	</p>
-	<p>
-		`30/100` deel betekent 30 op de 100. Dat is 30%.
-	</p>
+	<div class="row">
+		<div class="col-xs-7">
+			<p>
+				Als de rente 4 euro per 100 euro is, dan zeggen we: 'de rente is 4 <b>procent</b>,' of 'het rente<b>percentage</b> is 4.'
+			</p>
+			<p>
+				Procent betekent letterlijk <em>per honderd</em>.<br>
+				Als notatie gebruiken het %-teken.
+			</p>
+			<p>
+				`30/100` deel betekent 30 op de 100. Dat is 30%.
+			</p>
+		</div>
+		<div class="col-xs-4">
+			<img src="afbeeldingen/vaardigheden_leerjaar_2/procent-teken.png" alt="procent-teken" />
+		</div>
+	</div>
 </div>
 
-
-<!-- opdracht 9 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="9">
 	<h3>Opdracht 9 Welk deel</h3>
-	<img src="afbeeldingen/vaardigheden_leerjaar_2/vierkant_procenten.png" alt="vierkant_procenten" width="200" class="rightfloat" />
+	<img src="afbeeldingen/vaardigheden_leerjaar_2/vierkant_procenten.png" alt="vierkant_procenten" width="200" class="img-responsive img-small" />
 	<p>
 		Het vierkant hiernaast is verdeeld in 100 kleine vierkantjes.
 	</p>
@@ -978,11 +1002,9 @@
 	</div>
 </div>
 
-
-<!-- opdracht 10 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="10">
 	<h3>Opdracht 10 Percentages</h3>
-	<img src="afbeeldingen/vaardigheden_leerjaar_2/vierkant_percentages.png" alt="vierkant_percentages" width="300" class="rightfloat" />
+	<img src="afbeeldingen/vaardigheden_leerjaar_2/vierkant_percentages.png" alt="vierkant_percentages" width="300" class="img-responsive img-small" />
 	<p>
 		In het vierkant hiernaast zijn verschillende delen gekleurd. Bepaal per kleur het percentage.
 	</p>
@@ -1010,9 +1032,7 @@
 	
 </div>
 			
-	
-<!-- opdracht 11 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="11">
 	<h3>Opdracht 11 Makkelijke percentages</h3>
 	<p>Neem over en vul de percentages in. <br>
 		Doe het zo:
@@ -1090,9 +1110,7 @@
 	
 </div>	
 			
-
-<!-- theorie E -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieE">
 	<h3>Theorie E Percentage berekenen</h3>
 	<p>
 		9% betekent 9 op de 100. In een klas met 100 leerlingen vormen 9 jongens ook precies 9% van de klas. Maar wat nu als je een klas hebt van 38 leerlingen?
@@ -1113,12 +1131,13 @@
 					zet boven het deel en onder het geheel.
 				</td>
 				<td>
+				
 					<table class="verhouding" style="background-color:white">
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
-								<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1128,23 +1147,25 @@
 								<td colspan="2">...</td>
 								<td colspan="2">...</td>
 								<td colspan="2">...</td>
-							</tr>
-							<tr>
+							</tr>	
+							<tr class="borderbottom">
 								<td><em>geheel: klas</em></td>
 								<td colspan="2">...</td>
 								<td colspan="2">...</td>
-								<td colspan="2">...</td>
+								<td colspan="2">...</td>	
 							</tr>
+									
 						</tbody>
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>÷ ...</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>× ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 								<th></th>
 							</tr>
-						</tfoot>
-					</table>
+						</tfoot>	
+					</table>				
+				
 				</td>
 			</tr>
 			<tr>
@@ -1155,12 +1176,12 @@
 					Zet de getallen in de tabel.
 				</td>
 				<td>
-					<table class="verhouding" style="background-color:white">
+										<table class="verhouding" style="background-color:white">
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
-								<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1170,22 +1191,23 @@
 								<td colspan="2">9</td>
 								<td colspan="2">...</td>
 								<td colspan="2">...</td>
-							</tr>
-							<tr>
+							</tr>	
+							<tr class="borderbottom">
 								<td><em>geheel: klas</em></td>
 								<td colspan="2">38</td>
 								<td colspan="2">1</td>
-								<td colspan="2">...</td>
+								<td colspan="2">...</td>	
 							</tr>
+									
 						</tbody>
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>÷ ...</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>× ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 								<th></th>
 							</tr>
-						</tfoot>
+						</tfoot>	
 					</table>
 				</td>
 			</tr>
@@ -1201,8 +1223,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
-								<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
+								<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1212,22 +1234,23 @@
 								<td colspan="2">9</td>
 								<td colspan="2">...</td>
 								<td colspan="2">...%</td>
-							</tr>
-							<tr>
+							</tr>	
+							<tr class="borderbottom">
 								<td><em>geheel: klas</em></td>
 								<td colspan="2">38</td>
 								<td colspan="2">1</td>
-								<td colspan="2">100%</td>
+								<td colspan="2">100</td>	
 							</tr>
+									
 						</tbody>
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>÷ ...</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>× ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 								<th></th>
 							</tr>
-						</tfoot>
+						</tfoot>	
 					</table>
 				</td>
 			</tr>
@@ -1243,8 +1266,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 38<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
-								<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px"></th>
+								<th colspan="2">÷ 38<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1254,22 +1277,23 @@
 								<td colspan="2">9</td>
 								<td colspan="2">...</td>
 								<td colspan="2">24%</td>
-							</tr>
-							<tr>
+							</tr>	
+							<tr class="borderbottom">
 								<td><em>geheel: klas</em></td>
 								<td colspan="2">38</td>
 								<td colspan="2">1</td>
-								<td colspan="2">100%</td>
+								<td colspan="2">100</td>	
 							</tr>
+									
 						</tbody>
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>÷ 38</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px"><br>× 100</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 38</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 								<th></th>
 							</tr>
-						</tfoot>
+						</tfoot>	
 					</table>
 				</td>
 			</tr>
@@ -1281,9 +1305,7 @@
 		</p>		
 </div>
 
-
-<!-- opdracht 12 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="12">
 	<h3>Opdracht 12 Percentage</h3>
 	<p>Klas 3.4 van het Novum College bestaat uit 24 leerlingen. Er zitten 17 meisjes in de klas.<br>
 		Bereken het percentage meisjes in klas 3.4 met behulp van de gegeven verhoudingstabel. Rond af op één decimaal.
@@ -1292,8 +1314,8 @@
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -1315,8 +1337,8 @@
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -1329,8 +1351,8 @@
 				<thead>
 					<tr>
 						<th colspan="2"></th>
-						<th colspan="2">÷ 24<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-						<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+						<th colspan="2">÷ 24<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+						<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -1352,8 +1374,8 @@
 				<tfoot>
 					<tr>
 						<th colspan="2"></th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 24</th>
-						<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+						<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 24</th>
+						<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 						<th></th>
 					</tr>
 				</tfoot>	
@@ -1366,9 +1388,7 @@
 	
 </div>
 
-
-<!-- opdracht 13 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="13">
 	<h3>Opdracht 13 Percentages berekenen</h3>
 	<p>
 		Maak de volgende opgaven met behulp van een verhoudingstabel.
@@ -1395,8 +1415,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 16<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">÷ 16<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1418,8 +1438,8 @@
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 16</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 16</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -1437,8 +1457,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 9<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">÷ 9<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1460,8 +1480,8 @@
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 9</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 9</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -1478,8 +1498,8 @@
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 117<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">÷ 117<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -1501,8 +1521,8 @@
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 117</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 117</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -1516,9 +1536,7 @@
 	</div>
 </div>
 
-
-<!-- theorie F Vergelijken met behulp van percentages -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieF">
 	<h3>Theorie F Van breuk naar percentage</h3>
 	<p>
 		Met een verhoudingstabel kun je van een breuk een percentage maken.
@@ -1535,8 +1553,8 @@
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ 38<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ 38<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -1558,8 +1576,8 @@
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 38</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 38</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -1591,9 +1609,7 @@
 	
 </div>
 
-
-<!-- opdracht 14 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="14">
 	<h3>Opdracht 14 Van breuk naar percentage</h3>
 	<p>
 		Druk de volgende breuken uit als percentage. Neem de breuken steeds eerst over.
@@ -1666,9 +1682,7 @@
 	</div>
 </div>
 
-
-<!-- opdracht 15 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="15">
 	<h3>Opdracht 15 Percentages</h3>
 			<aside class="tekstballon_theorie">
 		Merk op: tenzij anders gevraagd, rond je percentages standaard af op één decimaal achter de komma.
@@ -1707,9 +1721,7 @@
 	</div>
 </div>
 
-
-<!-- opdracht 16 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="16">
 	<h3>Opdracht 16 Verhoudingen, breuken en percentages</h3>
 		<p>
 		Bekijk de uitleg van Roeland Hiele op www.wiskunde-academie.nl over procenten en percentages:
@@ -1748,13 +1760,11 @@
 	</div>
 </div>
 	
-
-<!-- opdracht 17 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="17">
 	<h3>Opdracht 17 Hoeveel procent rente</h3>
 	<p>
 		Vorig jaar had Gjalt 900 euro. Hij kreeg 18 euro rente.
-<br>
+		<br>
 		Bereken hoeveel procent de rente was, zonder verhoudingstabel. Schrijf je berekening op.
 	</p>
 	
@@ -1768,8 +1778,7 @@
 	</div>
 </div>
 
-
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="18">
 	<h3>Opdracht 18 Doelsaldo</h3>
 	<p>
 		Paul speelt hockey. Afgelopen wedstrijd maakte hij 3 van de 11 doelpunten. 
@@ -1789,9 +1798,7 @@
 			
 </div>
 
-
-<!-- theorie G Vergelijken met behulp van percentages -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieG">
 	<h3>Theorie G Vergelijken met behulp van percentages</h3>
 	
 		<aside class="tekstballon_theorie">
@@ -1806,14 +1813,10 @@
 	</p>
 	<p>
 		Jan geeft 5,7% en Maja geeft 5,3%. Dus Jan geeft naar verhouding het meest.
-	</p>
-	
+	</p>	
 </div>
 
-
-
-<!-- opdracht 19 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="19">
 	<h3>Opdracht 19 Slagingspercentage</h3>
 	<p>
 		Op het Kromme Waal College slagen 11 van de 90 leerlingen voor het examen. Van de 83 kandidaten op het Marnix Lyceum slagen er 10.  
@@ -1829,41 +1832,38 @@
 				`11/90 * 100 approx 12,2%`<br>
 				`10/83 * 100 approx 12,0%`<br>
 				Dus op het Kromme Waal College is het slagingspercentage het hoogst. 
-				
-			</div>
+			</p>
+		</div>
 	</div>
 </div>
 
-
-<!-- opdracht 20 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="20">
 	<h3>Opdracht 20 Eiwitten</h3>
 	<p>
 		Op de verpakking van een pak hagelslag staat dat je ongeveer 20 gram hagelslag op één boterham doet. Verder kun je er lezen dat in 100 gram hagelslag 4,9 gram eiwit zit.<br>
-Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 gram chocopasta zit 6,5 gram eiwit.
+		Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 gram chocopasta zit 6,5 gram eiwit.
 	</p>
 	<p>
 		Bereken het verschil in eiwitgewicht tussen een boterham met hagelslag en een boterham met chocopasta. 
 	</p>
 	
 	<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<p class="breuken">
-					Boterham met hagelslag:<br>
-					`20/100 * 4,9 = 0,98` gram eiwit<br>
-					Boterham met chocopasta:<br>
-					`15/100 * 6,5 = 0,975` gram eiwit<br>
-					Het verschil is `0,98 - 0975 = 0,005` gram eiwit.
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<p class="breuken">
+				Boterham met hagelslag:<br>
+				`20/100 * 4,9 = 0,98` gram eiwit<br>
+				Boterham met chocopasta:<br>
+				`15/100 * 6,5 = 0,975` gram eiwit<br>
+				Het verschil is `0,98 - 0975 = 0,005` gram eiwit.
+			</p>
 		</div>
 	</div>
 	
 </div>
 
-
-<!-- opdracht 21 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 21 Kansen (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="21">
+	<h3>Opdracht 21 Kansen (uitdaging)</h3>
 	<p>
 		Kansen worden in het dagelijks taalgebruik helaas vaak uitgedrukt in procenten.<br>Bijvoorbeeld de kans dat 2 op de tien slagen, is `2/10 * 100 = 20%`.
 	</p>
@@ -1904,9 +1904,7 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	
 </div>
 
-
-<!-- theorie H -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieH">
 	<h3>Theorie H Van percentage naar getal</h3>
 
 	<p>
@@ -1930,8 +1928,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -1953,8 +1951,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -1973,8 +1971,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -1996,8 +1994,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ ...</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× ...</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -2016,8 +2014,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× ...<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× ...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -2039,8 +2037,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 26</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 26</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -2059,8 +2057,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 						<thead>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2">÷ 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th colspan="2">× 26<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">÷ 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+								<th colspan="2">× 26<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 								<th></th>
 							</tr>
 						</thead>
@@ -2082,8 +2080,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 						<tfoot>
 							<tr>
 								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
-								<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 26</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
+								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 26</th>
 								<th></th>
 							</tr>
 						</tfoot>	
@@ -2098,9 +2096,7 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		</p>		
 </div>
 
-
-<!-- opdracht 22-->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="22">
 	<h3>Opdracht 22</h3>
 	<p>
 		In een klas van 38 leerlingen is ongeveer 40% een meisje.
@@ -2114,21 +2110,21 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		</li>
 	</ol>
 		
-		<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<ol>
+				<li>
 						`100% - 40% = 60%`<br>
 						De jongens vormen ongeveer 60% van deze klas.
 					</li>
-					<li>
+				<li>
 						<table class="verhouding" style="background-color:white">
 							<thead>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2">÷ 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">× 38<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">÷ 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+									<th colspan="2">× 38<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 									<th></th>
 								</tr>
 							</thead>
@@ -2150,8 +2146,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 							<tfoot>
 								<tr>
 									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
-									<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 38</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 100</th>
+									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 38</th>
 									<th></th>
 								</tr>
 							</tfoot>	
@@ -2161,14 +2157,13 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 							Er zijn 15 meisjes in de klas en 23 jongens. 
 						</p>
 					</li>
+			</ol>
 		</div>
 	</div>
 	
 </div>
 
-
-<!-- opdracht 23-->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="23">
 	<h3>Opdracht 23</h3>
 	<p>
 		Uit een onderzoek naar het woon-werk verkeer onder de medewerkers van de V&D komt naar voren dat 8% lopend naar het werk komt, 62% met de fiets en de rest met het openbaar vervoer.
@@ -2208,13 +2203,10 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	
 </div>
 
-
-
-<!-- opdracht -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 24 Inval politie (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="24">
+	<h3>Opdracht 24 Inval politie (uitdaging)</h3>
 	<p>
-		<img src="afbeeldingen/vaardigheden_leerjaar_2/inval_afbeelding.jpeg" alt="inval_afbeelding" width="250" class="rightfloat" />
+		<img src="afbeeldingen/vaardigheden_leerjaar_2/inval_afbeelding.jpeg" alt="inval_afbeelding" width="250" class="img-responsive img-small" />
 		Bij een inval van de politie in een hennepkwekerij worden 4 personen aangehouden. Naar schatting vormen zij slechts 16% van de organisatie rond de kwekerij.
 	</p>
 	<p>
@@ -2237,15 +2229,12 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	
 </div>
 
-
-
-<!-- theorie C -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieI">
 	<h3>Theorie I Van deel naar geheel</h3>
 	<p>
 		Als je een percentage weet, kun je een geheel berekenen, zie onderstaand voorbeeld.
 	</p>
-	<p><img src="afbeeldingen/vaardigheden_leerjaar_2/garage_afbeelding.jpg" alt="garage_afbeelding" class="rightfloat" width="150" height="" />
+	<p><img src="afbeeldingen/vaardigheden_leerjaar_2/garage_afbeelding.jpg" alt="garage_afbeelding" class="img-responsive img-small" width="150" height="" />
 		In parkeergarage <em>De Vest</em> staan 18 auto's al langer dan een jaar geparkeerd. Deze zogenoemde 'vergeten' auto's nemen 3% van de beschikbare parkeergelegenheid in. <br>
 		Bereken het totale aantal parkeerplaatsen in <em>De Vest</em>.
 	</p>
@@ -2260,8 +2249,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<thead>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2">÷ 3<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-				<th colspan="2">× 100<br><img src="afbeeldingen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">÷ 3<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+				<th colspan="2">× 100<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 				<th></th>
 			</tr>
 		</thead>
@@ -2282,8 +2271,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 		<tfoot>
 			<tr>
 				<th colspan="2"></th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 3</th>
-				<th colspan="2"><img src="afbeeldingen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>÷ 3</th>
+				<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>× 100</th>
 				<th></th>
 			</tr>
 		</tfoot>	
@@ -2298,9 +2287,7 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	</p>
 </div>
 
-
-<!-- opdracht -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="25">
 	<h3>Opdracht 25 Van deel naar totaal</h3>
 	<ol>
 		<li>
@@ -2338,11 +2325,8 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	
 </div>
 
-
-<!-- opdracht -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 26 Totalen (havo/vwo)</h3>
-
+<div class="tekstblok opdracht" id="26">
+	<h3>Opdracht 26 Totalen (uitdaging)</h3>
 	<p>
 		Geef steeds een berekening bij het antwoord. Bedenk naar aanleiding van de vraag, hoe je moet afronden.
 	</p>
@@ -2381,13 +2365,16 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 					Er werd dus ongeveer 7 minuten blessuretijd gegeven (127 - 120).
 				</li>
 			</ol>
+		</div>
 	</div>
-	</div>
-	
 </div>
 
-
-
+<div class="tekstblok opdracht" id="proeftoets">
+	<h3>Proeftoets</h3>
+	<p>
+		Ga naar de map <a href="https://drive.google.com/drive/folders/0B-EzZiYS_HciWDNsS29Xa1lvcDQ" target="_blank">Proeftoetsen leerjaar 2 Wiskunde123</a> en open daar de juiste proeftoets.
+	</p>
+</div>
 
 </div>
 
@@ -2453,3 +2440,58 @@ Volgens de verpakking van chocopasta smeer je 15 gram op één boterham. In 100 
 	</li>	
 </ul>
 </nav>
+			
+			
+			
+			
+			
+			
+			
+<!--	
+	<h3>Inhoud</h3>
+		<p>
+		Procenten:
+		<ol>
+			<li>
+				wat zijn percentages;
+			</li>
+			<li>
+				van procent naar decimaal getal;
+			</li>
+			<li>
+				deel : geheel  x 100 %, hoeveel % is 4 van 10?
+			</li>
+			<li>
+				23,5% van 120 bereken. met factor 0,235 x 120
+			</li>
+			
+		</ol>
+	</p>
+	
+		<p>Doe het via de 1!</p>
+		<ol>
+			<li>
+			Verhoudingstabellen herhalen
+			</li>
+			<li>
+			Zoveel <b>per</b> zoveel
+			</li>
+			<li>
+			Zoveel per honderd (is dus procenten)
+			</li>
+			<li>
+			Zoveel procent van... (gebruik de 1!!!)
+			</li>
+			<li>
+			Vergrotingsfactor (de 1 overslaan)
+			</li>
+			<li>
+			Toepassen
+			</li>
+		</ol>
+			</p>
+			
+		
+		-->			
+
+

@@ -16,7 +16,32 @@ $doorverwijzingen = array(
 
 <title>Leerjaar 3 | Lineaire verbanden vwo)</title>
 
-<!--formeler met toename verticaal / toename horizontaal-->
+<!--
+<div class="tekstblok opdracht" id="opdracht_leeg">
+	<h3>Opdracht </h3>
+	<p>
+
+	</p>
+		
+		<ol>
+			<li>
+				
+			</li>
+		</ol>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+				<ol>
+					<li>
+						
+					</li>
+				</ol>
+			</div>
+	</div>
+</div>
+
+formeler met toename verticaal / toename horizontaal-->
 
 <div class="tekstblok theorie analyse" id="inleiding">
 	<h3>Lineaire verbanden</h3>
@@ -193,7 +218,7 @@ $doorverwijzingen = array(
 	</div>		
 </div>
 
-<div class="tekstblok opdracht" id="opdracht_1">
+<div class="tekstblok opdracht" id="opdracht_2">
 	<p>
 		Formule uit verhaaltje zoals kaars
 	</p>
@@ -266,30 +291,8 @@ $doorverwijzingen = array(
 	</div>	 
 </div>
 
-<div class="tekstblok theorie analyse" id="theorieA">
-	<h3>Theorie Notatie</h3>
-	<p>
-	<div class="row">
-		<div class="col-xs-8">
-		<p>
-			In de assenstelsel zijn de grafieken getekend van de lijnen `l` en `m`.
-		</p>
-		<p>
-			De formule die hoort bij lijn `l` is `y=2x+3` <br>
-			Kort genoteerd is dit `l: y=2x+3`	
-		</p>
-		<p>
-			De formule van de lijn `m` is dus `m: y=-0,5x+6`
-		</p>
-		</div>          
-	<div class="col-xs-4">
-			<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_3/theorie_formele_notatie.png" alt="lineair_verband" width="" height="" />
-	</div>
-		</div>
-	</p>	
-</div>
 
-<div class="tekstblok opdracht" id="opdracht_2">
+<div class="tekstblok opdracht" id="opdracht_3">
 	<h3>Opdracht 2 Formule bij grafiek</h3>
 	<div class="row">
 		<div class="col-xs-7">
@@ -502,48 +505,29 @@ $doorverwijzingen = array(
 <!--formule lijn opstellen-->
 <div class="tekstblok theorie analyse" id="theorie">
 	<h3>De formule van een lijn opstellen</h3>
-	
-			<p>
-				Je kan de formmule van een rechte lijn opstellen als je twee punten hebt. 
-				De punten kunnen gegeven zijn, of je kan ze uit een grafiek halen.
-			</p>
-			<br>
+	<p>
+		Je kunt de formule van een rechte lijn opstellen als je van twee punten de coördinaten weet. Je berekent dan hellings- en startgetal en vult deze in de algemene formule in:<br>
+		`y=ax+b`
+	</p>
+
+	<p>
+		Voorbeeld:<br>
+		Stel de formule op van de lijn `l` door de punten `A(6,10)` en `B(10,20)`<br>
+	</p>
 	<div class="row">
-		<div class="col-xs-6">
+		<div class="col-xs-7">
 			<p>
-				Voorbeeld:<br>
-				Stel de formule op van de lijn `l` door de punten `A(6,10)` en `B(10,20)`<br>
-				<br>
-				Bedenk dat voor een recht lijn geldt: `l: y=ax+b` <br>
-				<br>
-				Bereken eerst het hellingsgetal `a`.<br>
-				`a=\text{verticaal}/\text{horizontaal}` `= (20-10)/(10-6) = 10/4 = 2,5`<br>
-				Dus: `y=2,5x+b`<br>
-				<br>
-				Bereken nu het stargetal:<br>
-				De lijn gaat door `A(6,10)`. Vul dit punt in de formule in om `b` te berekenen.<br>
-				`10=2,5*6+b`<br>
-				`10=15+b`<br>
-				`b=-5`<br>
-				<br>
-				De formule: `l: y=2,5x-5`
+				In een tabel kun je snel de verticale en horizontale toename bepalen door de coördinaten in te vullen. 			</p>
+			<p>
+				Het hellingsgetal is nu `10/4 = 2,5`
 			</p>
 		</div>
-		
-		<div class="col-xs-6">
-			<p>
-				<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_3/theorie_formule_opstellen.png" alt="lineair_verband" width="" height="" />
-			</p>
-		</div>
-	</div>
-			<div class="geeltje">
-				Merk op dat we dit al wisten, alleen we gebruikten de tabel als hulpmiddel!.<br> 
-			
+		<div class="col-xs-5">
 			<table class="verhouding">
 				<thead>
 					<tr>
 						<th colspan="2"></th>
-						<th colspan="2">+ 4<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
+						<th colspan="2">+4<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -562,16 +546,43 @@ $doorverwijzingen = array(
 						<tfoot>
 					<tr >
 						<th colspan="2"></th>
-						<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>+ 10</th>
+						<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>+10</th>
 						<th></th>
 					</tr>
 				</tfoot>	
-				</table>
-				<br>
-			De toename per 4 horizontaal is +10 verticaal. Het hellingsgetal is dus `10/4 = 2,5`
+			</table>
+		</div>
+	</div>		
+	<div class="row">
+		<div class="col-xs-7">
+			<p>
+				Je berekent de verticale toename door de <em>y</em>-waarden van punt <em>A</em> en <em>B</em> van elkaar af te trekken. De horizontale toename bereken je door de <em>x</em>-waarden van punt <em>A</em> en <em>B</em> van elkaar af te trekken.
+			</p>
 			<br>
+			<p>
+				`a=\text{verticale toename}/\text{horizontale toename}`
+				`a=\text{yB-yA}/\text{xB-xA}`<br>
+				`a=(20-10)/(10-6) = 10/4 = 2,5`
+			</p>
+		</div>
+		<div class="col-xs-5">
+			<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_3/theorie_formule_opstellen.png" alt="lineair_verband" width="" height="" />
+		</div>
+	</div>
+	
+
+				<p>
+					Bereken nu het stargetal:<br>
+					De lijn gaat door `A(6,10)`. Vul dit punt in de formule in om `b` te berekenen.<br>
+					`10=2,5*6+b`<br>
+					`10=15+b`<br>
+					`b=-5`<br>
+					<br>
+					De 
+					formule: `y=2,5x-5`
+				</p>
+
 			
-			</div>
 </div>
 
 <div class="tekstblok opdracht" id="opdracht_4">
@@ -580,18 +591,27 @@ $doorverwijzingen = array(
 		<div class="col-xs-7">
 			<p>Bekijk de grafiek van lijn `l`.</p>
 			<ol>
-				
+				<li>
+					Lees twee roosterpunten af.
+				</li>
 				<li>
 					Stel de formule op voor lijn `l`.
 				</li>
 				<li>
 					Bereken <em>y</em> voor <em>x</em> = 12
 				</li>
+				<li>
+					Stel de formule op voor lijn `m` die evenwijdig loopt met `l` en door het punt (10,6) gaat.
+				</li>
+
 			</ol>
 		</div>
 		<div class="col-xs-5">
 			<img src="afbeeldingen/analyse_leerjaar_3/opdracht_3.png">
 		</div>
+		
+		<p>Nienke, havo: tip evenwijdigheid is gelijk hellingsgetal.</p>
+		
 	</div>
 	
 	<div class="hider">
@@ -659,34 +679,7 @@ $doorverwijzingen = array(
 	</div>
 </div>
 
-<div class="tekstblok opdracht" id="opdracht_">
-	<h3>Opdracht  Formule door twee punten</h3>
-			<p>
-				Lijn `m` gaat door de punten `A(9,18)` en `B(16,60)`.
-			</p>
-		<ol>
-				<li>
-					Stel de formule op voor lijn `m`.
-				</li>
-				<li>
-					Bereken `y` voor `x=11`
-				</li>
-		</ol>
-		
-	
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-				<li>
-					
-				</li>
-				
-				</li>
-			</ol>			
-		</div>
-	</div>
-</div>
+
 
 <div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht  Formule bij grafiek</h3>
@@ -702,7 +695,7 @@ $doorverwijzingen = array(
 					Bereken `y` voor `x=32`
 				</li>
 				<li>
-					Bereken `x` voor `y=0`
+					Bereken `y` voor `x=-1 1/2`
 				</li>
 			</ol>
 		</div>
@@ -790,7 +783,7 @@ $doorverwijzingen = array(
 					Bereken `y` voor `x=-4`
 				</li>
 				<li>
-					Bereken `x` voor `y=8`
+					Bereken `y` voor `x=1/3`
 				</li>
 		</ol>
 
@@ -805,6 +798,127 @@ $doorverwijzingen = array(
 	</div>
 </div>
 
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht </h3>
+	<p>Gegeven zijn de punten A(-3,32) en B(7,2).<br>
+		Maak de formule die door beide punten gaat.
+	</p>
+
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<p>
+				Van -3 naar 7 is 10 stappen over de <em>x</em>-as.<br>
+				Van 32 naar 2 is 30 stappen over de <em>y</em>-as omlaag, oftewel -30.<br>
+				Dus `a = (-30)/10 = -3`.<br>
+				Van punt <em>A</em> is 3 stappen op de <em>y</em>-as, dan ook driemaal hellingsgetal voor <em>y</em>-waarde.<br>
+				Dus `b = 32 - 3 * 3 = 23`.<br>
+				Formule: `y=-3x+23`
+			</p>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht Formule opstellen</h3>
+	<p>
+		Gegeven is de formule `y = 7x - 5`.<br>
+		Maak een formule die half zo steil is én door (0, 2) gaat.
+	</p>
+	
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<p>
+				`a = 7/2 = 3 1/2`<br>
+				`b = 2`<br>
+				`y = 3 1/2 x + 2`
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht </h3>
+	<p>
+		Gegeven is de formule `y = 2x + 13`.<br>
+		Maak de formule die driemaal zo steil is én door (-1, -12) gaat.
+	</p>
+	
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<p>
+				Driemaal zo steil dus: `a = 3 * 2 = 6`<br>
+				Vanaf punt (-1, -12) één stap naar rechts en zes omhoog is punt (0, -6).<br>
+				Dat is snijpunt met de <em>y</em>-as, dus startgetal `= -6`.<br>
+				Formule: `y = 6x - 6`
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="tekstblok theorie analyse" id="theorieA">
+	<h3>Theorie Notatie</h3>
+	<p>
+	<div class="row">
+		<div class="col-xs-8">
+		<p>
+			In de assenstelsel zijn de grafieken getekend van de lijnen `l` en `m`.
+			Als we de formules gaan opstellen  moeten we weten welke formule bij welke grafiek hoort.
+		</p>
+		<p>
+			Daarom noteren we de naam van de lijn bij de formule.
+		</p>
+		<p>
+			De formule die hoort bij lijn `l` is `y=2x+3` <br>
+			Kort genoteerd is dit `l: y=2x+3`	
+		</p>
+		<p>
+			De formule van de lijn `m` is dus `m: y=-0,5x+6`
+		</p>
+		</div>          
+	<div class="col-xs-4">
+			<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_3/theorie_formele_notatie.png" alt="lineair_verband" width="" height="" />
+	</div>
+		</div>
+	</p>	
+</div>
+
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht  Formule door twee punten</h3>
+			<p>
+				Lijn `m` gaat door de punten `A(9,18)` en `B(16,60)`.
+			</p>
+		<ol>
+				<li>
+					Stel de formule op voor lijn `m`.
+				</li>
+				<li>
+					Bereken `y` voor `x=11`
+				</li>
+		</ol>
+		
+	
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+			<ol>
+				<li>
+					
+				</li>
+				
+				</li>
+			</ol>			
+		</div>
+	</div>
+</div>
 
 <div class="tekstblok opdracht" id="opdracht_5">
 	<h3>Opdracht 5 Formules maken</h3>
@@ -1010,45 +1124,128 @@ $doorverwijzingen = array(
 	</div>
 </div>
 
-<div class="tekstblok opdracht" id="opdracht_">
-	<h3>Opdracht balansmethode</h3>
-	<p>
-		Los de volgende vergelijkingen op met de <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=a_1thv_vergelijkingen">balansmethode</a> en/of (verwijzing naar taak)bordjesmethode.
-	</p>
-		<ol>
-				<li>
-					`8x+5=29`
-				<li>
-					`8x+7=3x+32`
-				</li>
-				<li>
-					`2(3x-4)=12`
-				</li>					
-				<li>
-					
-				</li>
-				<li>
-					
-				</li>
-				
-		</ol>
 
+<div class="tekstblok opdracht" id="opdracht_8">
+	<h3>Opdracht </h3>
+	<p>
+		Een lineaire vergelijking kun je altijd met de balansmethode oplossen!<br>
+		Als in de vergelijking nog maar één variabele (letter) voorkomt dan kan je een bordje gebruiken.<br>
+		Hieronder staan `6` vergelijkingen.<br>
+	</p>
+	<p>
+		<ol class="numbers">
+			<li>
+				`9(x+16)=72`
+			</li>
+			<li>
+				`5a-43=8a+14`
+			</li>
+			<li>
+				`102-10p=42`
+			</li>
+			<li>
+				`36=-2(3b+1)`
+			</li>
+			<li>
+				`18-4w=w+2`
+			</li>
+			<li>
+				`-6(2t-8)-2=4+3(4-9t)`
+			</li>
+		</ol>
+	</p>
+	<p>	
+		<ol>
+			<li>
+				Welk van de vergelijkingen hierboven kun je met de bordjesmethode oplossen? Los deze vergelijkingen eerst op.
+			</li>
+			<li>
+				Los nu met de balansmethode de andere vergelijkingen op.
+			</li>
+		</ol>
+	</p>
+	
+				
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-		<ol>
-			<li>
-			</li>
-			<li>
-			<li>
-			</li>
-			<li>
-			</li>	
-		</ol>
-		</div>
-	</div>		
+				<ol>
+					<li>
+						
+					</li>
+				</ol>
+			</div>
+	</div>
 </div>
 
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht </h3>
+	<p>
+		Los de volgende vergelijkingen op met de <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=a_2hv_vergelijkingen_oplossen">balansmethode en/of bordjesmethode</a>.
+	</p>
+		<ol>
+			<li>
+				`8x+5=29`
+			</li>
+			<li>
+				`8x+7=3x+32`
+			</li>
+			<li>
+				`2(3x-4)=12`
+			</li>			
+			<p Class="geeltje">
+			Vermenigvuldig de vergelijking met het kleinste gemeenschappelijke veelvoud van de noemers van de breuken.<br>
+			Dus:
+				`5/6 x + 2/3 = 1/2 x - 1/6`<br>
+				Vermenigvuldig alles met 6 (het KGV van 2, 3 en 6)<br>
+				`5x + 4 = 3x - 1`<br>
+				`2x  = - 5`<br>
+				`x  = - 5/2 = -2 1/2`
+			</p>
+			<li>
+				`2/3 x + 3/8 = -2x + 1 1/8`
+			</li>
+			<li>
+				`2 1/2 x - 1/4 = 1 3/4 x + 1 2/3`
+			</li>
+		</ol>
+		
+		
+
+			
+
+		<div class="hider">
+			<div class="showhide">&rarr;</div>
+			<div class="antwoord">
+		<ol>
+			<li>
+
+			</li>
+			<li>
+
+			</li>
+			<li>
+
+			</li>
+			
+			<li>
+				`2/3 x + 3/8 = -2x + 1 1/8`<br>
+				Vermenigvuldig met 24<br>
+				`16 x + 9 = -48x + 27`<br>
+				`64 x  = 18`<br>
+				`x  = 18/64 = 9/32`
+			</li>
+			<li>
+				`2 1/2 x - 1/4 = 1 3/4 x + 1 2/3`<br>
+				Vermenigvuldig alles met 12<br>
+				`30 x - 3 = 21 x + 20`<br>
+				`9 x  = 23`<br>
+				`x  = 23/9 = 2 5/9`
+			</li>
+		</ol>
+			</div>		
+		</div>
+</div>
 
 
 <div class="tekstblok opdracht" id="opdracht_8">
@@ -1069,6 +1266,8 @@ $doorverwijzingen = array(
 				Hoe lang is de gele kaars als deze 4 uur heeft gebrand?
 			</li>
 			<li>
+				Meike blaast de kaars uit als hij nog `8,5` cm is. Hoe lang heeft de kaars gebrand?
+			<li>
 				Stel een formule op waarmee je de lengte van de gele kaars kunt berekenen als je weet hoeveel uur hij heeft gebrand.<br>
 				Gebruik `L` voor lengte kaars in cm en `t` voor tijd in uren.
 			</li>	
@@ -1082,13 +1281,53 @@ $doorverwijzingen = array(
 		<div class="antwoord">
 				<ol>
 					<li>
-						Formule rode grafiek: `y = 4x + 10`
+						
 					</li>
+				</ol>
+			</div>
+	</div>
+</div>
+
+
+<div class="tekstblok theorie analyse" id="theorieA">
+	<h3>Theorie Functievoorschrift</h3>
+	<p>
+		In de opgave met de kaarsen gebruikte je de formule `L=-2t+17`.<br>
+		Je zegt ook wel dat `L` een <b>functie</b> is van `t`.
+		De formule geschreven als <b>functievoorschrift</b> is dan:<br>
+		`L(t)=-2t+17`<br>
+		De `t` tussen de haakjes geeft aan dat `L`, de lengte van de kaars, afhangt van `t`, de tijd in uren.<br>
+		Met `L(5)` bedoel je de waarde van `L` bij `t=5`. Dus:<br>
+		`L(5)=-2*5+17`<br>
+		`L(5)=7`<br>
+		De kaars is na `5` uur branden nog `7` cm hoog.
+	</p>	
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_8">
+	<h3>Opdracht Petjes</h3>
+	<p>
+		Een reclamebedrijf maakt `60 000` autostickers voor het EK 2016. 
+		Het aantal autostickers `a` dat men per dag kan verkopen is afhankelijk van de prijs per autosticker in euro's.
+		Uit ervaring van eerdere EK's weet het bedrijf dat bij benadering de formule `p(a)=7,5-0,001a` geldt.
+		Bij een slecht resultaat van het elftal daalt de verkoop enorm. Daarom wil het bedrijf voor de aanvan van het EK alle `60 000` autostickers verkopen. 
+		De prijs van een autosticker wordt €`5,50`.
+	</p>
+		<ol>
+			<li>
+				Bereken `p(5000)`.
+			<li>
+				Hoeveel dagen voor het begin van het EK moet de verkoop beginnen?
+			</li>
+		</ol>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+				<ol>
 					<li>
-						Formule groene grafiek: `y = 4x + 30`
-					</li>
-					<li>
-						Formule onzichtbare grafiek: `y = 4x + 90`
+						
 					</li>
 				</ol>
 			</div>
@@ -1107,8 +1346,7 @@ $doorverwijzingen = array(
 	</p>
 		<ol>
 			<li>
-			<li>
-				Stel een formule op waarmee je de maandelijkse gaskosten kunt berekenen als je weet hoeveel m<sup>3</sup> gas hij heeft afgenomen.<br>
+				Stel een functievoorschrift op waarmee je de maandelijkse gaskosten kunt berekenen als je weet hoeveel m<sup>3</sup> gas hij heeft afgenomen.<br>
 				Gebruik `K` voor  kosten in euro's en `a` voor hoeveelheid gas in m<sup>3</sup>.
 			</li>
 			<li>
@@ -1116,6 +1354,9 @@ $doorverwijzingen = array(
 			</li>
 			<li>
 				Wat betaalt meneer Mans voor het gebruik van de meter?
+			</li>
+			<li>
+				Bereken `K(1750)`
 			</li>
 		</ol>
 		<p>
@@ -1129,7 +1370,6 @@ $doorverwijzingen = array(
 				Als we letten op het verbruik van `2015` welk advies geef je Mans dan?
 			</li>
 		</ol>
-
 </div>
 
 <div class="tekstblok theorie analyse" id="theorieA">
@@ -1160,7 +1400,8 @@ $doorverwijzingen = array(
 			  Ga na dat voor t=5 de vergelijking waar is. `t=5` heet <b>oplossing van de vergelijking</b>.
 		</p>
 		<p class="geeltje">
-		Let op: Je hebt geleerd vergelijkingen op te lossen met de balansmethode!
+		Let op: Een lineaire vergelijking kun je altijd met de balansmethode oplossen!<br>
+		Als in de vergelijking nog maar één variabele (letter) voorkomt dan kan je een bordje gebruiken.
 		</p>
 		</div>          
 		<div class="col-xs-4">
@@ -1300,6 +1541,160 @@ $doorverwijzingen = array(
 	</div>		
 </div>
 
+<div class="tekstblok opdracht" id="opdracht_leeg">
+	<h3>Opdracht </h3>
+	<p>
+		De jaarlijkse kosten K (in euro) voor het rijden met een auto met benzinemotor bestaan uit:
+
+   		<ol class="numbers">
+   			<li>
+   				Brandstofkosten `B` (in euro).
+   			</li>
+   			<li>
+   				Onderhoud (in euro).
+   			</li>
+   			<li>
+   				Overige vaste kosten voor afschrijving, APK-keuring, wegenbelasting en verzekering (in euro).
+   			</li>
+   		</ol>
+			Mevrouw Jansen heeft een auto die ze voor haar werk gebruikt. Gemiddeld verbruikt haar auto 8 liter benzine per 100 gereden kilometer en 
+			is de benzineprijs € 1,75 per liter. `a` is het aantal gereden km per jaar.
+	</p>
+		<ol>
+			<li>
+				Stel een formule op voor B afhankelijk van a.
+			</li>
+		</ol>
+	<p>
+		In de totale autokosten K moeten ook de overige kosten worden verwerkt. Mw. Jansen schat de onderhoudskosten op € 0,01 per km. 
+		En de overige vaste kosten op € 2500,= per jaar.
+	</p>
+		<ol start="2">
+			<li>
+				Stel nu een formule op voor K afhankelijk van a.
+			</li>
+		</ol>
+	<p>
+		Van haar werkgever krijgt Mw Jansen een kilometervergoeding van € 0,19 per werkkilometer.
+	</p>
+		<ol start="3">
+			<li>
+				Bereken bij welke aantallen gereden kilometer per jaar mw. Jansen geld over houdt van haar kilometervergoeding.
+			</li>
+		</ol>
+
+	<p>
+		Opgave komt uit math4all.nl
+	</p>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+				<ol>
+					<li>
+						
+					</li>
+				</ol>
+			</div>
+	</div>
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht </h3>
+	<p>
+		In de zeventiger jaren van de vorige eeuw bestonden er verschillende tarieven voor het gebruik van aardgas. 
+		(Voor het gemak zijn de bedragen omgerekend in euro). In het Westland werd als volgt betaald:<br>
+		<ol class="numbers">
+			<li>
+				bij een jaarverbruik tot 600 m3 gas : vaste kosten € 21,= per jaar en daarbij € 0,13 per verbruikte m3 gas;
+			</li>
+			<li>
+			    bij een jaarverbruik vanaf 600 m3 gas : vaste kosten € 48,= per jaar en daarbij € 0,08 per verbruikte m3 gas;
+			 </li>
+		</ol>
+	</p>
+
+		<ol>
+			<li>
+				Teken een grafiek van de jaarlijkse kosten `K` voor een gasverbruik `a` lopend van `0` tot `1500` m<sup>3</sup>.
+			</li>
+		</ol>
+	<p>
+		De grafiek van K valt in twee delen uiteen. Voor elk van die delen zijn de jaarlijkse kosten `K` een lineaire functie van `a`, 
+		de hoeveelheid verbruikte m<sup>3</sup> gas.
+	</p>
+		<ol start="2">
+			<li>
+				Geef voor elk van die lineaire functies een formule.
+			</li>
+			<li>
+				Een tuinder die aan de meterstand zag dat hij op een jaarverbruik van ongeveer 590 m3 uit zou komen, ging gas afbranden, 
+				dus onnodig extra gas verbruiken. Waarom deed hij dat?
+			</li>
+			<li>
+				Vanaf welk jaarverbruik leverde toen het onnodig meer gas verbruiken toch een besparing op?
+			</li>
+			<li>
+				Welke prijsmaatregelen kon het gasbedrijf nemen om onnodig gas verbruiken te voorkomen?
+			</li>
+		</ol>
+
+	<p>
+		Opgave uit math4all.nl
+	</p>
+
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+				<ol>
+					<li>
+						
+					</li>
+				</ol>
+			</div>
+	</div>
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht (uitdaging)</h3>
+	<p>
+		`300` brugklassers bestellen via school een rekenmachine. Er zijn twee soorten rekenmachines toegestaan, soort A van € 15,= en soort B van € 12,=. 
+		Dat kost in totaal € 4320,=. Je wilt weten hoeveel rekenmachines van elke soort er zijn gekocht.
+	</p>
+	<ol>
+		<li>
+			Noem `a` het aantal rekenmachines van soort A en `b` dat van soort B. Welke twee formules gelden er?
+		</li>
+		<li>
+			De grafieken bij deze twee formules zijn rechte lijnen. Bereken het snijpunt van deze lijnen.
+		</li>
+		<li>
+			Hoeveel rekenmachines van elke soort heeft de school besteld?
+		</li>
+	</ol>
+
+	<p>
+		Opgave uit math4all.nl
+	</p>
+		
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+				<ol>
+					<li>
+						
+					</li>
+				</ol>
+			</div>
+	</div>
+</div>
+
+
+
+<!--Theorie nulpunt-->
 <div class="tekstblok theorie analyse" id="theorieA">
 	<h3>Theorie  Nulpunt</h3>
 	<div class="row">
@@ -1312,9 +1707,8 @@ $doorverwijzingen = array(
 			 <br>
 			 met `h` de lengte van de kaars in cm en `t` de tijd in uren.<br>
 			 <br>
-			  De rode kaars lijkt in de grafiek na 5 uur helemaal op. Dat is het punt waarin h=0. 
+			  Je kan berkenen na hoeveel uur de rode kaars is opgebrand. Dat is het punt waarin h=0. 
 			  Dit punt heet een <FONT color="red"><b>nulpunt</b></FONT>. 
-			  Om zeker te weten of dit ook echt het geval is gebruik je formule van de rode kaars. 
 			  Je lost op `h=0` dus `20−4t=0`.<br>
 			  <br>
 			  Bij het berekenen van het nulpunt stel je de formule gelijk aan nul. De oplossing van deze vergelijking is het nulpunt.
@@ -1404,13 +1798,45 @@ $doorverwijzingen = array(
 </div>
 
 
-<div class="tekstblok opdracht" id="opdracht_10">
-	<h3>Opdracht Badkuip loopt leeg </h3>
-	<p><!--4hb h1 blz 18-->
-	</p>
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht Aquarium </h3>
+	<div class="row">
+		<div class="col-xs-8">
+		<p>
+			In een aquarium staat het water `40`cm hoog. Het aquarium wordt leeg gehaald. Hierbij stroomt het water met een constante snelheid weg.
+			Na 10 minuten is het aquarium helemaal leeg.
+		<ol>
+			<li>
+				Stel de fomrule op die het verband weergeeft tussen de waterhoogte `h` in cm en de tijd `t` in minuten.
+			</li>
+			<li>
+				Hoe hoog staat het water na 7 minuten>
+			</li>
+			<li>
+				Hoe lang duur het voordat het bad voor de helft is leeg gelopen?
+			</li>
+		</ol>
+
+		</div>
+	
+		<div class="col-xs-4">
+			<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_3/aquarium.png" alt="lineair_verband" width="" height="" />
+		</div>
+	</div>
+
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+		<p>
+			
+		</p>
+		
+		</div>
+	</div>		
 </div>
 
-<div class="tekstblok opdracht" id="opdracht_10">
+
+<div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht 10 Reparatiekosten </h3>
 	<p>
 		Meneer van Beest wil graag zijn schuurtje laten ombouwen tot kantoor. 
@@ -1455,7 +1881,7 @@ $doorverwijzingen = array(
 </div>
 
 
-<div class="tekstblok opdracht" id="opdracht_11">
+<div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht 11 Grind </h3>
 	<p>
 		Mevrouw van Overeem wil graag grind laten storten op haar oprit. 
@@ -1494,8 +1920,10 @@ $doorverwijzingen = array(
 	</div>		
 </div>
 
+
+
 <div class="tekstblok opdracht" id="opdracht_">
-	<h3>Opdracht leuk en uitdagend:verjaardagsraadsel </h3>
+	<h3>Opdracht verjaardagsraadsel (Uitdaging)</h3>
 	<div class="row">
 		<div class="col-xs-8">
 		<ol>
@@ -1538,28 +1966,58 @@ $doorverwijzingen = array(
 <div class="tekstblok theorie analyse" id="theorieA">
 	<h3>Theorie  Ongelijkheden</h3>
 	<p>
-		Vespa rent verhuurt scooters voor 7 euro per dag met een startbedrag van 4 euro.<br>
+		Vespa Rent verhuurt scooters voor 7 euro per dag met een startbedrag van 4 euro.<br>
 		Scootah verhuurt scooters voor 5 euro per dag met een startbedrag van 10 euro.<br>
 		<br>
 		Tot nu zijn we steeds bezig geweest met de vraag:<br>
 		Bij hoeveel dagen huren zijn de twee verhuurbedrijven even duur?<br>
 		Daarvoor los je de vergelijking `7d+4=5d+10` op.
-		<br>
-		Peter wil een scooter huren voor `4` dagen. Welk verhuurbedrijf moet hij kiezen?
-		Het is natuurlijk veel interessanter om te weten wanneer Vespa rent duurder is dan, dus ongelijk is aan, Scootah.
-		Hiervoor los je de <b>ongelijkheid</b> `7d+4>5d+10` op.
+	</p>
+	<p>
+		Peter wil een scooter huren voor `2` dagen. Welk verhuurbedrijf moet hij kiezen? Je berekent wat het bij beide bedrijven kost.<br>
+		Bij Vespa Rent kost het: `7*2+4=18` dus `18` euro.<br>
+		Bij Scootah kost het: `5*2+10=20` dus `20` euro.<br>
+		Peter is goedkoper uit bij Vespa Rent.
+	</p>
+	<p>		
+		Hoe berekenen we nu het omslagpunt? Dus vanaf wanneer is Scootah goedkoper dan Vespa?<br>
+		Hiervoor los je de <b>ongelijkheid</b> `7d+4>5d+10` op. <br>
 		<br>
 		Oplossing ongelijkheid:<br>
 		`7d+4>5d+10`<br>
 		`2d>6`<br>
 		`d>3`<br>
 		<br>
-		Dus Vespa Rent is duurder dan Scootah als ik meer dan 3 dagen een scooter huur.<br>
-		Peter kan dus het best zijn sooter huren bij verhuurbedrijf Scootah.
+		Dus Scootah is goedkoper dan Vespa Rent als ik meer dan 3 dagen een scooter huur.<br>
+		Peter kan dus het best zijn sooter huren bij verhuurbedrijf Vespa Rent.
 	</p>
 	<p>
 		Bekijk de volgende instructiefilm.
 		<iframe width="600" height="338" src="https://www.youtube.com/embed/VCkilZ2bmlc" frameborder="0" allowfullscreen></iframe>
+	</p>
+	<p>
+		Er zijn vier verscillende ongelijktekens:<br>
+		`x`&ge;`5` betekent `x` is groter of gelijk aan `5`<br>
+		`x`&le;`5` betekent  `x` is kleiner of gelijk aan `5`<br>
+		`x>5` betekent `x` is groter dan `5`<br>
+		`x<5` betekent `x` is kleiner dan `5`<br>
+	</p>
+	<p>
+		Werkschema: het oplossen van lineaire ongelijkheden<br>
+		<ol class="numbers">
+			<li>
+				Werk haakjes en breuken weg.
+			</li>
+			<li>
+				Breng alle termen met `x` naar links, de rest naar rechts.
+			</li>
+			<li>
+				Herleid beide kanten van het =-teken.
+			</li>
+			<li>
+				Deel beide kanten door het getal dat voor `x` staat. 
+			</li>
+		</ol>
 	</p>
 </div>
 
@@ -1575,15 +2033,17 @@ $doorverwijzingen = array(
 					`8x+7<3x+32`
 				</li>
 				<li>
-					
+					`7(x+4)&ge;2x+19`
 				</li>					
 				<li>
-					
+					`3 1/2x-12>3x+8`
 				</li>
 				<li>
-					
+					`5 1/2(2x+3)&le;9x+2`
 				</li>
-				
+				<li>
+					`2 1/3(1/2 x+ 3/4)<1/12 x +2 1/2`
+				</li>
 		</ol>
 
 	<div class="hider">
@@ -1613,12 +2073,17 @@ $doorverwijzingen = array(
 	</p>
 	<ol>
 		<li>
-			
+			Hoe kan je zien welk bedrijf bij hele kleine klussen goedkoper is en welk bedrijf bij grote klussen? Tip: maak een schets van de grafieken!
 		</li>
 		<li>
-			
+			Stel de ongelijkheid op waarmee je kunt berekenen vanaf hoeveel uur bedrijf A goedkoper is dan bedrijf B?
 		</li>
-		
+		<li>
+			Los de ongelijkheid op.
+		</li>
+		<li>
+			Hoe lang moet een klus duren om voor bedrijf A te kiezen? Geef je antwoord in minuten nauwkeurig.
+		</li>
 		
 	</ol>
 	
@@ -1725,6 +2190,75 @@ $doorverwijzingen = array(
 		</div>
 	</div>		
 </div>
+
+
+<div class="tekstblok theorie analyse" id="theorieA">
+	<h3>Theorie  Ongelijkheden 2</h3>
+	<p>
+		Bekijk de volgende instructiefilm.
+		<iframe width="600" height="338" src="https://www.youtube.com/embed/t9SpvcA3ffY" frameborder="0" allowfullscreen></iframe>
+	</p>
+	<p>
+		Werkschema: het oplossen van lineaire ongelijkheden<br>
+		<ol class="numbers">
+			<li>
+				Werk haakjes en breuken weg.
+			</li>
+			<li>
+				Breng alle termen met `x` naar links, de rest naar rechts.
+			</li>
+			<li>
+				Herleid beide kanten van het =-teken.
+			</li>
+			<li>
+				Deel beide kanten door het getal dat voor `x` staat. Als dit een negatief getal is, moet je het teken > of < omklappen.<br>
+				Bedenk: -8<7 maar als we beiden door -1 delen staat er 8<-7 en dit is niet waar! Dus teken omklappen: 8>-7.
+			</li>
+		</ol>
+	</p>
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht droge ongelijkheden</h3>
+	<p>
+		Los de volgende ongelijkheden op. 
+	</p>
+		<ol>
+				<li>
+					`5(x+2)>9x-2(x-5)`
+				<li>
+
+				</li>
+				<li>
+					
+				</li>					
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				
+		</ol>
+
+	<div class="hider">
+		<div class="showhide">&rarr;</div>
+		<div class="antwoord">
+		<ol>
+			<li>
+			</li>
+			<li>
+			<li>
+			</li>
+			<li>
+			</li>	
+		</ol>
+		</div>
+	</div>		
+</div>
+
+
 
 <div class="tekstblok theorie analyse" id="theorieA">
 	<h3>Theorie  Som/verschil grafieken</h3>
@@ -1839,8 +2373,86 @@ $doorverwijzingen = array(
 </div>
 
 
+
 <div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht Somformule</h3>
+
+		<div class="row">
+			<div class="col-xs-7">
+			<p>
+				Hiernaast zie je de grafiek van de functie `l: y= x` en `k: y=3`
+			</p>
+			<ol>
+				<li>
+					Neem de tabel over en vul hem in:
+					<br>
+					<table class="verhouding" >
+						<tr>
+							<td>`x`</td>
+							<td>0</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>`x`</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>`3`</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>somgrafiek</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+					</table>
+					<br>
+				</li>
+				<li>
+					Stel met behulp van de tabel de formule op voor de somgrafiek.
+				</li>
+				<li>
+					Vergelijk de formules van de lijnen `l` en `m` met de formule van de somgrafiek.<br>
+					Wat valt je op?
+				</li>
+			</ol>
+			</div>
+			<div class="col-xs-5">
+			<p>
+				<img src="afbeeldingen/analyse_leerjaar_3/introductie_somformule_makkelijk.png" width="50px">
+			</p>
+			</div>
+		</div>
+</div>
+
+<div class="tekstblok theorie analyse" id="theorieA">
+	<h3>Theorie  Translaties</h3>
+	<p>
+		Als je bij een lineaire grafiek de horizontale lijn `y=4` optelt, verschuift de grafiek `4` omhoog. <br>
+		Het hellingsgetal blijft gelijk alleen het startgetal veranderd.	
+	</p>
+</div>
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht Verschilformule</h3>
 
 		<div class="row">
 			<div class="col-xs-7">
@@ -1880,7 +2492,7 @@ $doorverwijzingen = array(
 							<td>...</td>
 						</tr>
 						<tr>
-							<td>somgrafiek</td>
+							<td>verschilgrafiek</td>
 							<td>...</td>
 							<td>...</td>
 							<td>...</td>
@@ -1892,11 +2504,11 @@ $doorverwijzingen = array(
 					<br>
 				</li>
 				<li>
-					Stel met behulp van de tabel de formule op voor de somgrafiek.
+					Stel met behulp van de tabel de formule op voor de verschilgrafiek.
 				</li>
 				<li>
-					Vergelijk de formules van de lijnen `l` en `m` met de formule van de somgrafiek.<br>
-					Wat valt je op?
+					Vergelijk de formules van de lijnen `l` en `m` met de formule van de verschilgrafiek.<br>
+					Wat valt je op als je naar de grafieken kijkt?
 				</li>
 			</ol>
 			</div>
@@ -1906,1816 +2518,176 @@ $doorverwijzingen = array(
 			</p>
 			</div>
 		</div>
-
-		
-
 </div>
 
 <div class="tekstblok theorie analyse" id="theorieA">
 	<h3>Theorie  Som/verschil formule</h3>
 	<p>
-		Stel de somformule op van <FONT color="red">`l: y=2x+5`</FONT> en <FONT color="green">`m: y=4x+3`</FONT><br>
-		<br>
-		Voor het opstellen van de somformule tel je de formules van de twee grafieken bij elkaar op.<br>
+		Stel de somformule op van <FONT color="red">`l(x)=2x+5`</FONT> en <FONT color="green">`m(x)=4x+3`</FONT>
+	</p>
+	<p>
+		Voor het opstellen van de <b>somformule</b > `s(x)` tel je de formules van de twee grafieken bij elkaar op.<br>
 		Dus somformule:<br>
-		`s = `<FONT color="red"> `l`</FONT>`+` <FONT color="green">`m`</FONT> <br>
-		`s: y= `<FONT color="red">`2x + 5`</FONT> `+`  <FONT color="green">`4x + 3`</FONT><br>
-		`s: y= 6x + 8`
+		`s(x)= `<FONT color="red"> `l(x)`</FONT>`+` <FONT color="green">`m(x)`</FONT> <br>
+		`s(x)= `<FONT color="red">`2x + 5`</FONT> `+`  <FONT color="green">`4x + 3`</FONT><br>
+		`s(x)= 6x + 8`
+	</p>
+	<p>
+		Voor het opstellen van de <b>verschilformule</b > `v(x)` trek je de formules van de twee grafieken van elkaar af.<br>
+		Er zijn twee verschilformules:<br>
+	</p>
+	<p>
+		<div class="row">
+			<div class="col-xs-6">
+			
+				`l(x)-m(x)`<br>
+				`2x+5-(4x+3)`<br>
+				`2x+5-4x-3`<br>
+				Dus verschilformule:<br>
+				`v(x)=-2x+2`
+			</div>
+			<div class="col-xs-6">
+			
+				`m(x)-l(x)`<br>
+				`4x+3-(2x+5)`<br>
+				`4x+3-2x-5`<br>
+				Dus verschilformule:<br>
+				`v(x)=2x-2`
+			</div>
+		</div>
+	</p>
+	<p>	
+		Let op dat het belangrijk is om bij verschilformules haakjes te gebruiken!
 	</p>
 </div>
 
 <div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht Somformule</h3>
+	<p>
+		Stel steeds de formule op van de somformule.
+	</p>
+	<ol>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+	</ol>
+</div>
+
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht Verschilformule</h3>
+	<p>
+		Stel steeds de formule op van de verschilformule.
+	</p>
+	<ol>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+	</ol>
+</div>
+
+<div class="tekstblok opdracht" id="opdracht_">
+	<h3>Opdracht Som/Verschilformules</h3>
+	<p>
+		Gegeven zijn de functies:<br>
+		`f(x)=3x+8`<br>
+		`g(x)=-5x+3`<br>
+		`h(x)=1 1/2 x-3`
+
+	</p>
+	<ol>
+		<li>
+			Bereken `f(x)+g(x)`
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+	</ol>
 </div>
 
 <div class="tekstblok opdracht" id="opdracht_">
 	<h3>Opdracht Verschilformule</h3>
 	<p>
 		olie 2014 vmbot examen
+		De totale hoeveelheid geproduceerde olie in de wereld zal volgens deskundigen na het jaar 2015 afnemen.  
+		Je kunt in de grafiek aflezen dat er in 2015 volgens de verwachting van de deskundigen 4000 miljoen ton olie 
+		geproduceerd zal worden en in 2040 nog maar 1500 miljoen ton. 
+		<img src="afbeeldingen/analyse_leerjaar_3/olie.png" width="50px">
 	</p>
+	<ol>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+	</ol>
+	<p>
+		De landen waarin olie geproduceerd wordt, gebruiken een deel van de olie zelf. In de grafiek zie je het 
+		eigen gebruik van olie van één van deze landen in de afgelopen jaren. Bij deze grafiek hoort een lineair verband.
+		<img src="afbeeldingen/analyse_leerjaar_3/olie_lineair.png" width="50px">
+	</p>
+	<ol start="3">
+		<li>
+			Geef een formule die hoort bij de grafiek. Neem voor het aantal jaren na 2000 de letter t
+ 			en voor het eigen gebruik in duizend tonnen de letter G.  
+		</li>
+		<li>
+
+		</li>
+		<li>
+
+		</li>
+	</ol>
+	<p>
+		     Hieronder zie je de grafiek van het eigen gebruik nogmaals. In 
+		     hetzelfde assenstelsel staat ook de grafiek van de hoeveelheid olie die 
+		     het land geproduceerd heeft. Ook bij deze grafiek hoort een lineair verband. 
+			 De geproduceerde olie die overbleef na eigen gebruik werd door dit land 
+			 verkocht aan het buitenland. 
+			 <img src="afbeeldingen/analyse_leerjaar_3/olie_somgrafiek.png" width="50px">
+	</p>
+	<ol start="5">
+		<li> Moet: Stel formule op van .. en daarmee formule voor hoeveelheid olie die verkocht werd..
+  			Teken op de uitwerkbijlage de grafiek van de hoeveelheid olie die 
+			tussen 2000 en 2008 aan het buitenland verkocht werd.  
+		</li>
+	</ol>
+	
 </div>
 
-<div class="tekstblok theorie analyse" id="theorieA">
-	<h3>Theorie  Translaties</h3>
-	<p>
-		horizontale verschuiving is somformule met lijn `y=5`<br>
-		Vermenigvuldigen t.o.v. de x-as vwo
-	</p>
-</div>
+
 
 <!--nog bekijken-->
 
 
 
 
-<div class="tekstblok opdracht" id="opdracht_9">
-	<h3>Opdracht  Formule opstellen</h3>
-	<p>
-		We gaan de formule opstellen van lijn <em>l</em> die gaat door de punten A(0,8) en B(3,23).
-	</p>
-	<ol>
-		<li>
-			Neem de tabel over en vul in: 
-		<table class="verhouding">
-			<tr><td ><em>x</em></td><td>...</td><td>...</td></tr>
-			<tr><td><em>y</em></td><td>...</td><td>...</td></tr>
-		</table>
-		</li>
-		<li>
-			Neem over en vul in:<br>
-			`l: y=ax+b`
-		</li>
-	</ol>
-		
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
 
-		<ol>
-			<li>
-				<table class="verhouding">
-					<tr><td ><em>x</em></td><td>0</td><td>5</td></tr>
-					<tr><td><em>y</em></td><td>14</td><td>-6</td></tr>
-				</table>
-			</li>
-			<li><br>
-				<img src="afbeeldingen/analyse_leerjaar_2/opdracht_17.png" width="250px">
-			</li>
-			</ol>
-	</div>
-	</div>
-</div>
-
-<div class="tekstblok theorie analyse" id="theorieB">
-	<h3>Theorie B Van tabel naar formule</h3>
-		<p>
-		</p>
-	</div>
-
-
-	
-
-
-<div class="tekstblok opdracht" id="opdracht_9">
-	<h3>Opdracht 9 Zonder grafiek</h3>
-	<p>
-		Bepaal de formule bij de volgende tabel:
-	</p>
-	<div class="table-responsive verhouding">
-		<table class="verhouding" >
-			<tbody>
-				<tr class="borderbottom">
-					<td><em>x</em></td>
-					<td colspan="2">0</td>
-					<td colspan="2">3</td>
-					<td colspan="2">6</td>
-					<td colspan="2">9</td>
-				</tr>
-				<tr>
-					<td><em>y</em></td>
-					<td colspan="2">28</td>
-					<td colspan="2">22</td>
-					<td colspan="2">16</td>
-					<td colspan="2">10</td>
-				</tr>			
-			</tbody>	
-		</table>
-	</div>
-	<ol>
-		<li>
-			Bepaal het startgetal.
-		</li>
-		<li>
-			Bepaal het hellingsgetal.
-		</li>
-		<li>
-			Vul de getallen in in de standaardformule.
-		</li>
-		<li>
-			Bereken <em>y</em> voor <em>x</em> = 13.
-		</li>
-	</ol>
-	
-	<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
-						<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>x</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">3</td>
-									<td colspan="2">6</td>
-									<td colspan="2">9</td>
-								</tr>
-								<tr>
-									<td><em>y</em></td>
-									<td colspan="2">28</td>
-									<td colspan="2">22</td>
-									<td colspan="2">16</td>
-									<td colspan="2">10</td>
-								</tr>			
-							</tbody>
-							<tfoot>
-								<tr>
-									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>- 6</th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>- 6</th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>- 6</th>
-									<th></th>
-								</tr>
-							</tfoot>	
-						</table>
-					</div>
-					</li>
-					<li>
-						startgetal = 28
-					</li>
-					<li>
-						Over de <em>y</em>-as: van 28 naar 22 is -6 stappen<br>
-						over de <em>x</em>-as: van 0 naar 3 is 3 stappen<br>
-						`-6 : 3 = -2`<br>
-						hellingsgetal = -2
-					</li>
-					<li>
-						`y=-2x+28`
-					</li>
-					<li>
-						Als `x = 13`, dan:<br> 
-						`y = -2 &times; 13 + 28 = 2`
-					</li>
-				</ol>
-		
-			</div>
-		</div>		 
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_10">
-	<h3>Opdracht 10 Formules maken</h3>
-	<p>
-		
-		Bepaal de formules bij de tabellen.
-	
-	</p>
-	<div class="row">
-		<div class="col-md-6">
-			<ol>
-				<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>a</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">4</td>
-									<td colspan="2">8</td>
-								</tr>
-								<tr>
-									<td><em>B</em></td>
-									<td colspan="2">16</td>
-									<td colspan="2">24</td>
-									<td colspan="2">32</td>
-								</tr>			
-							</tbody>	
-						</table>
-					</div>
-				</li>
-				<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>g</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">5</td>
-									<td colspan="2">10</td>
-								</tr>
-								<tr>
-									<td><em>S</em></td>
-									<td colspan="2">-8</td>
-									<td colspan="2">7</td>
-									<td colspan="2">22</td>
-								</tr>			
-							</tbody>	
-						</table>
-					</div>
-				</li>
-			</ol>
-		</div>
-		<div class="col-md-6">
-			<ol start="3">
-				<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>p</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">10</td>
-									<td colspan="2">20</td>
-								</tr>
-								<tr>
-									<td><em>q</em></td>
-									<td colspan="2">95</td>
-									<td colspan="2">45</td>
-									<td colspan="2">-5</td>
-								</tr>			
-							</tbody>	
-						</table>
-					</div>
-				</li>
-				<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>x</em></td>
-									<td colspan="2">-8</td>
-									<td colspan="2">-4</td>
-									<td colspan="2">0</td>
-								</tr>
-								<tr>
-									<td><em>y</em></td>
-									<td colspan="2">1</td>
-									<td colspan="2">2</td>
-									<td colspan="2">3</td>
-								</tr>			
-							</tbody>	
-						</table>
-					</div>
-				</li>
-			</ol>			
-		</div>
-	</div>
-			
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<div class="row">
-				<div class="col-md-6">
-					<ol>
-						<li>
-							hellingsgetal = `8/4 = 2`<br>
-							`B=2a+16`
-						</li>
-						<li>
-							hellingsgetal = `15/5 = 3`<br>
-							`S= 3g - 8`
-						</li>
-					</ol>
-				</div>
-				<div class="col-md-6">
-					<ol start="3">
-						<li>
-							hellingsgetal = `-50/10 = -5`<br>
-							`q=-5p+95`
-						</li>
-						<li>
-							hellingsgetal = `1/4`<br>
-							`y= 1/4 x + 3`
-						</li>
-					</ol>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-<div class="tekstblok opdracht" id="opdracht_12">
-	<h3>Opdracht 12 Startgetal onbekend</h3>
-	<ol>
-		<li>
-			Neem de tabel hieronder over, <b>maar</b> maak hem aan de voorkant 
-			langer zodat ook boven in de tabel het getal 0 komt te staan!
-			<div class="table-responsive verhouding">
-				<table class="verhouding">
-					<tbody>
-						<tr class="borderbottom">
-							<td><em>w</em></td>
-							<td colspan="2">10</td>
-							<td colspan="2">15</td>
-							<td colspan="2">20</td>
-						</tr>
-						<tr>
-							<td><em>B</em></td>
-							<td colspan="2">350</td>
-							<td colspan="2">300</td>
-							<td colspan="2">250</td>
-						</tr>			
-					</tbody>
-				</table>
-			</div>
-		</li>
-		<li>
-			Maak de formule bij de tabel.
-		</li>
-	
-	</ol>
-		
-	<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding">
-							<thead>
-								<tr>
-									<th colspan="2"></th>
-									<th colspan="2">+ 5<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">+ 5<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">+ 5<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">+ 5<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>w</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">5</td>
-									<td colspan="2">10</td>
-									<td colspan="2">15</td>
-									<td colspan="2">20</td>
-								</tr>
-								<tr>
-									<td><em>B</em></td>
-									<td colspan="2"><span id="startgetal">450</span></td>
-									<td colspan="2">400</td>
-									<td colspan="2">350</td>
-									<td colspan="2">300</td>
-									<td colspan="2">250</td>
-								</tr>			
-							</tbody>
-							<tfoot>
-								<tr >
-									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">- 50</span></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">- 50</span></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">- 50</span></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">- 50</span></th>
-									<th></th>
-								</tr>
-							</tfoot>	
-						</table>
-					</div>	
-					</li>
-					<li>
-						<em>Hellingsgetal</em> = `(-50)/5 = -10`<br>
-						<em>Startgetal</em> = `450`<br>
-						`B=-10w+450`
-				</li>
-				</ol>
-			</div>
-		</div>	
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_13">
-	<h3>Opdracht 13 Formule maken mix</h3>
-	<p>
-		Maak de formules bij de volgende tabellen. 
-	</p>	
-	<ol>
-		<li>
-			<table class="verhouding">
-				<tbody>
-					<tr class="borderbottom">
-						<td><em>u</em></td>
-						<td colspan="2">1</td>
-						<td colspan="2">2</td>
-						<td colspan="2">3</td>
-						<td colspan="2">4</td>	
-					</tr>
-					<tr>
-						<td><em>N</em></td>
-						<td colspan="2">7</td>
-						<td colspan="2">10</td>
-						<td colspan="2">13</td>
-						<td colspan="2">16</td>
-					</tr>			
-				</tbody>
-			</table>
-		</li>
-		<li>
-			<table class="verhouding">
-				<tbody>
-					<tr class="borderbottom">
-						<td><em>x</em></td>
-						<td colspan="2">4</td>
-						<td colspan="2">6</td>
-						<td colspan="2">8</td>
-						<td colspan="2">10</td>	
-					</tr>
-					<tr>
-						<td><em>y</em></td>
-						<td colspan="2">120</td>
-						<td colspan="2">80</td>
-						<td colspan="2">40</td>
-						<td colspan="2">0</td>
-					</tr>			
-				</tbody>
-			</table>
-		</li>
-	</ol>
-	
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-				<li>
-					`N=3u+4`
-				</li>
-				<li>
-					`y=-20x +200`
-				</li>
-			</ol>
-		</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_14">
-	<h3>Opdracht 14 Formules maken bij grafieken</h3>
-	<p>Hieronder zie je een assenstelsel met twee grafieken:</p>
-	<p><img src="afbeeldingen/analyse_leerjaar_2/regelmaat_9.png" width="500px"></p>
-	<ol>
-		<li>
-			Hieronder zie je de tabel die hoort bij de rode grafiek. Neem over en vul hem in:<br>
-			<TABLE class= "verhouding">
-				<TR>
-					<TD><em>t</em> in uren</TD><TD>0</TD><TD>4</TD><TD>8</TD>
-				</TR>
-				<TR>
-					<TD><em>T</em> in graden celsius</TD><TD></TD><TD></TD><TD></TD>
-				</TR>
-			</TABLE>
-		</li>
-		<li>
-			Waarom staat er in de bovenste rij bij het derde vakje x = 4 en niet bijvoorbeeld x = 2? Tip: Kijk naar je grafiek!
-		</li>
-	</ol>
-	<p>
-		Om de waarden precies te kunnen aflezen, kiezen we voor roosterpunten. De coördinaten van die roosterpunten zetten we in de tabel. Met behulp van die tabel kunnen we de formule van een grafiek bepalen.
-	</p>
-	<ol start="3">
-		<li>
-			Zoek in de blauwe grafiek twee roosterpunten en schrijf deze op:<br>(0, ...) en (..., ...).
-		</li>
-		<li>
-			Neem de tabel hieronder over en vul hem in.<br>
-			<TABLE class= "verhouding">
-				<TR>
-					<TD><em>t</em> in uren</TD><TD></TD><TD></TD>
-				</TR>
-				<TR>
-					<TD><em>T</em> in graden celsius</TD><TD></TD><TD></TD>
-				</TR>
-			</TABLE>
-		</li>
-		<li>
-			Bereken voor de rode en de blauw grafiek het hellingsgetal en startgetal.
-		</li>
-		<li>
-			Maak voor iedere grafiek de formule. Let op: welke letters staan er bij de assen?
-		</li>
-	</ol>
-
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-				<li>
-					<div class="table-responsive verhouding">
-						<table class="verhouding" >
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>t</em> in uren</td>
-									<td colspan="2">0</td>
-									<td colspan="2">4</td>
-									<td colspan="2">8</td>
-								</tr>
-								<tr>
-									<td><em>T</em> in graden Celsius</td>
-									<td colspan="2">5</td>
-									<td colspan="2">10</td>
-									<td colspan="2">25</td>
-								</tr>			
-							</tbody>
-						</table>
-					</div>
-				</li>
-				<li>
-					Bij `t=4` hoort het roosterpunt (4, 10). Je kunt dus precies aflezen welke `T`-waarde erbij hoort!
-				</li>
-				<li>
-					(`0,20`) en (`10,-10`). Het tweede roosterpunt kan bij jou verschillen. Dan zijn de berekeningen hieronder ook anders. Het hellingsgetal zou wel hetzelfde moeten zijn.
-				</li>
-				<li>
-					<TABLE class= "verhouding">
-						<TR>
-							<TD><em>t</em> in uren</TD><TD>0</TD><TD>10</TD>
-						</TR>
-						<TR>
-							<TD><em>T</em> in graden celsius</TD><TD>20</TD><TD>-10</TD>
-						</TR>
-					</TABLE>
-				</li>
-				<li>
-					<em>Hellingsgetal</em>:<br>
-					rood `= 5/4 = 1,25`<br>
-					blauw `=(-30)/10 = -3`<br>
-					<br>
-					<em>Startgetal</em><br>
-					rood `= 5`<br>
-					blauw `=20`
-				</li>
-				<li>
-					Formules:<br>
-					rood: `T = 1,25t+5`<br>
-					blauw: `T = -3t+20`
-				</li>
-			</ol>
-			
-		</div>
-	</div>
-</div>
-
-
-
-<div class="tekstblok opdracht" id="opdracht_15">
-	<h3>Opdracht 15 Formules maken </h3>
-	<p>
-		Hieronder zie je een assenstelsel met een rode en een groene grafiek.
-	</p>
-	<img class="img-responsive" src="afbeeldingen/analyse_leerjaar_2/zelfde_startgetal.png">
-	<br>
-	<div class="row">
-		<div class="col-sm-6">
-				<ol>
-					<li>
-						Neem over en vul in:<br>
-						<div class="table-responsive verhouding">
-								<table class="verhouding">
-									<thead>
-										<tr>
-											<th colspan="2"></th>
-											<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-											<th></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="borderbottom">
-											<td><em>x</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>
-										<tr>
-											<td><em>y</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>			
-									</tbody>
-									<tfoot>
-										<tr >
-											<th colspan="2"></th>
-											<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-											<th></th>
-										</tr>
-									</tfoot>	
-								</table>
-							</div>
-						<em>Startgetal</em> rode grafiek = ...<br>
-						<em>Hellingsgetal</em> rode grafiek = ...<br>
-						Formule rode grafiek: <em>y</em> = .....
-					</li>
-				</ol>
-			</div>
-		<div class="col-sm-6">
-				<ol start="2">
-					<li>
-						Neem over en vul in:<br>
-						<div class="table-responsive verhouding">
-								<table class="verhouding">
-									<thead>
-										<tr>
-											<th colspan="2"></th>
-											<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-											<th></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="borderbottom">
-											<td><em>x</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>
-										<tr>
-											<td><em>y</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>			
-									</tbody>
-									<tfoot>
-										<tr >
-											<th colspan="2"></th>
-											<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-											<th></th>
-										</tr>
-									</tfoot>	
-								</table>
-							</div>
-						<em>Startgetal</em> groene grafiek = ...<br>
-						<em>Hellingsgetal</em> groene grafiek = ...<br>
-						Formule rode grafiek: <em>y</em> = .....
-					</li>
-				</ol>
-			</div>
-	</div>
-
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-				<p>
-					Kies in je tabellen sowieso punt (0, 5). Het tweede punt naar eigen inzicht.
-				</p>
-				<ol>
-					<li>
-						Formule rode grafiek: `y =2x+5`
-					</li>
-					<li>
-						Formule groene grafiek: `y = -5x+5`	
-					</li>
-				</ol>
-			</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_16">
-	<h3>Opdracht 16 Formules maken</h3>
-	<p>
-		Hieronder zie je een assenstelsel met een rode en een groene grafiek.
-	</p>
-	<img class="img-responsive" src="afbeeldingen/analyse_leerjaar_2/zelfde_hellingsgetal.png">
-	<br>
-	<div class="row">
-		<div class="col-sm-6">
-			<ol>
-				<li>
-						Neem over en vul in:<br>
-						<div class="table-responsive verhouding">
-								<table class="verhouding">
-									<thead>
-										<tr>
-											<th colspan="2"></th>
-											<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-											<th></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="borderbottom">
-											<td><em>x</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>
-										<tr>
-											<td><em>y</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>			
-									</tbody>
-									<tfoot>
-										<tr >
-											<th colspan="2"></th>
-											<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-											<th></th>
-										</tr>
-									</tfoot>	
-								</table>
-							</div>
-						<em>Startgetal</em> rode grafiek = ...<br>
-						<em>Hellingsgetal</em> rode grafiek = ...<br>
-						Formule rode grafiek: <em>y</em> = .....
-					</li>
-			</ol>
-		</div>
-		<div class="col-sm-6">
-			<ol start="2">
-				<li>
-						Neem over en vul in:<br>
-						<div class="table-responsive verhouding">
-								<table class="verhouding">
-									<thead>
-										<tr>
-											<th colspan="2"></th>
-											<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-											<th></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="borderbottom">
-											<td><em>x</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>
-										<tr>
-											<td><em>y</em></td>
-											<td colspan="2">...</td>
-											<td colspan="2">...</td>
-										</tr>			
-									</tbody>
-									<tfoot>
-										<tr >
-											<th colspan="2"></th>
-											<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-											<th></th>
-										</tr>
-									</tfoot>	
-								</table>
-							</div>
-						<em>Startgetal</em> groene grafiek = ...<br>
-						<em>Hellingsgetal</em> groene grafiek = ...<br>
-						Formule rode grafiek: <em>y</em> = .....
-					</li>
-			</ol>
-		</div>
-	</div>
-	<ol start="3">
-		<li>
-			Een derde lijn is niet zichtbaar in het assenstelsel. De lijn snijdt de `y`-as in punt (0, 90) en loopt evenwijdig aan de groene en rode lijn.<br>
-			Geef de formule van deze lijn.
-		</li>
-	</ol>
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-				<ol>
-					<li>
-						Formule rode grafiek: `y = 4x + 10`
-					</li>
-					<li>
-						Formule groene grafiek: `y = 4x + 30`
-					</li>
-					<li>
-						Formule onzichtbare grafiek: `y = 4x + 90`
-					</li>
-				</ol>
-			</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_17">
-	<h3>Opdracht 17 Formules maken</h3>
-	<p>
-			Hieronder zie je een assenstelsel met drie grafieken:
-		</p>
-	<img class="img-responsive" src="afbeeldingen/analyse_leerjaar_2/regelmaat_8.png" >
-	<p>
-			Maak bij iedere grafiek de formules. Je mag gebruik maken van de tabellen.
-		</p>
-	<br>
-	<div class="row">
-			<div class="col-sm-4">
-				<p>Groene grafiek</p><br>
-					<div class="table-responsive verhouding">
-						<table class="verhouding">
-							<thead>
-								<tr>
-									<th colspan="2"></th>
-									<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>...</em></td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-								</tr>
-								<tr>
-									<td><em>...</em></td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-								</tr>			
-							</tbody>
-							<tfoot>
-								<tr >
-									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-									<th></th>
-								</tr>
-							</tfoot>	
-					</table>
-				</div>		
-			</div>
-			<div class="col-sm-4">
-				<p>Rode grafiek</p><br>
-				
-							<div class="table-responsive verhouding">
-								<table class="verhouding">
-						<thead>
-							<tr>
-								<th colspan="2"></th>
-								<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="borderbottom">
-								<td><em>...</em></td>
-								<td colspan="2">...</td>
-								<td colspan="2">...</td>
-							</tr>
-							<tr>
-								<td><em>...</em></td>
-								<td colspan="2">...</td>
-								<td colspan="2">...</td>
-							</tr>			
-						</tbody>
-						<tfoot>
-							<tr >
-								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-								<th></th>
-							</tr>
-						</tfoot>	
-					</table>
-							</div>
-						
-			</div>
-			<div class="col-sm-4">
-				<p>Blauwe grafiek</p><br>
-				
-							<div class="table-responsive verhouding">
-								<table class="verhouding">
-						<thead>
-							<tr>
-								<th colspan="2"></th>
-								<th colspan="2">...<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-								<th></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="borderbottom">
-								<td><em>...</em></td>
-								<td colspan="2">...</td>
-								<td colspan="2">...</td>
-							</tr>
-							<tr>
-								<td><em>...</em></td>
-								<td colspan="2">...</td>
-								<td colspan="2">...</td>
-							</tr>			
-						</tbody>
-						<tfoot>
-							<tr >
-								<th colspan="2"></th>
-								<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br><span id="hellingsgetal">...</span></th>
-								<th></th>
-							</tr>
-						</tfoot>	
-					</table>
-							</div>
-						
-			</div>
-		</div>
-
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<p>
-				Startgetal:<br>
-				groen = `-2`<br>
-				rood = `1`<br>
-				blauw = `3`
-			</p>
-			<p>	
-				Hellingsgetal:<br>
-				<TABLE class= "verhouding">
-						<TR>
-							<TD><em>x</em></TD><TD>0</TD><TD>1</TD>
-						</TR>
-						<TR>
-							<TD><em>y groen</em></TD><TD>-2</TD><TD>2</TD>
-						</TR>
-						
-				</TABLE><br>
-				<em>Hellingsgetal</em> groene grafiek = `4/1 = 4`<br>
-				<br>
-				<TABLE class= "verhouding">
-						<TR>
-							<TD><em>x</em></TD><TD>0</TD><TD>3</TD>
-						</TR>
-						<TR>
-							<TD><em>y rood</em></TD><TD>1</TD><TD>2</TD>
-						</TR>
-						
-				</TABLE><br>
-				<em>Hellingsgetal</em> rode grafiek = `1/3 = 1/3`<br>
-				<br>
-				<TABLE class= "verhouding">
-						<TR>
-							<TD><em>x</em></TD><TD>0</TD><TD>2</TD>
-						</TR>
-						<TR>
-							<TD><em>y blauw</em></TD><TD>3</TD><TD>2</TD>
-						</TR>
-				</TABLE><br>
-				<em>Hellingsgetal</em> blauwe grafiek = `(-1)/2 = -1/2`<br>
-			</p>
-			<p>
-				groen: `y = 4x - 2`<br>
-				rood: `y = 1/3 x + 1`<br>
-				blauw: `y = -1/2 x + 3`
-			</p>	
-		</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht">
-	<h3>Opdracht 18 Formules maken</h3>
-	<p>
-		Hieronder zie je een assenstelsel met twee grafieken:
-	</p>
-	<img class="img-responsive" src="afbeeldingen/analyse_leerjaar_2/opgave_stijn_hatice.png">
-	<p>In de grafieken kan je aflezen hoeveel Stijn en Hatice met hun bijbaantje verdienen.</p>
-
-	<ol>
-		<li>
-			Noteer voor iedere grafiek het startgetal.
-		</li>
-		<li>
-			Bereken voor iedere grafiek het hellingsgetal. Je mag een tabel gebruiken. 
-		</li>
-		<li>
-			Maak voor iedere grafiek de formule. Door naar de assen te kijken, weet je welke letters je moet gebruiken in de formules.
-		</li>
-		<li>
-			Bij hoeveel uur werken verdienen Hatice en Stijn evenveel?
-		</li>
-		<li> 
-			Hoeveel hebben ze dan samen verdiend?
-		</li>
-	</ol>
-	<p>
-		Voor het goede doel werken Stijn en Hatice zo lang mogelijk.<br>
-		Ze houden het beiden 20 uur vol.<br>
-	</p>
-	<ol start="6">
-		<li>
-			Gebruik de formules om te berekenen hoeveel Hatice en Stijn <b>samen</b> verdienen voor het goede doel.<br>
-		</li>
-		<li>
-			Maak een formule waarmee je in één keer kunt uitrekenen hoeveel ze samen verdienen.
-		</li>
-	</ol>
-
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-				<li>
-					<em>Startgetal</em>:<br>
-					Stijn `=10`<br>
-					Hatice `=5`
-				</li>
-				<li>
-					<TABLE class= "verhouding">
-							<TR>
-								<TD><em>tijd</em></TD><TD>0</TD><TD>4</TD>
-							</TR>
-							<TR>
-								<TD><em>Inkomsten Stijn</em></TD><TD>10</TD><TD>15</TD>
-							</TR>
-							<TR>
-								<TD><em>Inkomsten Hatice</em></TD><TD>5</TD><TD>15</TD>							</TR>
-						</TABLE><br>
-					<em>Hellingsgetal</em> Stijn = `5/4 = 1,25`<br>
-					<em>Hellingsgetal</em> Hatice = `10/4 = 2,5`<br>
-				</li>
-				<li>
-					`I` <sub>Stijn</sub> `=1,25t+10`<br>
-					`I` <sub>Hatice</sub> `=2,5t+5`
-				</li>
-				<li>
-					Bij 4 uur werken.
-				</li>
-				<li>
-					Ze hebben dan elk € 15,- verdiend. Samen € 30,-.
-				</li>
-				<li>
-					`I` <sub>Stijn</sub> `=1,25`&sdot;`20+10`<br>
-					`I` <sub>Stijn</sub> `=25+10 = 35`<br>
-					<br>
-					`I` <sub>Hatice</sub> `=2,5`&sdot;`20+5`<br>
-					`I` <sub>Hatice</sub> `=50+5 = 55`<br>
-					<br>
-					Samen verdienen ze: `35 + 55 = 90` euro.
-				</li>
-				<li>
-					Tel de start- en hellingsgetallen bij elkaar op.<br>
-					Startgetal = 10 + 5 = 15 <br>
-					Hellingsgetal = 1,25 + 2,5 = 3,75<br>
-					`I` <sub>samen</sub> `=3,75t + 15`
-				</li>
-			</ol>
-		</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_19">
-	<h3>Opdracht 19 Kaarsen</h3>
-	<p>
-		Stel bij beide grafieken de formule op waarin het verband wordt uitgedrukt tussen de lengte van de kaars en de tijd.
-	</p>
-	<br>
-	<img src="../afbeeldingen/analyse_leerjaar_2/blauwe_kaars_groene_kaars.png" alt="blauwe_kaars_groene_kaars">
-	<br>
-	
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<p>
-				Formule bij <em>Blauwe kaars</em>:<br>
-				`l = -5u + 20`<br>
-				Met <em>l</em> voor de <em>lengte in cm</em> en <em>u</em> voor de <em>tijd in uren</em>.
-			</p>
-			<p>
-				Formule bij <em>Groene kaars</em>:<br>
-				`l = -6u + 30`<br>
-				Met <em>l</em> voor de <em>lengte in cm</em> en <em>u</em> voor de <em>tijd in uren</em>.
-			</p>
-		</div>
-		</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_20">
-	<h3>Opdracht 20 Op tijd?</h3>
-	<p>
-		Hannah moet 15 kilometer fietsen naar school. Daar doet ze precies 1 uur over. <br>
-		Als Hannah een 20 minuten weg is, merkt haar vader dat ze haar tas vergeten is. Hij springt direct op zijn scooter en probeert haar in te halen.
-		Zijn scooter rijdt 30 km/uur. 
-	</p>
-	<p>
-		Je gaat onderzoeken of de vader van Hannah op tijd is om Hannah de tas te bezorgen voor ze bij school arriveert.<br>
-		Je kan daarbij de volgende vragen/tips als hulp gebruiken:<br>
-		<ul>
-			<li>Hoe laat is Hannah op school?</li>
-			<li>Kan ik de gegevens in een grafiek zetten?</li>
-		</ul>
-	</p>
-	<p>
-		Wil je wat hulp? Kijk eens bij de <a href="index_taken.php?p=a_2t_lineaire_verbanden#uitdaging">vmbo-t versie</a> voor meer tussenstappen.
-	</p>
-
-	<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
-						-
-					</li>
-					<li>
-						Voor Hannah geldt: bij 	`t=0` hoort `A=0`
-					</li>
-					<li>
-						Voor Hannah geldt: bij `t=60` hoort `A=15`
-					</li>
-					<li>
-						<TABLE class= "verhouding">
-							<TR>
-								<TD><em>t in minuten</em></TD><TD>0</TD><TD>60</TD>
-							</TR>
-							<TR>
-								<TD><em>A Hannah in kilometers</em></TD><TD>0</TD><TD>15</TD>
-							</TR>
-						</TABLE><br>
-					</li>
-					<li><br>
-						<img src="afbeeldingen/analyse_leerjaar_2/Hannah_1_grafiek.png" width="300px">	
-					</li>
-					<li>
-						Hannah is om 09.00 uur op school.
-					</li>
-					<li>
-						Voor vader geldt: bij `t=20` hoort `A=0`
-					</li>
-					<li>
-						Maak een verhoudingstabel:<br>
-						Zet de snelheid in het eerste vakje en werk via "`1`".
-						 <table class="verhouding" style="background-color:white">
-							<thead>
-								<tr>
-									<th colspan="2"></th>
-									<th colspan="2">: 60<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th colspan="2">x 10<br><img src="afbeeldingen/algemeen/lrpijlboven.png" height="10px" class="centerfloat"></th>
-									<th></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>Minuten</em></td>
-									<td colspan="2">60</td>
-									<td colspan="2">1</td>
-									<td colspan="2">10</td>
-								</tr>
-								<tr>
-									<td><em>Kilometers</em></td>
-									<td colspan="2">30</td>
-									<td colspan="2">0,5</td>
-									<td colspan="2">5</td>
-								</tr>			
-							</tbody>
-							<tfoot>
-								<tr >
-									<th colspan="2"></th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>: 60</th>
-									<th colspan="2"><img src="afbeeldingen/algemeen/lrpijlonder.png" height="10px" class="centerfloat"><br>x 10</th>
-									<th></th>
-								</tr>
-							</tfoot>	
-							</table>
-						</li>							
-						<li>
-							<TABLE class= "verhouding">
-										<TR>
-											<TD><em>t in minuten</em></TD><TD>20</TD><TD>30</TD>
-										</TR>
-										<TR>
-											<TD><em>A vader in kilometers</em></TD><TD>0</TD><TD>5</TD>
-										</TR>
-							</TABLE><br>
-						</li>
-						<li><br>
-							<img src="afbeeldingen/analyse_leerjaar_2/Hannah_2_grafiek.png" width="300px">	
-						</li>
-						<li>
-							Vader haalt Hannah in op `t=40`. Hannah heeft dan 10 kilometer gefietst. Vader is dus op tijd want ze moet nog 5 kilometer fietsen naar school.
-						</li>
-					</ol>							
-		</div>
-		</div>
-</div>
-
-<div class="tekstblok theorie analyse" id="theorieD">
-	<h3>Theorie D Grafieken tekenen met behulp van een tabel</h3>
-	<p>	
-		De grafiek bij een lineair verband is het rechte lijn. Voor het tekenen van deze grafiek heb je slechts twee punten nodig. Het is overzichtelijk om die twee punten in een tabel te zetten.
-	</p>
-	<p>
-		Als voorbeeld wordt de grafiek van de formule `N = 2 1/2 u - 3` getekend.
-	</p>
-	<table class="table">
-			<tbody>
-				<tr>
-					<th>
-						<u>Stap 1:</u><br>
-					</th>
-					<td>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Maak een tabel met twee invoer- en uitvoerwaarden. Zodat er twee coördinatenparen ontstaan.
-						<br>
-						Kies je waarden voor <em>u</em> dusdanig dat de waarden van <em>N</em> mooi uitkomen, bijvoorbeeld 0 en 2.
-
-					</td>
-					<td>
-						<table class="verhouding">
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>u</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">2</td>
-								</tr>
-								<tr>
-									<td><em>N</em></td>
-									<td colspan="2"><span id="startgetal">-3</span></td>
-									<td colspan="2">2</td>
-								</tr>			
-							</tbody>
-						</table>
-						<br>
-						<p class="geeltje">
-							`x=0` geeft het snijpunt met de <em>y</em>-as.
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<th>
-						<u>Stap 2:</u>
-					</th>
-					<td>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Maak van de getallen uit de tabel coördinatenparen.
-					</td>
-					<td>
-						(0, -3) en (2, 2)
-					</td>
-				</tr>
-				<tr>
-					<th>
-						<u>Stap 3:</u>
-					</th>
-					<td>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Bepaal per as de stapgrootte en de lengte. Maak het assenstelsel en benoem de beide assen. 
-						<br>
-						Zet de punten in het assenstelsel en trek een <b>rechte</b> lijn door de punten (geodriehoek). Zet de formule bij de lijn. 
-					</td>
-					<td>
-						<img class="img-responsive" src="../afbeeldingen/analyse_leerjaar_2/grafiek_Nis2komma5umin3.png" alt="grafiek_Nis2komma5umin3" id="small-img" />
-					</td>
-				</tr>
-			</tbody>
-		</table>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_21">
-	<h3>Opdracht 21 Grafieken tekenen</h3>
-		<p>
-		Teken de grafiek van de formule `y = 4x + 6` met behulp van een tabel.
-	</p>
-	<ol>
-		<li>Neem de tabel over en vul in: 
-			<table class="verhouding">
-				<tr><td ><em>x</em></td><td>0</td><td>5</td></tr>
-				<tr><td><em>y</em></td><td>...</td><td>...</td></tr>
-			</table>
-		</li>
-		<li>
-			Waarom is het genoeg om in de tabel maar twee waarden voor `x` te gebruiken?
-		</li>
-		<li>
-			Waarom is het handig om als eerste waarde in de tabel `x=0` te kiezen?
-		</li>			
-		<li>
-			Waarom is het niet handig om als tweede waarde `x=1` te kiezen?
-		</li>
-		<li>
-			Teken de grafiek bij de formule. Maak daarvoor eerst een geschikt assenstelsel.
-		</li>
-	</ol>
-		
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-		<div class="row">
-			<div class="col-xs-7">
-				<ol>
-					<li>
-						<table class="verhouding">
-							<tr><td ><em>x</em></td><td>0</td><td>5</td></tr>
-							<tr><td><em>y</em></td><td>6</td><td>26</td></tr>
-						</table>
-					</li>
-					<li>Je hoeft maar twee waarden voor `x` te gebruiken omdat de grafiek een rechte lijn wordt.</li>
-					<li>`x = 0` rekent makkelijk, je hebt gelijk het startgetal en het snijpunt met de <nobr><em>y</em>-as: (0, 6)</nobr>.</li>
-					<li>Omdat de twee punten dan heel dicht tegen elkaar zitten in het assenstelsel. Het is dan lastiger om de lijn nauwkeurig te tekenen.</li>
-				</ol>
-			</div>
-			<div class="col-xs-5">
-				<ol start="5">
-					<li>
-						<br>
-						<img src="afbeeldingen/analyse_leerjaar_2/opdracht_16.png" width="150px">
-					</li>
-				</ol>
-			</div>
-		</div>
-	</div>
-	</div>
-</div>
-
-
-<div class="tekstblok opdracht" id="opdracht_23">
-	<h3>Opdracht 23 Grafieken tekenen</h3>
-	<p>
-		Teken de grafiek van de formule `y=-4 + 1/3 x` met behulp van een tabel.
-	</p>
-	<ol>
-		<li>Neem de tabel over en vul in: 
-		<table class="verhouding">
-			<tr><td ><em>x</em></td><td>0</td><td>12</td></tr>
-			<tr><td><em>y</em></td><td>...</td><td>...</td></tr>
-		</table>
-	</li>
-		<li>
-		Waarom is het handig om als tweede waarde `x=12` te kiezen?
-	</li>
-		<li>
-		Teken de grafiek bij de formule. Maak daarvoor eerst een geschikt assenstelsel.
-	</li>
-	</ol>
-		
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-		<ol>
-			<li>
-				<table class="verhouding">
-					<tr><td ><em>x</em></td><td>0</td><td>12</td></tr>
-					<tr><td><em>y</em></td><td>-4</td><td>0</td></tr>
-				</table>
-			</li>
-			<li>Omdat je dan op een heel getal, dus een roosterpunt uitkomt. En op de `x`-as.</li>
-			<li><br>
-				<img src="afbeeldingen/analyse_leerjaar_2/opdracht_18.png" width="350px">
-			</li>
-		</ol>
-	</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_24">
-		<h3>Opdracht 24 Grafiek tekenen</h3>
-		<p>
-			Teken de grafiek van de formule `y = 14 - 4x` met behulp van een tabel.
-		</p>
-		<ol>
-			<li>Neem de tabel over en vul in: 
-				<table class="verhouding">
-					<tbody>
-						<tr class="borderbottom">
-							<td><em>x</em></td>
-							<td colspan="2">0</td>
-							<td colspan="2">...</td>	
-						</tr>
-						<tr>
-							<td><em>y</em></td>
-							<td colspan="2"><span id="startgetal">...</span></td>
-							<td colspan="2">...</td>
-						</tr>			
-					</tbody>
-				</table>
-			</li>
-			<li>
-				Teken de grafiek bij de formule. Maak daarvoor eerst een geschikt assenstelsel.
-			</li>
-		</ol>
-		
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-				<li>
-					<table class="verhouding">
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>x</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">5</td>	
-								</tr>
-								<tr>
-									<td><em>y</em></td>
-									<td colspan="2"><span id="startgetal">14</span></td>
-									<td colspan="2">-6</td>
-								</tr>			
-							</tbody>
-						</table>
-				</li>
-				<li>
-					<img src="afbeeldingen/analyse_leerjaar_2/opdracht_17.png" width="250px">
-				</li>
-			</ol>
-		</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_25">
-	<h3>Opdracht 25 Grafiek tekenen</h3>
-	<p>
-		We gaan de grafiek van de volgende formule tekenen:<br>
-		`y=-3/5x + 2`
-	</p>
-		<ol>
-			<li>Neem de tabel over en vul in: 
-				<table class="verhouding">
-					<TR><TD ><mi>x</mi></TD><TD><mn></mn></TD><TD><mi></mn></TD></TR>
-					<TR><TD><mi>y</mi></TD><TD></TD><TD></TD></TR>
-				</TABLE>
-			</li>
-			<li>
-				Teken de grafiek bij de formule. Maar daarvoor eerst een geschikt assenstelsel.
-			</li>
-			</ol>
-		<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-
-				<ol>
-					<li>
-						<table class="verhouding">
-							<TR><TD ><mi>x</mi></TD><TD><mn>0</mn></TD><TD><mi>10</mn></TD></TR>
-							<TR><TD><mi>y</mi></TD><TD>2</TD><TD>-4</TD></TR>
-						</TABLE>
-					</li>
-					<li><br>
-						<img src="afbeeldingen/analyse_leerjaar_2/opdracht_21.png" width="350px">
-					</li>
-				</ol>
-			</div>
-		</div>
-	</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_26">
-	<h3>Opdracht 26 Grafieken tekenen</h3>
-	<p>
-		Teken de grafiek van de formule `y = 2/3x + 7` met behulp van een tabel.
-	</p>
-	<ol>
-		<li>Neem de tabel over en vul in: 
-		<TABLE class="verhouding">
-			<TR class="borderbottom"><TD><mi>x</mi></TD><TD><mn></mn></TD><TD><mn></mn></TD></TR>
-			<TR><TD><mi>y</mi></TD><TD></TD><TD></TD></TR>
-		</TABLE>
-	</li>
-		<li>
-		Waarom is het handig om als tweede waarde een veelvoud van drie te kiezen?
-	</li>
-		<li>
-		Teken de grafiek bij de formule. Maar daarvoor eerst een geschikt assenstelsel.
-	</li>
-	</ol>
-		
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-
-				<ol>
-					<li>
-						<table class="verhouding">
-								<TR class="borderbottom">
-									<TD><mi>x</mi></TD><TD><mn>0</mn></TD><TD><mn>9</mn></TD>
-								</TR>
-								<TR>
-									<TD><mi>y</mi></TD><TD>7</TD><TD>13</TD>
-								</TR>
-						</TABLE>
-					</li>
-					<li>
-						Omdat je dan een heel getal voor <em>y</em> krijgt. Hele waarden kun je nauwkeuriger in je assenstelsel tekenen.
-					</li>
-					<li>
-						<br>
-						<img src="afbeeldingen/analyse_leerjaar_2/grafiek_opdracht_26.png"  width="400px">
-					</li>
-				</ol>
-
-			</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_27">
-	<h3>Opdracht 27 Grafieken tekenen</h3>
-	<p>
-		Teken de grafiek bij de volgende formule:<br>
-		`y=2/7x - 5`
-	</p>	
-	<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-
-			<ol>
-				<li><TABLE FRAME="void" RULES="all"  width="200px" style="text-align: center">
-							<TR><TD ><mi>x</mi></TD><TD><mn>0</mn></TD><TD><mi>70</mn></TD></TR>
-							<TR><TD><mi>y</mi></TD><TD>-5</TD><TD>15</TD></TR></TABLE></li>
-				<li><br><img src="afbeeldingen/analyse_leerjaar_2/grafiek_opdracht20.png" width="400px"></li>
-			</ol>
-
-		</div>
-	</div>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_28">
-		<h3>Opdracht 28 Kaars</h3>
-		<p>
-			Lara heeft een kaars van 30 cm lang.<br>
-			Ieder uur dat de kaars brandt, wordt de kaars 2 cm korter.
-		</p>
-		<ol>
-			<li>
-				Maak de formule bij het verband af:<br>
-				<em>lengte kaars in cm</em> = ......... – ......... x <em>brandtijd in uren</em>
-			</li>
-			<li>
-				Toon aan met een berekening dat de kaars na 15 uur is opgebrand.
-			</li>
-		</ol>
-				
-				<div class="row">
-					<div class="col-xs-6">
-					<ol start="3">
-						<li>
-							Vul de tabel in en teken de grafiek bij het verband.<br>
-						<table class="verhouding">
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>brandtijd</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-									<td colspan="2">15</td>	
-								</tr>
-								<tr>
-									<td><em>lengte</em></td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-									<td colspan="2">...</td>
-								</tr>			
-							</tbody>
-						</table><br>
-						</li>
-						<li>
-							Hoe kun je aan de tabel zien dat het verband tussen de brandtijd en de lengte een lineair verband is? En hoe in de grafiek?
-						</li>
-					</ol>
-					</div>
-					<div class="col-xs-6">
-					<img src="../afbeeldingen/analyse_leerjaar_2/assenstelsel_kaars_van_30cm.png" alt="assenstelsel_kaars_van_30cm" id="small=img" />
-					</div>
-				</div>
-			
-		
-		<div class="hider">
-		<div class="showhide">&rarr;</div>
-		<div class="antwoord">
-			<ol>
-			<li>
-				Maak de formule bij het verband af:<br>
-				<em>lengte kaars in cm</em> = 30 – 2 x <em>brandtijd in uren</em>
-			</li>
-			<li>
-				<em>lengte kaars in cm</em> = 30 – 2 x <em>15</em><br>
-				<em>lengte kaars in cm</em> = 30 - 30 = 0
-			</li>
-			<li>
-				Vul de tabel in en teken de grafiek bij het verband.<br>
-				<div class="row">
-					<div class="col-xs-6">
-						<table class="verhouding">
-							<tbody>
-								<tr class="borderbottom">
-									<td><em>brandtijd</em></td>
-									<td colspan="2">0</td>
-									<td colspan="2">5</td>
-									<td colspan="2">10</td>
-									<td colspan="2">15</td>	
-								</tr>
-								<tr>
-									<td><em>lengte</em></td>
-									<td colspan="2">30</td>
-									<td colspan="2">20</td>
-									<td colspan="2">10</td>
-									<td colspan="2">0</td>
-								</tr>			
-							</tbody>
-						</table>
-					</div>
-					<div class="col-xs-6">
-					<img src="../afbeeldingen/analyse_leerjaar_2/grafiek_kaars_van_30cm.png" alt="assenstelsel_kaars_van_30cm" id="small=img" />
-					</div>
-				</div>
-			</li>
-			<li>
-				In de tabel is er regelmaat: per 5 uur wordt de kaars 10 cm korter. De grafiek is een rechte lijn. Denk nog even als ezelsbruggetje aan de liniaal (lineair) waarmee je een rechte lijn trekt. 
-			</li>
-		</ol>
-		</div>
-	</div>
-	</div>
-
-<div class="tekstblok opdracht" id="opdracht_29">
-	<h3>Opdracht 29 Abonnementen</h3>
-	<p>
-		<em>Belsnel</em> en <em>Goedbellen</em> zijn aanbieders van mobiele telefonie.
-	</p>
-	<p>
-		Bij <em>Belsnel</em> betaal je per minuut € 0,10 en is er een vast tarief van € 15,-. <br>Bij <em>Goedbellen</em> is het vaste tarief € 10,- en betaal je per minuut € 0,20.
-	</p>
-	<ol>
-		<li>
-			Maak één passend assenstelsel over en teken beide grafieken in dat assenstelsel.
-		</li>
-		<li>
-			Maak bij beide aanbieders de formule waarmee je de belkosten kunt uitrekenen.
-		</li>
-		<li>
-			Tamira zoekt een abonnement, ze belt ongeveer 120 minuten per maand. Welke aanbieder zou jij haar aanraden? Licht je antwoord toe.
-		</li>
-	</ol>
-								
-		<div class="hider">
-		<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
-						<table class="verhouding">
-					<tbody>
-						<tr class="borderbottom">
-							<td><em>belminuten</em></td>
-							<td colspan="2">0</td>
-							<td colspan="2">20</td>
-							<td colspan="2">40</td>
-							<td colspan="2">60</td>
-							<td colspan="2">80</td>	
-							<td colspan="2">100</td>
-							<td colspan="2">120</td>
-							<td colspan="2">140</td>
-						</tr>
-						<tr>
-							<td><em>kosten Belsnel</em></td>
-							<td colspan="2">15</td>
-							<td colspan="2">17</td>
-							<td colspan="2">19</td>
-							<td colspan="2">21</td>
-							<td colspan="2">23</td>
-							<td colspan="2">25</td>
-							<td colspan="2">27</td>
-							<td colspan="2">29</td>
-						</tr>	
-						<tr>
-							<td><em>kosten Goedbellen</em></td>
-							<td colspan="2">10</td>
-							<td colspan="2">13</td>
-							<td colspan="2">16</td>
-							<td colspan="2">19</td>
-							<td colspan="2">22</td>
-							<td colspan="2">25</td>
-							<td colspan="2">28</td>
-							<td colspan="2">31</td>
-						</tr>			
-					</tbody>
-				</table>
-					<br>
-						<img src="../afbeeldingen/analyse_leerjaar_2/grafiek_belsnel_goedbellen.png" alt="grafiek_belsnel_goedbellen" width="" height="" id="small-img"/>
-					</li>
-					<li>
-					<em>Belsnel</em>: <em>belkosten in €</em> = 15 + 0,10 &times; <em>aantal belminuten</em><br>
-					<em>Goedbellen</em>: <em>belkosten in €</em> = 10 + 0,20 &times; <em>aantal belminuten</em>
-					</li>
-					<li>
-						Wat kosten betreft zou ik Tamira <em>Belsnel</em> aanraden. Die is dan namelijk goedkoper. Natuurlijk kunnen andere redenen de doorslag geven om toch voor <em>Goedbellen</em> te kiezen.
-					</li>
-					
-				</ol>
-					
-			</div>
-		</div>
-	
-	</div>
-
-<!-- tot hier gecheckt -->
-
-<div class="tekstblok opdracht" id="opdracht_31">
-	<h3>Opdracht 31</h3>
-	<p>We gaan de formule opstellen van de lijn die gaat door de punten A(0,2) en B(4,14).
-	<ol>
-		<li>
-			Teken in een assenstelsel de lijn door de punten A(0,2) en B(4,14). Laat de lijn niet 
-			stoppen bij de punten, het is geen lijnstuk, maar trek hem door.
-		</li>
-		<li>
-			Als de x-coördinaat met 4 toeneemt, dan neemt de y-coördinaat met … toe.
-		</li>
-		<li>
-			Als de x-coördinaat met 1 toeneemt, dan neemt de y-coördinaat met … toe.
-		</li>
-		<li>
-			Wat is y als x=0?
-		</li>
-		<li>
-			Maak de formule bij de grafiek `y=`...`x+`...
-		</li>
-	</ol>
-
-	<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<ol>
-					<li>
-						<br>
-						<img src="afbeeldingen/analyse_lineaire_formules_2hv/opdracht_23.png" width="250px">
-					</li>
-					<li>
-						Als de x-coördinaat met 4 toeneemt, dan neemt de y-coördinaat met 12 toe.
-					</li>
-					<li>
-						Als de x-coördinaat met 1 toeneemt, dan neemt de y-coördinaat met 6 toe.
-					</li>
-					<li>
-						Als `x=0` dan is `y=2`
-					</li>
-					<li>
-						`y=3x+2`
-					</li>
-			
-				</ol>
-			</div>
-		</div>
-	</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_32">
-	<h3>Opdracht 32</h3>
-	<p>
-		Sterre maakt een formule evenwijdig aan de formule van de vorige opdracht. Haar formule gaat door (0, 9). Welke formule heeft zij gemaakt?	
-	</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_33">
-	<h3>Opdracht 33</h3>
-		<p>
-			Sam wil de formule van Sterre tweemaal zo steil maken. Welke formule zou hij moeten maken?	
-		</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_34">
-	<h3>Opdracht 34</h3>
-	<p>
-		Gegeven is de formule `y = 7x - 5`.<br>
-		Maak een formule die half zo steil is én door (0, 2) gaat.
-	</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_35">
-	<h3>Opdracht 35 (uitdaging)</h3>
-	<p>
-		Gegeven is de formule `y = 2x + 13`.<br>
-		Maak een formule die driemaal zo steil is én door (-1, -12) gaat.
-	</p>
-</div>
-
-<div class="tekstblok opdracht" id="opdracht_36">
-	<h3>Opdracht 36 (uitdaging)</h3>
-	<p>Gegeven zijn de punten A(-3,32) en B(7,2).<br>
-		Maak de formule die door beide punten gaat.
-	</p>
-
-
-		<div class="hider">
-			<div class="showhide">&rarr;</div>
-			<div class="antwoord">
-				<p>
-					`y=-3x+23`
-				</p>
-			</div>
-		</div>
-	</p>
-
-</div>
 
 <div class="tekstblok opdracht" id="proeftoets">
 	<h3>Proeftoets</h3>
@@ -3723,15 +2695,5 @@ $doorverwijzingen = array(
 		Maak de <a href="#">proeftoets</a> om je voor te bereiden op de echte.
 	</p>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 </div>

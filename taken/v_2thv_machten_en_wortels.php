@@ -12,12 +12,16 @@
 	  '#theorieA' => 'Kwadraten',
       '#theorieB' => 'Kwadraat van negatieve getallen',
       '#theorieC' => 'Machten',
-      '#theorieD' => 'Van tabel naar woordformule',
-      '#theorieE' => 'Afname is negatieve toename',
-      '#theorieF' => 'Van woordformule naar grafiek',
-      '#theorieG' => 'Van grafiek naar woordformule',
-      '#theorieH' => 'Start- en hellingsgetal',
-      '#theorieI' => 'Grafieken vergelijken',
+      '#theorieD' => 'Volgorde regels',
+      '#theorieE' => 'Machten van negatieve getallen',
+      '#theorieF' => 'Wortels',
+      '#theorieG' => 'Wortels op de getallenlijn',
+      '#theorieH' => 'Wortels met rekenmachine',
+      '#theorieI' => 'Wortels in volgorde',
+      '#theorieJ' => 'Volgorde regels',
+      '#theorieK' => 'Exact en benaderen',
+      '#theorieL' => 'Wortels herleiden I',
+      '#theorieM' => 'Wortels herleiden II',
       '#proeftoets' => 'Proeftoets');                                                      
 ?>
 
@@ -66,26 +70,26 @@
 		<div class="col-md-4">
 			<ol>
 				<li>
-					`15 - 3 &times; 4 -3`
+					`15 - 3 * 4 -3`
 				</li>
 				<li>
-					`(15 - 3) &times; 4 -3`
+					`(15 - 3) * 4 -3`
 				</li>
 				<li>
-					`(15 - 3) &times; (4 -3)`
+					`(15 - 3) * (4 -3)`
 				</li>
 			</ol>
 		</div>
 		<div class="col-xs-4">
 			<ol start="4">
 				<li>
-					`18 + 24 : (29 - 27) &times; 3`
+					`18 + 24 : (29 - 27) * 3`
 				</li>
 				<li>
-					`(18 + 24) : (29 - 27) &times; 3`
+					`(18 + 24) : (29 - 27) * 3`
 				</li>
 				<li>
-					`(18 + 24) : 29 - 27 &times; 3`
+					`(18 + 24) : 29 - 27 * 3`
 				</li>
 			</ol>		
 		</div>
@@ -102,36 +106,36 @@
 					<div class="col-md-4">
 						<ol class="breuken">
 							<li>
-								`15 - 3 &times; 4 - 3 =`<br>
+								`15 - 3 * 4 - 3 =`<br>
 								`15 - 12 - 3 =`<br>
 								`3 - 3 = 0`
 							</li>
 							<li>
-								`(15 - 3) &times; 4 -3 =` <br>
-								`12 &times; 4 -3 =` <br>
+								`(15 - 3) * 4 -3 =` <br>
+								`12 * 4 -3 =` <br>
 								`48 - 3 = 45`							
 							</li>
 							<li>
-								`(15 - 3) &times; (4 -3) =`<br>
-								`12 &times; (4 -3) =`<br>
-								`12 &times; 1 = 12`
+								`(15 - 3) * (4 -3) =`<br>
+								`12 * (4 -3) =`<br>
+								`12 * 1 = 12`
 							</li>
 						</ol>
 					</div>
 					<div class="col-xs-4">
 						<ol start="4" class="breuken">
 							<li>
-								`18 + 24 : (29 - 27) &times; 3 =`<br>
-								`18 + 24 : 2 &times; 3 =`<br>
+								`18 + 24 : (29 - 27) * 3 =`<br>
+								`18 + 24 : 2 * 3 =`<br>
 								`18 + 36 = 54`<br>
 							</li>
 							<li>
-								`(18 + 24) : (29 - 27) &times; 3 =` <br>
-								`42 : 2 &times; 3 = `<br>
-								`21 &times; 3 = 63` <br>
+								`(18 + 24) : (29 - 27) * 3 =` <br>
+								`42 : 2 * 3 = `<br>
+								`21 * 3 = 63` <br>
 							</li>
 							<li>
-								`(18 + 24) : 29 - 27 &times; 3 =`<br>
+								`(18 + 24) : 29 - 27 * 3 =`<br>
 								`42 : 29 - 81 =`<br>
 								`42/29 - 2349/29= - 2307/29 = -79 16/29`
 							</li>
@@ -150,13 +154,13 @@
 	</p>
 	<ol class="breuken">
 		<li>
-			`(10+15 &times; 2)/(4&times;5) + 20`
+			`(10+15 * 2)/(4*5) + 20`
 		</li>
 		<li>
-			`(48:(2 &times; 3) &times; 5)/(12 + 8) + 20`
+			`(48:(2 * 3) * 5)/(12 + 8) + 20`
 		</li>
 		<li>
-			`(64 + 4 &times; (5-3))/(2 &times; 18)`  `+ (14-10) &times; 3`
+			`(64 + 4 * (5-3))/(2 * 18)`  `+ (14-10) * 3`
 		</li>
 	</ol>
 		
@@ -168,18 +172,18 @@
 			</p>
 			<ol class="breuken">
 				<li>
-					`(10+15 &times; 2)/(4&times;5) + 20 =`<br>
+					`(10+15 * 2)/(4*5) + 20 =`<br>
 					`40/20 + 20 =`<br>
 					`2 + 20 = 22`
 				</li>
 				<li>
-					`(48:(2 &times; 3) &times; 5)/(12 + 8) + 20 =`<br>
-					`(48:6 &times; 5)/20 + 20 =`<br>
+					`(48:(2 * 3) * 5)/(12 + 8) + 20 =`<br>
+					`(48:6 * 5)/20 + 20 =`<br>
 					`40/20 + 20 = 22`<br>
 				</li>
 				<li>
-					`(64 + 4 &times; (5-3))/(2 &times; 18)`  `+ (14-10) &times; 3 =`<br>
-					`(64 + 4 &times; 2)/36`  `+ 4 &times; 3 =`<br>
+					`(64 + 4 * (5-3))/(2 * 18)`  `+ (14-10) * 3 =`<br>
+					`(64 + 4 * 2)/36`  `+ 4 * 3 =`<br>
 					`(64 + 8)/36`  `+ 12 =`<br>
 					`2 + 12 = 14`<br>
 				</li>
@@ -198,7 +202,7 @@
 		</div>
 		<div class="col-xs-7">
 			<p class="geeltje">
-				Oppervlakte vierkant = zijde &times; zijde<br>
+				Oppervlakte vierkant = zijde * zijde<br>
 				De zijden van een vierkant zijn even lang.	
 			</p>			
 		</div>
@@ -209,9 +213,9 @@
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<p>
-				Blauw: `3 &times; 3 = 9` <em>cm</em><sup>2</sup> <br>
-				Groen: `4 &times; 4 = 16` <em>cm</em><sup>2</sup><br>
-				Geel: `5 &times; 5 = 25` <em>cm</em><sup>2</sup>
+				Blauw: `3 * 3 = 9` <em>cm</em><sup>2</sup> <br>
+				Groen: `4 * 4 = 16` <em>cm</em><sup>2</sup><br>
+				Geel: `5 * 5 = 25` <em>cm</em><sup>2</sup>
 			</p>
 			<p>
 				Alleen antwoorden met juiste eenheid zijn correct. Let er op dat de eenheid een oppervlakte-maat is.
@@ -229,8 +233,8 @@
 			</p>
 			<p>
 				Het kwadraat van een getal is het getal met zichzelf vermenigvuldigd.<br>
-				Het kwadraat van `7` is `49`, want `7 &times; 7` is `49`.<br>
-				In plaats van `7 &times; 7` kun je `7^2` schrijven.
+				Het kwadraat van `7` is `49`, want `7 * 7` is `49`.<br>
+				In plaats van `7 * 7` kun je `7^2` schrijven.
 			</p>
 		</div>
 		<div class="col-xs-7">
@@ -311,7 +315,7 @@
 	<h3>Opdracht 5 Kwadraat van `-6`</h3>
 	<p>
 		Achmed berekent het kwadraat van `-6`.<br>
-		Hij doet `-6 &times; -6 = 36`.<br>
+		Hij doet `-6 * -6 = 36`.<br>
 		"Dat is gek," denkt hij, "mijn antwoord is positief!"<br> 
 		Heeft hij het goed gedaan?
 	</p>
@@ -319,7 +323,7 @@
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<p>
-				Hij heeft het goed gedaan, want het kwadraat van een getal is het getal met zichzelf vermenigvuldigen 	in dit geval dus `-6 &times; -6` en het product van een negatief getal en een negatief getal is positief, zie <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=v_1thv_rekenen_met_negatieve_getallen">Rekenen met negatieve getallen</a>.
+				Hij heeft het goed gedaan, want het kwadraat van een getal is het getal met zichzelf vermenigvuldigen 	in dit geval dus `-6 * -6` en het product van een negatief getal en een negatief getal is positief, zie <a href="http://wiskunde.vathorstcollege.nl/index_taken.php?p=v_1thv_rekenen_met_negatieve_getallen">Rekenen met negatieve getallen</a>.
 			</p>
 		</div>
 		</div>
@@ -333,7 +337,7 @@
 		Gebruik daarom <b>haakjes</b> bij het kwadraat van een negatief getal.
 	</p>	
 	<p>
-		Het kwadraat van `-4` is `16`, want `-4 &times; -4= 16`.<br>
+		Het kwadraat van `-4` is `16`, want `-4 * -4= 16`.<br>
 		Het kwadraat van `-4` schrijf je als `(-4)^2`.
 	</p>
 	<p>
@@ -351,7 +355,7 @@
 			</tr>
 			<tr>
 				<td>
-					`(-5)^2 = -5 &times; -5 = 25`
+					`(-5)^2 = -5 * -5 = 25`
 				</td>
 				<td>
 					<em>Het kwadraat van min 5.</em>
@@ -359,7 +363,7 @@
 			</tr>
 			<tr>
 				<td>
-					`-5^2 = - 5 &times; 5 = -25`
+					`-5^2 = - 5 * 5 = -25`
 				</td>
 				<td>
 					<em>Min het kwadraat van 5.</em>
@@ -403,11 +407,11 @@
 		</div>
 		<div class="col-xs-6">
 			<p class="geeltje">
-				`3^2 = 3 &times; 3 = 9`		
+				`3^2 = 3 * 3 = 9`		
 				<br>
-				`(-3)^2 =-3 &times; -3 = 9`
+				`(-3)^2 =-3 * -3 = 9`
 				<br>
-				`-3^2 = - 3 &times; 3 = -9 `
+				`-3^2 = - 3 * 3 = -9 `
 			</p>
 		</div>
 	</div>
@@ -419,26 +423,26 @@
 				<div class="col-xs-6">
 					<ol>
 						<li>
-							`10^2 = 10 &times; 10 = 100`
+							`10^2 = 10 * 10 = 100`
 						</li>
 						<li>
-							`3^2 = 3 &times; 3 = 9`
+							`3^2 = 3 * 3 = 9`
 						</li>
 						<li>
-							`(-2)^2 = -2 &times; -2 = 4`
+							`(-2)^2 = -2 * -2 = 4`
 						</li>
 					</ol>
 				</div>
 					<div class="col-xs-6">
 						<ol start="4">
 							<li>
-			s					`(-5)^2 = -5 &times; -5 = 25`
+			s					`(-5)^2 = -5 * -5 = 25`
 							</li>
 							<li>
-								`-7^2 = -7 &times; 7 = -49`
+								`-7^2 = -7 * 7 = -49`
 							</li>
 							<li>
-								`-(-11)^2 = - (-11 &times; -11) = - 121`
+								`-(-11)^2 = - (-11 * -11) = - 121`
 							</li>
 						</ol>
 					</div>
@@ -458,8 +462,8 @@
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 		<p>
-			`(-8)^2` betekent het kwadraat van `-8`, dus `-8 &times; -8 = 64`.<br>
-			`-8^2` betekent min het kwadraat van `8`, dus `-(8 &times; 8)= -64.
+			`(-8)^2` betekent het kwadraat van `-8`, dus `-8 * -8 = 64`.<br>
+			`-8^2` betekent min het kwadraat van `8`, dus `-(8 * 8)= -64`.
 		</p>
 		</div>
 		</div>
@@ -510,26 +514,26 @@
 					<td width="300">
 						<ol>
 							<li>
-								`6^2 = 6 &times; 6 = 36`
+								`6^2 = 6 * 6 = 36`
 							</li>
 							<li>
-								`(-7)^2 = -7 &times; -7 = 49`
+								`(-7)^2 = -7 * -7 = 49`
 							</li>
 							<li>
-								`-5^2 = -(5 &times; 5) = -25`
+								`-5^2 = -(5 * 5) = -25`
 							</li>
 						</ol>
 					</td>
 					<td width="300">
 						<ol start="4">
 							<li>
-								`(-9)^2 = -9 &times;  -9 = 81`
+								`(-9)^2 = -9 *  -9 = 81`
 							</li>
 							<li>
-								`-9^2 = -(9 &times; 9) = -81`
+								`-9^2 = -(9 * 9) = -81`
 							</li>
 							<li>
-								`-(-3)^2 = -(-3 &times; -3) = -9`
+								`-(-3)^2 = -(-3 * -3) = -9`
 							</li>
 							</ol>
 					</td>
@@ -583,19 +587,19 @@
 					`0`,`20^2 = 0`,`04`
 				</li>
 				<li>
-					`3`,`17^2 = 10`,`0489 = 10`,`05`
+					`3`,`17^2 = 10`,`0489 &approx; 10`,`05`
 				</li>
 				<li>
-					`-2`,`04^2 = -4,1616 = -4,16`
+					`-2`,`04^2 = -4,1616 &approx; -4,16`
 				</li>
 				<li>
-					`(-134`,`09)^2 = 17.980`,`1281 = 17.980`,`13`
+					`(-134`,`09)^2 = 17.980`,`1281 &approx; 17.980`,`13`
 				</li>
 				<li>
-					`-0`,`07^2 = 0`,`0049 = 0`,`00`
+					`-0`,`07^2 = 0`,`0049 &approx; 0`,`00`
 				</li>
 				<li>
-					`9`,`99^2 = 99`,`8001 = 99`,`80 `
+					`9`,`99^2 = 99`,`8001 &approx; 99`,`80 `
 				</li>
 			</ol>
 		</div>
@@ -611,13 +615,13 @@
 		<div class="col-xs-4">
 			<ol>
 				<li>
-					`3 &times; ... = 9`
+					`3 * ... = 9`
 				</li>
 				<li>
-					`4 &times; ... = 16`
+					`4 * ... = 16`
 				</li>
 				<li>
-					`6 &times; ... = 36`
+					`6 * ... = 36`
 				</li>
 			</ol>
 		</div>
@@ -643,13 +647,13 @@
 				<div class="col-xs-4">
 					<ol>
 						<li>
-							`3 &times; 3 = 9`
+							`3 * 3 = 9`
 						</li>
 						<li>
-							`4 &times; 4 = 16`
+							`4 * 4 = 16`
 						</li>
 						<li>
-							`6 &times; 6 = 36`
+							`6 * 6 = 36`
 						</li>
 					</ol>
 				</div>
@@ -677,7 +681,7 @@
 		<div class="col-xs-6">
 			<p>
 				Het product van gelijke <b>factoren</b> is een <b>macht</b>:<br>
-				`3 &times; 3 &times; 3 &times; 3 = 3^4`<br>
+				`3 * 3 * 3 * 3 = 3^4`<br>
 				`3^4` betekent `3` tot de macht `4`.
 			</p>	
 			<p>
@@ -740,16 +744,16 @@
 	</p>
 	<ol>
 		<li>
-			`3 &times; 3 = 3^...`
+			`3 * 3 = 3^...`
 		</li>
 		<li>
-			`3 &times; 3 &times; 3 = 3^...`
+			`3 * 3 * 3 = 3^...`
 		</li>
 		<li>
-			`3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 = 3^...`
+			`3 * 3 * 3 * 3 * 3 * 3 = 3^...`
 		</li>
 		<li>
-			`3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 = 3^...`
+			`3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 = 3^...`
 		</li>
 	</ol>	
 	<div class="hider">
@@ -757,72 +761,58 @@
 		<div class="antwoord">
 			<ol>
 				<li>
-					`3 &times; 3 = 3^2`
+					`3 * 3 = 3^2`
 				</li>
 				<li>
-					`3 &times; 3 &times; 3 = 3^3`
+					`3 * 3 * 3 = 3^3`
 				</li>
 				<li>
-					`3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 = 3^6`
+					`3 * 3 * 3 * 3 * 3 * 3 = 3^6`
 				</li>
 				<li>
-					`3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 &times; 3 = 3^11`
+					`3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 = 3^11`
 				</li>
 			</ol>
 		</div>
 	</div>		
 </div>
 
-<!-- opdracht 13 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="13">
 	<h3>Opdracht 13 Machten</h3>
 	<p>
 		Neem over en vul in:
 	</p>
-	<table>
-			<tr>
-				<td>
-					`5 &times; ... = 5^2`
-				</td>
-			</tr>
-			<tr>
-				<td>
-					`... &times; ... &times; ... = 6^3`
-				</td>
-			</tr>
-			<tr>
-				<td>
-					`8 &times; 8 &times; 8 &times; 8 = ...^4`
-				</td>
-			</tr>
-		</table>
-	
+	<ol>
+		<li>
+			`5 * ... = 5^2`
+		</li>
+		<li>
+			`... * ... * ... = 6^3`
+		</li>
+		<li>
+			`8 * 8 * 8 * 8 = ...^4`
+		</li>
+	</ol>
+
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-				<table>
-			<tr>
-				<td>
-					`5 &times; 5 = 5^2`
-				</td>
-			</tr>
-			<tr>
-				<td>
-					`6 &times; 6 &times; 6 = 6^3`
-				</td>
-			</tr>
-			<tr>
-				<td>
-					`8 &times; 8 &times; 8 &times; 8 = 8^4`
-				</td>
-			</tr>
-		</table>
+			<ol>
+				<li>
+					`5 * 5 = 5^2`
+				</li>
+				<li>
+					`6 * 6 * 6 = 6^3`
+				</li>
+				<li>
+					`8 * 8 * 8 * 8 = 8^4`
+				</li>
+			</ol>
 		</div>
 	</div>		
 </div>
 
-<!-- opdracht 14 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="14">
 	<!-- bron: Moderne Wiskunde 1a vwo 2012, blz. 117 -->
 	<h3>Opdracht 14 Machten</h3>
 	<p>
@@ -1006,222 +996,263 @@
 	</div>		
 </div>
 
-<!-- theorie D Volgorde regels -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieD">
 	<h3>Theorie D Volgorde regels</h3>
 	<p>
 		Bij rekenen gelden de volgende voorrangsregels:
 	</p>
-	<aside class="tekstballon_theorie" style="width: 220px !important">
-		`7-(12-8)^2 : 2=`<br>
-		`7-4^2 :2 =`<br>
-		`7-16 :2 =`<br>
-		`7 - 8 = -1`
-	</aside>
-	<ol class="numbers" class="breuken">
-		<li>
-			binnen de haakjes;
-		</li>
-		<li>
-			machtsverheffen;
-		</li>
-		<li>
-			vermenigvuldigen en delen;
-		</li>
-		<li>
-			optellen en aftrekken.
-		</li>
-	</ol>
+	<div class="row">
+		<div class="col-md-7">
+			<ol class="numbers">
+				<li>
+					binnen de haakjes;
+				</li>
+			</ol>
+		</div>
+		<div class="col-md-5">
+			<p class="geeltje">
+				`7-(12-8)^2 : 2=`
+			</p>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-7">
+			<ol class="numbers" start="2">
+				<li>
+					machtsverheffen;
+				</li>
+			</ol>
+		</div>
+		<div class="col-md-5">
+			<p class="geeltje">
+				`7-4^2 :2 =`
+			</p>
+		</div>
+	</div>				
+	<div class="row">
+		<div class="col-md-7">
+			<ol class="numbers" start="3">
+				<li>
+					vermenigvuldigen en delen;
+				</li>
+			</ol>
+		</div>
+		<div class="col-md-5">
+			<p class="geeltje">
+				`7-16 :2 =`
+			</p>
+		</div>
+	</div>		
+	<div class="row">
+		<div class="col-md-7">
+			<ol class="numbers" start="4">
+				<li>
+					optellen en aftrekken.
+				</li>
+			</ol>
+		</div>
+		<div class="col-md-5">
+			<p class="geeltje">
+				`7 - 8 = -1`
+			</p>
+		</div>
+	</div>			
 	<p>
 		Vermenigvuldigen en delen zijn even belangrijk, werk van links naar rechts. Hetzelfde geldt voor optellen en aftrekken.
 	</p>
 </div>
 
-<!-- opdracht 15 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 15 Bereken</h3>
-	<table>
-		<tr>
-			<td width="300">
-				<ol>
-					<li>
-						`4 &times; 2^3 = `
-					</li>
-					<li>
-						`3 - 2^4 = `
-					</li>
-					<li>
-						`(6-3)^3 : 9 = `
-					</li>
-				</ol>
-			</td>
-			<td width="300">
-				<ol start="4">
-					<li>
-						`6^2 - 2^5 =`
-					</li>
-					<li>
-						`0^13 - 1^93 + 3^3 =`
-					</li>
-					<li>
-						`11^2 - 9 - 2^2 = `
-					</li>
-				</ol>
-			</td>
-		</tr>
-	</table>
+<div class="tekstblok opdracht" id="15">
+	<h3>Opdracht 15 Sommen</h3>
+	<p>Bereken met tussenstappen onder elkaar, zonder rekenmachine.</p>
+	<div class="row">
+		<div class="col-md-4">
+			<ol>
+				<li>
+					`4 * 2^3 = `
+				</li>
+				<li>
+					`3 - 2^4 = `
+				</li>
+				<li>
+					`(6-3)^3 : 9 = `
+				</li>
+			</ol>
+		</div>
+		<div class="col-md-4">
+			<ol start="4">
+				<li>
+					`6^2 - 2^5 =`
+				</li>
+				<li>
+					`0^13 - 1^93 + 3^3 =`
+				</li>
+				<li>
+					`11^2 - 9 - 2^2 = `
+				</li>
+			</ol>
+		</div>
+	</div>
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<table>
-				<tr>
-					<td width="300">
-						<ol>
-							<li>
-								`4 &times; 2^3 = `<br>
-								`4 &times; 8 = 32`
-							</li>
-							<li>
-								`3 - 2^4 = `<br>
-								`3 - 16 = -13`<br>
-							</li>
-							<li>
-								`(6-3)^3 : 9 = `<br>
-								`3^3 : 9 =` <br>
-								`27 : 9 = 3
-							</li>
-						</ol>
-					</td>
-					<td width="300">
-						<ol start="4">
-							<li>
-								`6^2 - 2^5 =` <br>
-								`36 - 32 = 4`
-							</li>
-							<li>
-								`0^13 - 1^93 + 3^3 =`
-								`0 - 1 + 27 = 26`
-							</li>
-							<li>
-								`11^2 - 9 - 2^2 = `<br>
-								`121 - 9 - 4 = `<br>
-								`102 - 4 = 108`
-							</li>
-						</ol>
-					</td>
-				</tr>
-			</table>
+			<div class="row">
+				<div class="col-md-4">
+					<ol>
+						<li>
+							`4 * 2^3 = `<br>
+							`4 * 8 = 32`
+						</li>
+						<li>
+							`3 - 2^4 = `<br>
+							`3 - 16 = -13`<br>
+						</li>
+						<li>
+							`(6-3)^3 : 9 = `<br>
+							`3^3 : 9 =` <br>
+							`27 : 9 = 3`
+						</li>
+					</ol>
+				</div>
+				<div class="col-md-4">
+					<ol start="4">
+						<li>
+							`6^2 - 2^5 =` <br>
+							`36 - 32 = 4`
+						</li>
+						<li>
+							`0^13 - 1^93 + 3^3 =`<br>
+							`0 - 1 + 27 = 26`
+						</li>
+						<li>
+							`11^2 - 9 - 2^2 = `<br>
+							`121 - 9 - 4 = `<br>
+							`102 - 4 = 108`
+						</li>
+					</ol>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 </div>
 
-<!-- theorie E Machten van negatieve getallen  -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id"theorieE">
 	<h3>Theorie E Machten van negatieve getallen</h3>
 	<p>
-		Gebruik haakjes bij de macht van een negatief getal.
-	</p>	
-	<p>
-		`-4 &times; -4 = (-4)^2 = 16`<br>
-		`-4 &times; -4 &times; -4 = (-4)^3 = -64`<br>
+		Bij het kwadraat en andere <b>machten van negatieve getallen</b> gebruik je altijd <b>haakjes</b>.
 	</p>
-	<p>
-		Let op dat een oneven macht van een negatief getal als uitkomst negatief is.	
+	<table class="table">
+		<tr>
+			<td>	
+				De tweede macht van `-4` is:
+			</td>
+			<td>
+				`(-4)^2 = -4 * -4 = 16`
+			</td>
+		</tr>
+		<tr>
+			<td>
+				De derde macht van `-4` is:
+			</td>
+			<td>
+				`(-4)^3 = -4 * -4 * -4 = -64`
+			</td>
+		</tr>
+	</table>
+	<p class="geeltje">
+		Let op dat een oneven macht van een negatief getal negatief is.	
 	</p>
 </div>
 
-<!-- opdracht 16 -->
 <div class="tekstblok opdracht" id="16">
 	<h3>Opdracht 16 Machten uit het hoofd</h3>
 	<p>
 		Bereken zonder rekenmachine.
 	</p>
-	<table>
-		<tr>
-			<td width="300">
-				<ol>
-					<li>
-						`(-2)^3 = `
-					</li>
-					<li>
-						`(-2)^4 = `
-					</li>
-					<li>
-						`(-3)^3 = `
-					</li>
-					<li>
-					 `-4^3 = `
-				</ol>
-			</td>
-			<td width="300">
-				<ol start="5">
-					<li>
-						`-(-2)^5 =`
-					</li>
-					<li>
-						`(-1)^13  =`
-					</li>
-					<li>
-						`(-1)^2048 = `
-					</li>
-					<li>
-					 `-(-3^2)^2 = `
-					</li>
-				</ol>
-			</td>
-		</tr>
-	</table>
+	<div class="row">
+		<div class="col-md-4">
+			<ol>
+				<li>
+					`(-2)^3 = `
+				</li>
+				<li>
+					`(-2)^4 = `
+				</li>
+				<li>
+					`(-3)^3 = `
+				</li>
+				<li>
+				 `-4^3 = `
+				</li>
+			</ol>		
+		</div>
+		<div class="col-md-4">
+			<ol start="5">
+				<li>
+					`-(-2)^5 =`
+				</li>
+				<li>
+					`(-1)^13  =`
+				</li>
+				<li>
+					`(-1)^2048 = `
+				</li>
+				<li>
+				 `-(-3^2)^2 = `
+				</li>
+			</ol>
+		</div>
+	</div>
+	
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<table>
-				<tr>
-					<td width="300">
-						<ol>
-							<li>
-								`(-2)^3 = -8`
-							</li>
-							<li>
-								`(-2)^4 = 16`
-							</li>
-							<li>
-								`(-3)^3 = -27`
-							</li>
-							<li>
-							 `-4^3 = -64`
-						</ol>
-					</td>
-					<td width="300">
-						<ol start="5">
-							<li>
-								`-(-2)^5 = -(-32) = 32`
-							</li>
-							<li>
-								`(-1)^13  = -1`
-							</li>
-							<li>
-								`(-1)^2048 = 1`
-							</li>
-							<li>
-							 `-(-3^2)^2 = -(-9)^2 = -81`
-							</li>
-						</ol>
-					</td>
-				</tr>
-			</table>
+			<div class="row">
+				<div class="col-md-6">
+					<ol>
+						<li>
+							`(-2)^3 = -8`
+						</li>
+						<li>
+							`(-2)^4 = 16`
+						</li>
+						<li>
+							`(-3)^3 = -27`
+						</li>
+						<li>
+						 `-4^3 = -64`
+						</li>
+					</ol>
+				</div>
+				<div class="col-md-6">
+					<ol start="5">
+						<li>
+							`-(-2)^5 = -(-32) = 32`
+						</li>
+						<li>
+							`(-1)^13  = -1`
+						</li>
+						<li>
+							`(-1)^2048 = 1`
+						</li>
+						<li>
+						 `-(-3^2)^2 = -(-9)^2 = -81`
+						</li>
+					</ol>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 		
-<!-- opdracht 17 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="17">
 	<h3>Opdracht 17 Positief of negatief</h3>
 	<p>
 		Schrijf op of de uitkomst positief of negatief is.
 	</p>
-	<table>
-		<tr>
-		<td width="300">
+	<div class="row">
+		<div class="col-md-4">
 			<ol>
 				<li>
 					`2^5` is ...
@@ -1233,8 +1264,8 @@
 					`(-3)^4` is  ...
 				</li>
 			</ol>
-		</td>
-		<td>
+		</div>
+		<div class="col-md-4">
 			<ol start="4">
 				<li>
 					`(-8)^3` ...
@@ -1246,16 +1277,14 @@
 					`(-5)^4` is ... 
 				</li>
 			</ol>
-		</td>
-		</tr>
-	</table>
-		
+		</div>
+	</div>
+				
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
-			<table>
-				<tr>
-				<td width="300">
+			<div class="row">
+				<div class="col-md-4">
 					<ol>
 						<li>
 							`2^5` is positief
@@ -1267,8 +1296,8 @@
 							`(-3)^4` is positief
 						</li>
 					</ol>
-				</td>
-				<td>
+				</div>
+				<div class="col-md-4">
 					<ol start="4">
 						<li>
 							`(-8)^3` is negatief
@@ -1280,15 +1309,13 @@
 							`(-5)^4` is positief 
 						</li>
 					</ol>
-				</td>
-				</tr>
-			</table>
+				</div>
+			</div>
 		</div>
 	</div>		
 </div>
 
-<!-- opdracht 18 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="18">
 	<h3>Opdracht 18 Machten uitrekenen</h3>
 	<p>Neem over en bereken zonder rekenmachine.</p>
 	<ol>
@@ -1314,8 +1341,7 @@
 	</div>		
 </div>
 	
-<!-- opdracht 19 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="19">
 	<h3>Opdracht 19 Machten en volgorde</h3>
 	<p>
 		Neem over en bereken met tussenstappen onder elkaar.
@@ -1359,8 +1385,7 @@
 		</div>
 </div>		
 
-<!-- theorie F Wortels -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieF">
 	<h3>Theorie F Wortels</h3>
 	<aside class="tekstballon_theorie" style="width: 150px !important">
 	<p>
@@ -1385,8 +1410,7 @@
 	</p>
 </div>
 
-<!-- opdracht 20 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="20">
 	<h3>Opdracht 20 Vierkanten met oppervlakte</h3>
 	<p>
 		Zoek uit hoe lang de zijde van elk vierkant is. Bedenk dat de zijden van een vierkant even lang zijn.
@@ -1405,8 +1429,7 @@
 		</div>
 </div>
 
-<!-- opdracht 21 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="21">
 	<h3>Opdracht 21 Tabel met wortels</h3>
 	<p>
 		Neem over en vul in.
@@ -1466,27 +1489,31 @@
 		</div>
 </div>
 
-<!-- theorie G Lelijke wortels (havo/vwo) -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie G Lelijke wortels (havo/vwo)</h3>
+<div class="tekstblok theorie vaardigheden" id="theorieG">
+	<h3>Theorie G Wortels op de getallenlijn</h3>
 	<p>
-		In de vorige opdracht kwamen alle wortels steeds mooi uit. De uitkomst was steeds een heel getal. Maar niet alle wortels komen mooi uit.
+		In de vorige opdracht was de uitkomst van de wortel steeds een heel getal. Je kunt zeggen: "De wortels komen mooi uit."<br>		
+		Maar dat geldt voor de meeste wortels niet.
 	</p>
 	<p>
 		Hieronder zie je een stukje van een getallenlijn.
-	<img src="../afbeeldingen/vaardigheden_leerjaar_2/wortelgetallenlijn.png" alt="wortelgetallenlijn" width="600" height="" />
+	<img class="img-responsive" src="../afbeeldingen/vaardigheden_leerjaar_2/wortelgetallenlijn.png" alt="wortelgetallenlijn" />
 	</p>
 	<p>
-		Je ziet dat `sqrt1`, `sqrt4` en `sqrt9` overeenkomen met de getallen `1`, `2` en `3`.
+		De wortels van `1`, `4` en `9` komen mooi overeen met de getallen `1`, `2` en `3`. <br>
+		Want `sqrt1 = 1`, `sqrt4 = 2` en `sqrt9 = 3`
 	</p>
 	<p>
-		Omdat `sqrt6` ligt tussen `sqrt4` en `sqrt9`, ligt de uitkomst van `sqrt6` tussen `2` en `3`. 
+		De andere wortels komen niet zo mooi terecht. Gelukkig kun je wel snel zien tussen welke getallen een wortel uitkomt.
+		<br>
+		Neem `sqrt2`, dat ligt tussen `sqrt1` en `sqrt4`, dus de uitkomst van `sqrt2` ligt tussen `1` en `2`. 
+		<br>
+		Het kunnen plaatsen van een wortel op de getallenlijn helpt je bij het begrijpen en kunnen toepassen van wortels.
 	</p>
 </div>
 
-<!-- opdracht 22 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 22 Tussen twee helen (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="22">
+	<h3>Opdracht 22 Tussen twee helen</h3>
 	<p>
 		Bepaal van elke wortel tussen welke twee hele getallen die ligt.<br>
 		Doe het zo:<br> `sqrt3` ligt tussen `1` en `2`, want `sqrt1=1` en `sqrt4=2`
@@ -1532,9 +1559,8 @@
 	</div>
 </div>
 
-<!-- opdracht 23 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 23 Wortels op getallenlijn (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="23">
+	<h3>Opdracht 23 Wortels op getallenlijn (uitdaging)</h3>
 	<ol>
 		<li>
 			Maak een getallenlijn van `0` t/m `12` van `24` cm lang. Je mag je schrift een kwartslag draaien.
@@ -1561,45 +1587,47 @@
 	</div>
 </div>
 
-<!-- opdracht 24 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 24 Wortels tussen getallen plaatsen (havo/vwo)</h3>
-	<aside class="tekstballon_theorie" style="width: 250px !important">
-	<p>
-		`&lt;` betekent <em>kleiner dan</em><br>	
-		`1 &lt; sqrt3 &lt; 2` betekent:<br>
-		`1` is kleiner dan `sqrt3` én <br>
-		`sqrt3` is kleiner dan `2`.
-	</p>
-	</aside>
-	<p>
-		Bepaal tussen welke twee hele getallen de volgorde wortels liggen.<br>
-		Schrijf je antwoord als volgt op: 	`2 &lt; sqrt6 &lt; 3`
-	</p>
-	<table>
-		<tr>
-			<td width="250">
-				<ol>
-					<li>
-						`sqrt46`
-					</li>
-					<li>
-						`sqrt18`
-					</li>
-				</ol>
-			</td>
-			<td width="250">
-				<ol start="3">
-					<li>
-						`sqrt29`
-					</li>
-					<li>
-						`sqrt35`
-					</li>
-				</ol>
-			</td>
-		</tr>
-	</table>
+<div class="tekstblok opdracht" id="24">
+	<h3>Opdracht 24 Wortels tussen helen (uitdaging)</h3>
+	<div class="row">
+		<div class="col-md-8">
+			<p>
+				Bepaal tussen welke twee hele getallen de wortels liggen.<br>
+				Schrijf je antwoord als volgt op: 	`2 &lt; sqrt6 &lt; 3`
+			</p>		
+			<div class="row">
+				<div class="col-md-6">
+						<ol>
+							<li>
+								`sqrt46`
+							</li>
+							<li>
+								`sqrt18`
+							</li>
+						</ol>
+					</div>
+					<div class="col-md-6">
+						<ol start="3">
+							<li>
+								`sqrt29`
+							</li>
+							<li>
+								`sqrt35`
+							</li>
+						</ol>
+					</div>
+			</div>
+		</div>					
+		<div class="col-xs-4">
+			<p class="geeltje">
+				<span class="formula">`&lt;`</span> betekent <em>kleiner dan</em><br>	
+				`1 &lt; sqrt3 &lt; 2` betekent:<br>
+				`1` is kleiner dan `sqrt3` én <br>
+				`sqrt3` is kleiner dan `2`.
+			</p>
+		</div>
+	</div>
+		
 	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
@@ -1621,69 +1649,69 @@
 	</div>
 </div>
 
-<!-- theorie H Wortels met rekenmachine -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieH">
 	<h3>Theorie H Wortels met rekenmachine</h3>
-	<aside class="tekstballon_theorie" style="width: 380px !important">
-	<img src="../afbeeldingen/vaardigheden_leerjaar_2/wortel_texas_casio.png" alt="wortel_texas_casio" width="350"/>
-	</aside>
-	<p>
-		Veel wortels kun je niet uit het hoofd berekenen.<br>
-		Gebruik dan een rekenmachine.
-	</p>
-	<p>
-		Rond af op twee decimalen achter de komma, tenzij anders wordt gevraagd.<br>
-		`sqrt6 approx 2,45`
-	</p>
-<p>
-		Hiernaast stap voor stap hoe je de wortel van 6 met je rekenmachine kunt uitrekenen.
-	</p>
-	
+	<div class="row">
+		<div class="col-xs-5">
+			<p>
+				Veel wortels kun je niet uit het hoofd berekenen.<br>
+				Gebruik dan een rekenmachine.
+			</p>
+			<p>
+				Rond af op twee decimalen achter de komma, tenzij anders wordt gevraagd.<br>
+				`sqrt6 approx 2,45`
+			</p>
+			<p>
+				Hiernaast stap voor stap hoe je de wortel van 6 met je rekenmachine kunt uitrekenen.
+			</p>		
+		</div>
+		<div class="col-xs-7">
+		<p class="geeltje">
+			<img src="../afbeeldingen/vaardigheden_leerjaar_2/wortel_texas_casio.png" alt="wortel_texas_casio" />
+		</p>
+		</div>
+	</div>	
 </div>
 
-<!-- opdracht 25 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="25">
 	<h3>Opdracht 25 Met rekenmachine</h3>
-	<aside class="tekstballon_theorie" style="width: 250px !important">
 	<p>
-		`approx` betekent <em>ongeveer</em><br>
-		bijvoorbeeld: `sqrt7 approx 2`,`65`<br>
-		<em>"Wortel 7 is ongeveer 2,65."</em>
+		Bereken met behulp van je rekenmachine, rond af op 2 decimalen. Vragen over afronden? Kijk bij bijvoorbeeld op <a href="http://www.beterrekenen.nl/website/index.php?pag=247">Beterrekenen.nl</a> voor uitleg.
 	</p>
-	</aside>
-	<p>
-		Bereken met behulp van je rekenmachine, rond af op 2 decimalen. Vragen over afronden? Kijk bij de taak <a href="http://wiskunde.vathorstcollege.nl/index2.php?p=vaar_afronden">Afronden</a> voor uitleg.
-	</p>
-		<table>
-			<tr>
-				<td width="300">
-					<ol>
-						<li>
-							`sqrt2`
-						</li>
-						<li>
-							`sqrt3`
-						</li>
-						<li>
-							`sqrt5`
-						</li>
-					</ol>
-				</td>
-				<td width="300">
-					<ol start="4">
-						<li>
-							`sqrt6`
-						</li>
-						<li>
-							`sqrt10`
-						</li>
-						<li>
-							`sqrt15`
-						</li>
-					</ol>
-				</td>
-			</tr>
-		</table>
+	<div class="row">
+		<div class="col-md-2">
+			<ol>
+				<li>
+					`sqrt2 &approx;`
+				</li>
+				<li>
+					`sqrt3 &approx;`
+				</li>
+				<li>
+					`sqrt5 &approx;`
+				</li>
+			</ol>
+		</div>
+		<div class="col-xs-2">
+			<ol start="4">
+				<li>
+					`sqrt6 &approx;`
+				</li>
+				<li>
+					`sqrt10 &approx;`
+				</li>
+				<li>
+					`sqrt15 &approx;`
+				</li>
+			</ol>		
+		</div>
+		<div class="col-xs-7">
+			<p class="geeltje">
+				<span class="formula">&approx;</span> betekent <em>ongeveer</em><br>
+				`sqrt7 &approx; 2`,`65` betekent: <em>"Wortel 7 is ongeveer 2,65."</em>
+			</p>
+		</div>
+	</div>
 
 		<div class="hider">
 		<div class="showhide">&rarr;</div>
@@ -1693,7 +1721,7 @@
 				<td width="300">
 					<ol>
 						<li>
-							`sqrt2 = 1`,`141421... approx 1`,`14`
+							`sqrt2 = 1`,`41421... approx 1`,`41`
 						</li>
 						<li>
 							`sqrt3 = 1`,`732050... approx 1`,`73`
@@ -1725,42 +1753,46 @@
 		</div>
 </div>
 
-<!-- opdracht 26 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="26">
 	<h3>Opdracht 26 Tafelkleed</h3>
-	<img src="../afbeeldingen/vaardigheden_leerjaar_2/tapijt.jpg" alt="tapijt" width="200px" class="rightfloat" />
-	<p>
-		Iris heeft voor haar kleine zusje een vierkant tapijt uitgezocht. Het is beschikbaar in twee formaten: een van 7 m<sup>2</sup> en een van 8 m<sup>2</sup>.
-	</p>
-	<p>
-		Toon aan met behulp van een berekening dat het grotere formaat ongeveer 18 centimeter langer en breder is dan het kleinere formaat.
-	</p>
-	
-		<div class="hider">
+	<div class="row">
+		<div class="col-xs-6">
+			<p>
+				Iris heeft voor haar kleine zusje een vierkant tapijt uitgezocht. Het is beschikbaar in twee formaten: <nobr>een van 7 m<sup>2</sup> en een van 8 m<sup>2</sup>.</nobr>
+			</p>
+			<p>
+				Toon aan met behulp van een berekening dat het grotere formaat ongeveer 18 centimeter langer en breder is dan het kleinere formaat.
+			</p>		
+		</div>
+		<div class="col-xs-6">
+			<img src="../afbeeldingen/vaardigheden_leerjaar_2/tapijt.jpg" alt="tapijt" />
+		</div>
+	</div>
+
+	<div class="hider">
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<p>
 				Weten: bij vierkant alle zijden gelijk, dus lengte = breedte.<br>
 				Aanpak: eerst de bijbehorende zijden berekenen, dan het verschil uitrekenen.<br>
-				`sqrt 7 approx 2`,`65` `m` en `sqrt 8 approx 2`,`83` `m`<br>
-				`2`,`83 - 2`,`65 = 0`,`18` `m` `= 18` `cm`
+				`sqrt 7 &approx; 2`,`646` `m` en `sqrt 8 &approx; 2`,`828` `m`<br>
+				`2`,`828 - 2`,`646 = 0`,`182` `m` `&approx; 18` `cm`
 			</p>
 			<p>
 				In één keer uitrekenen kan ook:<br>
-				`sqrt8 - sqrt7 approx 0`,`18` `m` `= 18` `cm`
+				`sqrt8 - sqrt7 &approx; 0`,`18` `m` `= 18` `cm`
 			</p>
 			<p>
-				Je antwoord is goed als je een berekening geeft met uitkomst én de juiste eenheden.
+				Jouw antwoord is goed als je een berekening geeft met uitkomst én de juiste eenheden.
 			</p>
 		</div>
 		</div>
 </div>
 
-<!-- theorie I Wortels in volgorde -->
-<div class="tekstblok theorie vaardigheden">
+<div class="tekstblok theorie vaardigheden" id="theorieI">
 	<h3>Theorie I Wortels in volgorde</h3>
 	<p>
-		Worteltrekken heeft net als machtsverheffen voorrang op de andere bewerkingen.<br> Dus worteltrekken komt voor vermenigvuldigen, delen, optellen en aftrekken.
+		<b>Worteltrekken</b> heeft net als <b>machtsverheffen</b> voorrang op de andere bewerkingen.<br> Dus worteltrekken komt voor vermenigvuldigen, delen, optellen en aftrekken.
 	</p>
 	<p>Hieronder wordt stap voor stap voorgedaan hoe je een opgave als<br> `8 × 2^3 + 4 =` moet uitrekenen.
 	</p>
@@ -1807,8 +1839,7 @@
 	</table>
 </div>
 
-<!-- opdracht 27 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="27">
 	<h3>Opdracht 27 Volgorde</h3>
 	<p>
 	Neem over en vul de juiste getallen in op de puntjes. 
@@ -1858,16 +1889,15 @@
 	</div>
 </div>
 
-<!-- theorie J Volgorde regels 2 -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie J Volgorde regels 2</h3>
+<div class="tekstblok theorie vaardigheden" id="theorieJ">
+	<h3>Theorie J Volgorde regels</h3>
 	<p>
 		Bij rekenen gelden de volgende voorrangsregels:
 	</p>
 		<aside class="tekstballon_theorie" style="width: 220px !important">
-		`7-(12-8)^2 &times; sqrt25 =`<br>
-		`7-4^2 &times; sqrt25 =`<br>
-		`7-16 &times; 5 =`<br>
+		`7-(12-8)^2 * sqrt25 =`<br>
+		`7-4^2 * sqrt25 =`<br>
+		`7-16 * 5 =`<br>
 		`7-80 =-73`
 	</aside>
 	
@@ -1890,9 +1920,8 @@
 	</p>
 </div>
 
-<!-- opdracht 28 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 28 Volgorde met de hand (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="28">
+	<h3>Opdracht 28 Volgorde met de hand (uitdaging)</h3>
 	<p>
 		Neem over en bereken met tussenstappen onder elkaar.
 	</p>
@@ -1904,10 +1933,10 @@
 							`sqrt9 + 3^2 - sqrt49 =`
 						</li>
 						<li>
-							`3 &times; sqrt(20+5) - 17 =`
+							`3 * sqrt(20+5) - 17 =`
 						</li>
 						<li>
-							`sqrt(10 + 3 &times; 2) : sqrt(2 &times; 3^2 -2) =`
+							`sqrt(10 + 3 * 2) : sqrt(2 * 3^2 -2) =`
 						</li>
 						<li>
 							`sqrt(12^2) : (24 : 2) =`
@@ -1918,7 +1947,7 @@
 				<td width="280">
 					<ol start="5">
 						<li>
-							`sqrt(17 - 2 &times; 2^2) + 1/3 =`
+							`sqrt(17 - 2 * 2^2) + 1/3 =`
 						</li>
 						<li>
 							`(5^2)/(sqrt36) - 2/(4-1) = `
@@ -1927,7 +1956,7 @@
 							`sqrt(12^2 + 5^2) =`
 						</li>
 						<li>
-							`39/sqrt9 &times; sqrt169 : (2+11) =`
+							`39/sqrt9 * sqrt169 : (2+11) =`
 						</li>
 					</ol>
 				</td>
@@ -1947,14 +1976,14 @@
 							` `
 						</li>
 						<li>
-							`3 &times; sqrt(20+5) - 17 =`<br>
-							`3 &times; sqrt25 - 17 =`<br>
+							`3 * sqrt(20+5) - 17 =`<br>
+							`3 * sqrt25 - 17 =`<br>
 							`15 -17 = -2`<br>
 							` `
 						</li>
 						<li>
-							`sqrt(10 + 3 &times; 2) : sqrt(2 &times; 3^2 -2) =`<br>
-							`sqrt(10+6) : sqrt(2 &times; 9 -2) = `<br>
+							`sqrt(10 + 3 * 2) : sqrt(2 * 3^2 -2) =`<br>
+							`sqrt(10+6) : sqrt(2 * 9 -2) = `<br>
 							`sqrt16 : sqrt16 = 1`<br>
 							` `
 						</li>
@@ -1969,7 +1998,7 @@
 				<td width="280">
 					<ol start="5">
 						<li>
-							`sqrt(17 - 2 &times; 2^2) + 1/3 =`<br>
+							`sqrt(17 - 2 * 2^2) + 1/3 =`<br>
 							`sqrt(17 - 8) + 1/3 = ` <br>
 							`sqrt9 + 1/3 = 3 1/3`<br>
 							` `
@@ -1987,9 +2016,9 @@
 							` `
 						</li>
 						<li>
-							`39/sqrt9 &times; sqrt169 : (2+11) =`<br>
-							`39/3 &times; 13 : 13 =` <br>
-							`13 &times; 13 : 13 = 13`
+							`39/sqrt9 * sqrt169 : (2+11) =`<br>
+							`39/3 * 13 : 13 =` <br>
+							`13 * 13 : 13 = 13`
 						</li>
 					</ol>
 				</td>
@@ -1999,8 +2028,7 @@
 		</div>	
 </div>
 
-<!-- opdracht 29 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="29">
 	<h3>Opdracht 29 Met de rekenmachine</h3>
 	<p>
 		Bereken met behulp van een rekenmachine, rond waar nodig af op één decimaal.
@@ -2013,10 +2041,10 @@
 							`sqrt10 + 3^2 - sqrt50 =`
 						</li>
 						<li>
-							`3 1/2 &times; sqrt(20-7) - 17 =`
+							`3 1/2 * sqrt(20-7) - 17 =`
 						</li>
 						<li>
-							`sqrt(11 - 3 &times; 3) : sqrt(4 &times; 3^2) =`
+							`sqrt(11 - 3 * 3) : sqrt(4 * 3^2) =`
 						</li>
 						<li>
 							`sqrt(13^2) : (26 : 2) =`
@@ -2027,7 +2055,7 @@
 				<td width="280">
 					<ol start="5">
 						<li>
-							`sqrt(173 - 2 &times; 9^2) - 1/3 =`
+							`sqrt(173 - 2 * 9^2) - 1/3 =`
 						</li>
 						<li>
 							`(5^2)/(sqrt39) - 2/(6-1) = `
@@ -2036,7 +2064,7 @@
 							`sqrt(13^2 - 5^2) =`
 						</li>
 						<li>
-							`139/sqrt10 &times; sqrt121 : (19 - 18/3) =`
+							`139/sqrt10 * sqrt121 : (19 - 18/3) =`
 						</li>
 					</ol>
 				</td>
@@ -2047,20 +2075,20 @@
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<p>
-				Let op dat je bij benaderingen het `approx`-teken gebruikt.
+				Let op dat je bij benaderingen het `&approx;`-teken gebruikt.
 			</p>
 		<table class="breuken">
 			<tr>
 				<td width="320">
 					<ol>
 						<li>
-							`sqrt10 + 3^2 - sqrt50 approx 5`,`1`
+							`sqrt10 + 3^2 - sqrt50 approx 5,1`
 						</li>
 						<li>
-							`3 1/2 &times; sqrt(20-7) - 17 approx -4`,`4`
+							`3 1/2 * sqrt(20-7) - 17 approx -4,4`
 						</li>
 						<li>
-							`sqrt(11 - 3 &times; 3) : sqrt(4 &times; 3^2) approx 0`,`2`
+							`sqrt(11 - 3 * 3) : sqrt(4 * 3^2) approx 0,2`
 						</li>
 						<li>
 							`sqrt(13^2) : (26 : 2) =1`
@@ -2071,7 +2099,7 @@
 				<td width="280">
 					<ol start="5">
 						<li>
-							`sqrt(173 - 2 &times; 9^2) - 1/3 approx 3`,`0`
+							`sqrt(173 - 2 * 9^2) - 1/3 approx 3`,`0`
 						</li>
 						<li>
 							`(5^2)/(sqrt39) - 2/(6-1) approx 3`,`6`
@@ -2080,7 +2108,7 @@
 							`sqrt(13^2 - 5^2) = 12`
 						</li>
 						<li>
-							`139/sqrt10 &times; sqrt121 : (19 - 18/3) approx 37`,`2`
+							`139/sqrt10 * sqrt121 : (19 - 18/3) approx 37`,`2`
 						</li>
 					</ol>
 				</td>
@@ -2091,38 +2119,36 @@
 		
 </div>
 
-<!-- theorie K Wortels exact en benaderen -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie K Wortels exact en benaderen</h3>
-	<img src="../afbeeldingen/vaardigheden_leerjaar_2/wortel_texes_casio_benaderen.png" alt="wortel_texes_casio_benaderen" width="120" class="rightfloat" />
-	
-	<p>
-		`sqrt(3 + 11)` geeft `sqrt14` op je rekenmachine.<br>
-		Dit is de exacte uitkomst.
-	</p>
-	<p>
-		Een druk op de juiste knop geeft een benadering, zie afbeelding. 
-	</p>
-			<div class="tekstballon_theorie" style="width: 250px !important">
-		Rond af op twee decimalen, tenzij anders wordt gevraagd.
-		<br>
-		`sqrt(42:7) = sqrt6 approx 2`,`45`
+<div class="tekstblok theorie vaardigheden" id="theorieK">
+	<h3>Theorie K Exact en benaderen</h3>
+	<div class="row">
+		<div class="col-xs-7">
+			<p>
+				`sqrt(3 + 11)` geeft `sqrt14` op je rekenmachine.<br>
+				Dit is de exacte uitkomst.
+			</p>
+			<p>
+				Een druk op de juiste knop geeft een benadering, zie afbeelding. 	Rond af op twee decimalen, tenzij anders wordt gevraagd.
+			</p>
+			<p>
+				`sqrt(3 + 11) = sqrt14 &approx; 3,74`
+			</p>
+			<p>
+				`sqrt(42:7) = sqrt6 &approx; 2,45`
+			</p>
+		</div>
+		<div class="col-xs-5">
+			<img src="../afbeeldingen/vaardigheden_leerjaar_2/wortel_texes_casio_benaderen.png" alt="wortel_texes_casio_benaderen"  />
+		</div>
 	</div>
-	<p>
-		`sqrt(3 + 11)` is exact `sqrt14` bij benadering `3`,`74`.
-	</p>
-
-
-
-		<p>
+	<p class="geeltje">
 		Gebruik `=` voor exacte uitkomsten.<br>
-		Gebruik `approx` voor benaderingen.
+		Gebruik `&approx;` voor benaderingen.
 	</p>
 	
 </div>
 
-<!-- opdracht 30 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="30">
 	<h3>Opdracht 30 Wortels exact</h3>
 		<p>
 			Geef de exacte uitkomsten bij de volgende opgaven. Reken ze steeds uit met tussenstappen onder elkaar.
@@ -2132,10 +2158,10 @@
 				`sqrt(10 - 5) =`
 			</li>
 			<li>
-				`sqrt (3 &times; 7) =`
+				`sqrt (3 * 7) =`
 			</li>
 			<li>
-				`sqrt(13 - 3 &times; 4) =`
+				`sqrt(13 - 3 * 4) =`
 			</li>
 			<li>
 				`sqrt(11^2 + 1) =`
@@ -2150,10 +2176,10 @@
 				`sqrt(10 - 5) = sqrt5`
 			</li>
 			<li>
-				`sqrt (3 &times; 7) =sqrt21`
+				`sqrt (3 * 7) =sqrt21`
 			</li>
 			<li>
-				`sqrt(13 - 3 &times; 4) = sqrt1=1`
+				`sqrt(13 - 3 * 4) = sqrt1=1`
 			</li>
 			<li>
 				`sqrt(11^2 + 1) = sqrt 122`
@@ -2163,8 +2189,7 @@
 		</div>
 </div>
 
-<!-- opdracht 31 -->
-<div class="tekstblok opdracht">
+<div class="tekstblok opdracht" id="31">
 	<h3>Opdracht 31 Wortel benaderen</h3>
 	<p>
 		Geef bij de wortels van de vorige opgave een benadering op twee decimalen achter de komma.
@@ -2178,10 +2203,10 @@
 					`sqrt(10 - 5) = sqrt5 approx 2`,`24`
 				</li>
 				<li>
-					`sqrt (3 &times; 7) =sqrt21 approx 4`,`58`
+					`sqrt (3 * 7) =sqrt21 approx 4`,`58`
 				</li>
 				<li>
-					`sqrt(13 - 3 &times; 4) = sqrt1=1`
+					`sqrt(13 - 3 * 4) = sqrt1=1`
 				</li>
 				<li>
 					`sqrt(11^2 + 1) = sqrt 122 approx 11`,`05`
@@ -2191,21 +2216,17 @@
 	</div>
 </div>
 
-		
-<!-- einde vmbo-t -->
 <div class="tekstblok theorie vaardigheden">
 	<p>
-		De rest van de taak is alleen voor havo/vwo.
+		De rest van de taak is alleen voor <em>uitdaging</em>.
 	</p>
 </div>
 
 <p>
 </p>
 
-
-<!-- theorie L Wortels herleiden (havo/vwo) -->
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie L Wortels herleiden (havo/vwo)</h3>
+<div class="tekstblok theorie vaardigheden" id="theorieL">
+	<h3>Theorie L Wortels herleiden I (uitdaging)</h3>
 		<aside class="tekstballon_theorie" style="width: 220px !important">
 			`a = 1 * a` <br>
 			`sqrt3 = 1 * sqrt3`<br>
@@ -2229,9 +2250,8 @@
 	</p>
 </div>
 
-<!-- opdracht 31 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 31 Wortels herleiden (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="32">
+	<h3>Opdracht 32 Wortels herleiden (uitdaging)</h3>
 	<p>
 		Neem over en herleid de volgende wortels, schrijf anders <em>kan niet korter</em>.
 	</p>
@@ -2305,10 +2325,9 @@
 		</div>
 		</div>
 </div>
-
-<!-- theorie M Wortels herleiden (havo/vwo) -->		
-<div class="tekstblok theorie vaardigheden">
-	<h3>Theorie M Wortels herleiden (havo/vwo)</h3>
+	
+<div class="tekstblok theorie vaardigheden" id="theorieM">
+	<h3>Theorie M Wortels herleiden II (uitdaging)</h3>
 	<p>
 		Net als met letters, kun je alle wortels met elkaar vermenigvuldigen.
 	</p>
@@ -2335,7 +2354,7 @@
 		Mooie wortels kun je daarna uitrekenen, zodat er een zo ver mogelijk herleide exacte uitkomst overblijft.
 	</p>
 	<p>
-		`sqrt90 = sqrt9 &times; sqrt10 = 3sqrt10`
+		`sqrt90 = sqrt9 * sqrt10 = 3sqrt10`
 		<br>
 		`sqrt12 = sqrt4 * sqrt3 = 2sqrt3`
 		<br>
@@ -2358,9 +2377,8 @@
 	</div>
 </div>
 
-<!-- opdracht 32 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 32 Wortels herleiden (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="33">
+	<h3>Opdracht 33 Wortels herleiden (uitdaging)</h3>
 		<p>
 		Neem over en herleid de wortels zo ver mogelijk.
 		</p>
@@ -2414,47 +2432,44 @@
 		<div class="showhide">&rarr;</div>
 		<div class="antwoord">
 			<ol class="breuken">
-							<li>
-								`sqrt36 * sqrt 36 = 36`
-							</li>
-							<li>
-								`(sqrt3)^2 =3`
-							</li>
-							<li>
-								`(sqrt349)^2 =349`
-							</li>
-							<li>
-								`sqrt(26^2) =26`
-							</li>
-							<li>
-								`sqrt18 = sqrt9 * sqrt2 = 3sqrt2`
-							</li>
-							<li>
-								`sqrt20 = sqrt4 * sqrt5 = 2sqrt5`
-							</li>
-							<li>
-								`sqrt50 * sqrt(sqrt4) = sqrt25 * sqrt 2 * sqrt2 = 10`
-							</li>						
-							<li>
-								`sqrt98 + sqrt98= 2sqrt98`
-							</li>
-							<li>
-								`sqrt18 + sqrt27 =sqrt9 * sqrt 2 + sqrt9 * sqrt3 = 3sqrt2 + 3sqrt3`
-							</li>
-							<li>
-								`5sqrt32 - 3sqrt32 = 2sqrt32 = 8sqrt2`
-							</li>
+				<li>
+					`sqrt36 * sqrt 36 = 36`
+				</li>
+				<li>
+					`(sqrt3)^2 =3`
+				</li>
+				<li>
+					`(sqrt349)^2 =349`
+				</li>
+				<li>
+					`sqrt(26^2) =26`
+				</li>
+				<li>
+					`sqrt18 = sqrt9 * sqrt2 = 3sqrt2`
+				</li>
+				<li>
+					`sqrt20 = sqrt4 * sqrt5 = 2sqrt5`
+				</li>
+				<li>
+					`sqrt50 * sqrt(sqrt4) = sqrt25 * sqrt 2 * sqrt2 = 10`
+				</li>						
+				<li>
+					`sqrt98 + sqrt98= sqrt49*sqrt2 + sqrt49*sqrt2 = 7sqrt2 + 7sqrt2 = 14sqrt2`
+				</li>
+				<li>
+					`sqrt18 + sqrt27 =sqrt9 * sqrt 2 + sqrt9 * sqrt3 = 3sqrt2 + 3sqrt3`
+				</li>
+				<li>
+					`5sqrt32 - 3sqrt32 = 2sqrt32 = 8sqrt2`
+				</li>
 
-						</ol>
-			
+			</ol>
 		</div>
 	</div>
 </div>
 
-
-<!-- opdracht 33 -->
 <div class="tekstblok opdracht">
-	<h3>Opdracht 33 Exacte uitkomsten (havo/vwo)</h3>
+	<h3>Opdracht 34 Exacte uitkomsten (uitdaging)</h3>
 		<p>
 		Neem over en bereken met tussenstappen de exacte uitkomsten.
 		</p>
@@ -2531,7 +2546,7 @@
 						</li>
 						<li>
 							`5sqrt32 - 3sqrt32 = `<br>
-							`8sqrt16 * sqrt2 = 32sqrt2`<br>
+							`2sqrt16 * sqrt2 = 8sqrt2`<br>
 							` `
 						</li>
 						<li>
@@ -2550,9 +2565,8 @@
 	</div>
 </div>
 
-<!-- opdracht 34 -->
-<div class="tekstblok opdracht">
-	<h3>Opdracht 34 L.O.L. (havo/vwo)</h3>
+<div class="tekstblok opdracht" id="35">
+	<h3>Opdracht 35 L.O.L. (uitdaging)</h3>
 	<img src="../afbeeldingen/vaardigheden_leerjaar_2/cassiere.jpg" alt="cassiere" width="200" height="" class="rightfloat"/>
 	<ol>
 		<li>
@@ -2602,14 +2616,19 @@
 	</div>
 </div>
 
+<div class="tekstblok opdracht" id="proeftoets">
+	<h3>Proeftoets</h3>
+	<p>
+		Ga naar de map <a href="https://drive.google.com/drive/folders/0B-EzZiYS_HciWDNsS29Xa1lvcDQ" target="_blank">Proeftoetsen leerjaar 2 Wiskunde123</a> en open daar de juiste proeftoets.
+	</p>
+</div>
 
 </div>
 
-<nav>
-<ul class="doelen">
-	<li>
-		<a href="#open_doelen">Doelen</a>
-		<div id="open_doelen" class="modalDialog">
+
+
+<div><!-- verwijzingen naar doelen, voorkennis, werkwijze en benodigdheden -->
+	<div id="open_doelen" class="modalDialog">
 			<div>
 				<a href="#close" title="Close" class="close">X</a>
 				<h3>	Doelen</h3>
@@ -2624,41 +2643,39 @@
 				</ol>
 			</div>
 		</div>
-	</li>
-	<li>
-		<a href="#open_voorkennis">Voorkennis</a>
-		<div id="open_voorkennis" class="modalDialog">
+	<div id="open_voorkennis" class="modalDialog">
 			<div>
 				<a href="#close" title="Close" class="close">X</a>
 				<h3>Voorkennis</h3>
-				<p>
-					-	volgorde van bewerkingen;
-				</p>
-				<p>
-					-	negatieve getallen, kwadraten en afronden;
-				</p>
-				<p>
-					- eigenschappen van vierkant, oppervlakte van een cirkel;
-				</p>
-				<p>
-					- herleiden.
-				</p>
+				<ol>
+					<li>volgorde van bewerkingen;</li>
+					<li>negatieve getallen, kwadraten en afronden;</li>
+					<li>eigenschappen van vierkant, oppervlakte van een cirkel;</li>
+					<li>herleiden.</li>
+				</ol>
 			</div>
 		</div>
-	</li>
-	<li>
-		<a href="#open_werkwijze">Werkwijze</a>
-		<div id="open_werkwijze" class="modalDialog">
+	<div id="open_werkwijze" class="modalDialog">
 			<div>
 				<a href="#close" title="Close" class="close">X</a>
 				<h3>Werkwijze</h3>
+					<p>
+						Zorg dat je een rekenmachine bij de hand hebt. Gebruik geen telefoon, maar een echte rekenmachine.<br>
+						Maak de opdrachten uit de taak in je schrift. Schrijf sommen steeds eerst over voordat je ze stap voor stap uitrekent. Kijk je eigen werk kritisch na. Tip: kijk elkaars werk na en geef elkaar feedback over het gemaakte werk.
+					</p>
+			</div>
+			</div>
+	<div id="open_benodigdheden" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h3>Benodigdheden</h3>
 				<p>
-					Zorg dat je een rekenmachine bij de hand hebt. Gebruik geen telefoon, maar een echte rekenmachine.<br>
-				Maak de opdrachten uit de taak in je schrift. Schrijf sommen steeds eerst over voordat je ze stap voor stap uitrekent. Kijk je eigen werk kritisch na. Tip: kijk elkaars werk na en geef elkaar feedback over het gemaakte werk.
+					In deze taak heb je nodig:
+					<ol>
+						<li>Schrift, pen, potlood en gum. En natuurlijk je computer en een goed humeur.</li>
+					</ol>
 				</p>
 			</div>
-			</div>
-	</li>
-	
-</ul>
-</nav>
+		</div>
+</div><!-- /verwijzingen naar doelen, voorkennis, werkwijze en benodigdheden -->
+
